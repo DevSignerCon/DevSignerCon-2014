@@ -4,8 +4,8 @@ core = 7.x
 hidden = TRUE
 
 ; Information added by Drupal.org packaging script on 2014-02-09
-version = "7.x-2.0+24-dev"
+version = "7.x-2.2"
 core = "7.x"
 project = "libraries"
-datestamp = "1391965108"
+datestamp = "1391965716"
 
