@@ -107,10 +107,18 @@ $xLarge: 1280px;
     .l-content {
       @include span-columns(8);
     }
-    .l-sidebar-first,
+    .l-sidebar-first {
+      @include span-columns(4);
+    }
     .l-sidebar-second {
       @include span-columns(4);
       @include omega;
+    }
+    
+    &.has-sidebar-first {
+      .l-content {
+        @include omega;
+      }
     }
   }
   .has-two-sidebars {

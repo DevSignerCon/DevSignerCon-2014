@@ -31,8 +31,8 @@
 }
 
 // FlexSlider content animations
-.node--slide__teaser {
-  .flexslider & {
+.flexslider {
+  .node--slide__teaser {
     overflow: hidden;
     
     .slide--content {
@@ -41,11 +41,13 @@
       @include transition-timing-function(ease-in);
       top: 250px;
       opacity: 0;
-      
-      .flex-active-slide & {
-        top: 0;
-        opacity: 1;
-      }
+    }
+  }
+    
+  .flex-active-slide {
+    .slide--content {
+      top: 0;
+      opacity: 1;
     }
   }
 }

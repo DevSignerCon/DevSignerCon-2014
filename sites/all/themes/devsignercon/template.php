@@ -69,7 +69,7 @@ function devsignercon_preprocess_user_profile(&$vars) {
   
   // Create templates for each view_mode
   if ( !empty($view_mode) ) {
-    $vars['theme_hook_suggestions'][] = 'user__' . $view_mode;
+    $vars['theme_hook_suggestions'][] = 'user_profile__' . $view_mode;
   }
 }
 
@@ -115,7 +115,7 @@ function devsignercon_menu_link__main_menu(array $vars) {
   if ($element['#below']) {
     $element['#localized_options']['attributes']['data-toggle'] = 'dropdown';
     $element['#localized_options']['attributes']['aria-haspopup'] ='true';
-    $output = '<input type="checkbox" />' . l($element['#title'] . '<i class="icon theme-icon-arrow-down"></i>', $element['#href'], array('attributes' => $element['#localized_options']['attributes'], 'html' => TRUE));
+    $output = '<input type="checkbox" />' . l($element['#title'], $element['#href'], array('attributes' => $element['#localized_options']['attributes'], 'html' => TRUE));
   } else {
     $output = l($element['#title'], $element['#href'], $element['#localized_options']);
   }

@@ -43,7 +43,9 @@
 %main-menu__top-links {
   @include adjust-font-size-to( 18px, 1 );
   border-bottom: medium none !important;
+  color: $grey;
   outline: none;
+  text-decoration: none;
   text-transform: uppercase;
   padding: 10px;
   display: block;
