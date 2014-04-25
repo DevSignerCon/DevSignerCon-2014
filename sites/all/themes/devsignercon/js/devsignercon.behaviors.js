@@ -87,5 +87,36 @@
       }
     }
   };
+  
+  Drupal.behaviors.equalHeightUsers = {
+    attach: function (context, settings) {
+      $('.view-cod-community-attendees', context).once('equal-height', function () {
+        var attendees = $(this).find('.user--profile__simple');
+
+        setTimeout( function() {
+          var height =  attendees.equalHeights();
+          attendees.each( function() {
+            $(this).css('height', height);
+          });
+        }, 600);
+      });
+    }
+  };
+  
+  // Constructors
+  $.fn.equalHeights = function () {
+    var maxHeight = 0,
+        $this = $(this);
+
+    $this.each( function() {
+      var height = $(this).outerHeight(true);
+
+      if ( height > maxHeight ) {
+        maxHeight = height;
+      }
+    });
+
+    return maxHeight;
+  };
 
 })(jQuery);
