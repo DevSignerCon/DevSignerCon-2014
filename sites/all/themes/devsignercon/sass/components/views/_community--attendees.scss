@@ -1,0 +1,20 @@
+.view-cod-community-attendees {
+  .view-filters {}
+  .view-content {}
+  
+  .user--profile__simple {
+    margin: 1.5em 0;
+    
+    @include respond-to($small) {
+      @include span-columns($total-columns / 2);
+      @include nth-omega(2n);
+    }
+    
+    @include respond-to($medium) {
+      @include remove-nth-omega(2n);
+      @include span-columns($total-columns / 3);
+      @include nth-omega(3n);
+    }
+  }
+}
+
