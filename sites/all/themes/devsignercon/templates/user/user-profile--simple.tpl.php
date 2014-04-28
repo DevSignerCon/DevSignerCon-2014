@@ -47,7 +47,12 @@
       <?php print render($user_profile['user_picture']) ?>
     </div>
     <h2 class="user--profile__full-name">
-      <span class="user--full-name__first"><?php print $user_profile['field_profile_first']['#items'][0]['safe_value']; ?></span>&nbsp;<span class="user--full-name__last"><?php print $user_profile['field_profile_last']['#items'][0]['safe_value']; ?></span>
+      <?php if( !empty($user_profile['field_profile_first']['#items'][0]['safe_value']) ) : ?>
+        <span class="user--full-name__first"><?php print $user_profile['field_profile_first']['#items'][0]['safe_value']; ?></span>&nbsp;
+      <?php endif; ?>
+      <?php if( !empty($user_profile['field_profile_last']['#items'][0]['safe_value']) ) : ?>
+        <span class="user--full-name__last"><?php print $user_profile['field_profile_last']['#items'][0]['safe_value']; ?></span>
+      <?php endif; ?>
     </h2>
   </header>
   
