@@ -18,7 +18,6 @@ stylesheets[all][] = css/devsignercon.no-query.css
 ; ========================================
 scripts[] = js/devsignercon.behaviors.js
 scripts[] = js/jquery.lettering.js
-; scripts[] = js/jquery.resizeimagetoparent.js
 
 ; ========================================
 ; Regions

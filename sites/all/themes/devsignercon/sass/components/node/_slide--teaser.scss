@@ -36,17 +36,19 @@
     overflow: hidden;
     
     .slide--content {
-      @include transition-property(top opacity);
+      @include transition-property(top bottom opacity);
       @include transition-duration(500ms);
       @include transition-timing-function(ease-in);
-      top: 250px;
+      top: 500px;
+      bottom: auto;
       opacity: 0;
     }
   }
     
   .flex-active-slide {
     .slide--content {
-      top: 0;
+      top: auto;
+      bottom: 0;
       opacity: 1;
     }
   }

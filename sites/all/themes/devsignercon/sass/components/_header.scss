@@ -1,8 +1,11 @@
 .l-header.slideshow {
-min-height: 670px;
-@include respond-to($xSmall) {
-min-height: 600px;
-}
+  @include transition(all 300ms ease-in);
+  height: auto;
+  min-height: 800px;
+  
+  @include respond-to($xSmall) {
+    min-height: 600px;
+  }
 }
 
 .l-branding {
