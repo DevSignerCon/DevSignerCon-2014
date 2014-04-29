@@ -103,6 +103,31 @@
     }
   };
   
+  Drupal.behaviors.headerHeight = {
+    attach: function (context, settings) {
+      $('.l-header.slideshow').once('header-height', function () {
+        var $this = $(this),
+            initTime = new Date();
+        
+        setTimeout(function () {
+          $this.height($this.find('.flexslider').outerHeight());
+        }, 1000);
+        
+        $(window).resize( function () {
+          var newTime = new Date();
+          
+          if ( newTime - initTime > 100 ) {
+            initTime  = newTime;
+            $this.height($this.find('.flexslider').outerHeight());
+          } else {
+            return;
+          };
+          
+        });
+      });
+    }
+  }
+  
   // Constructors
   $.fn.equalHeights = function () {
     var maxHeight = 0,

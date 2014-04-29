@@ -1,5 +1,21 @@
 @charset "UTF-8";
 /* @import "breakpoint"; */
+@import url("http://fonts.googleapis.com/css?family=Lato:300,400,700,900");
+@import url("http://fonts.googleapis.com/css?family=Abril+Fatface");
+@import url("http://fonts.googleapis.com/css?family=Droid+Sans:300,400,700");
+@import url("http://fonts.googleapis.com/css?family=Droid+Serif:300,400,700,400italic,700italic");
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/\.rbenv\/versions\/1\.9\.3-p194\/lib\/ruby\/gems\/1\.9\.1\/gems\/toolkit-1\.3\.8\/stylesheets\/toolkit\/_box-sizing\.scss}line{font-family:\0000336}}
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  *behavior: url('../behaviors/box-sizing/boxsizing.php'); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/\.rbenv\/versions\/1\.9\.3-p194\/lib\/ruby\/gems\/1\.9\.1\/gems\/toolkit-1\.3\.8\/stylesheets\/toolkit\/_fluid-media\.scss}line{font-family:\000034}}
+img, video {
+  max-width: 100%;
+  height: auto; }
+
 /**
  * functions
  */
@@ -9,28 +25,27 @@
 /**
  * Utility Mixins
  */
-@import url("http://fonts.googleapis.com/css?family=Lato:300,400,700,900");
-@import url("http://fonts.googleapis.com/css?family=Abril+Fatface");
-@import url("http://fonts.googleapis.com/css?family=Droid+Sans:300,400,700");
-@import url("http://fonts.googleapis.com/css?family=Droid+Serif:300,400,700,400italic,700italic");
 @font-face {
   font-family: 'MisoRegular';
   src: url("../fonts/Miso/Miso Regular/miso-regular-webfont.eot");
   src: url("../fonts/Miso/Miso Regular/miso-regular-webfont?#iefix") format("embedded-opentype"), url("../fonts/Miso/Miso Regular/miso-regular-webfont.woff") format("woff"), url("../fonts/Miso/Miso Regular/miso-regular-webfont.ttf") format("truetype"), url("../fonts/Miso/Miso Regular/miso-regular-webfont.svg#misoregular") format("svg");
   font-weight: normal;
   font-style: normal; }
+
 @font-face {
   font-family: 'MisoLight';
   src: url("../fonts/Miso/Miso Light/miso-light-webfont.eot");
   src: url("../fonts/Miso/Miso Light/miso-light-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Miso/Miso Light/miso-light-webfont.woff") format("woff"), url("../fonts/Miso/Miso Light/miso-light-webfont.ttf") format("truetype"), url("../fonts/Miso/Miso Light/miso-light-webfont.svg#misolight") format("svg");
   font-weight: 300;
   font-style: normal; }
+
 @font-face {
   font-family: 'MisoBold';
   src: url("../fonts/Miso/Miso Bold/miso-bold-webfont.eot");
   src: url("../fonts/Miso/Miso Bold/miso-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Miso/Miso Bold/miso-bold-webfont.woff") format("woff"), url("../fonts/Miso/Miso Bold/miso-bold-webfont.ttf") format("truetype"), url("../fonts/Miso/Miso Bold/miso-bold-webfont.svg#misobold") format("svg");
   font-weight: 700;
   font-style: normal; }
+
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_forms\.scss}line{font-family:\000031}}
 input[type=text], input[type=email], input[type=url], input[type=number], input[type=tel], textarea {
   border-width: 2px;
@@ -57,7 +72,7 @@ label.option, label .field-edit-link {
   font-family: "Droid Sans", "Arial", "Helvetica", "Lucida Grande", "Verdana", "Gill Sans", sans-serif;
   font-size: 18px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_forms\.scss}line{font-family:\0000338}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_forms\.scss}line{font-family:\0000339}}
 input[type=submit], input[type=button] {
   background-color: #e2e2e2;
   border-width: 0;
@@ -89,7 +104,7 @@ blockquote {
   padding: 12px;
   background-color: #e2e2e2;
   font-style: normal; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_html\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_html\.scss}line{font-family:\0000326}}
   blockquote:before, blockquote:after {
     content: '';
     content: none; }
@@ -97,7 +112,7 @@ blockquote {
   blockquote.pull-right {
     float: right;
     background-color: transparent; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_html\.scss}line{font-family:\0000335}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_html\.scss}line{font-family:\0000336}}
     blockquote.pull-right p,
     blockquote.pull-right small {
       text-align: right; }
@@ -123,7 +138,7 @@ blockquote {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_html\.scss}line{font-family:\0000368}}
 q {
   quotes: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_html\.scss}line{font-family:\0000371}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_html\.scss}line{font-family:\0000372}}
   q:before, q:after {
     content: '';
     content: none; }
@@ -133,7 +148,7 @@ abbr[title] {
   border-bottom: 1px dotted #e2e2e2;
   cursor: help; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_html\.scss}line{font-family:\0000383}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_html\.scss}line{font-family:\0000384}}
 b,
 strong {
   font-weight: bold;
@@ -156,7 +171,7 @@ mark {
   font-style: italic;
   font-weight: bold; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_html\.scss}line{font-family:\00003106}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_html\.scss}line{font-family:\00003109}}
 pre,
 code,
 kbd,
@@ -172,7 +187,7 @@ pre {
   white-space: pre-wrap;
   word-wrap: break-word; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_html\.scss}line{font-family:\00003122}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_html\.scss}line{font-family:\00003123}}
 sub,
 sup {
   position: relative;
@@ -194,7 +209,7 @@ dl {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_lists\.scss}line{font-family:\000034}}
   dl.dl-horizontal {
     *zoom: 1; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_lists\.scss}line{font-family:\000037}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_lists\.scss}line{font-family:\000038}}
     dl.dl-horizontal:before, dl.dl-horizontal:after {
       content: " ";
       display: table; }
@@ -365,17 +380,17 @@ h1 {
   font-weight: 700;
   margin-top: 0.325em;
   margin-bottom: 0.625em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_typography\.scss}line{font-family:\0000316}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_typography\.scss}line{font-family:\0000317}}
   h1 a:link, h1 a:visited {
     color: #0f75bc;
     text-decoration: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_typography\.scss}line{font-family:\0000322}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_typography\.scss}line{font-family:\0000328}}
   h1 a:link, h1 a:visited, h1 a:hover, h1 a:focus, h1 a:active, h1 a.active, h1 a.active-trail {
     border-bottom: medium none;
     display: inline-block;
     vertical-align: bottom;
     font-family: "MisoBold"; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_typography\.scss}line{font-family:\0000335}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_typography\.scss}line{font-family:\0000336}}
   h1 a:hover, h1 a:focus {
     color: #0a4168; }
 
@@ -390,17 +405,17 @@ h2 {
   font-weight: 700;
   margin-top: 0.325em;
   margin-bottom: 0.625em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_typography\.scss}line{font-family:\0000316}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_typography\.scss}line{font-family:\0000317}}
   h2 a:link, h2 a:visited {
     color: #0f75bc;
     text-decoration: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_typography\.scss}line{font-family:\0000322}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_typography\.scss}line{font-family:\0000328}}
   h2 a:link, h2 a:visited, h2 a:hover, h2 a:focus, h2 a:active, h2 a.active, h2 a.active-trail {
     border-bottom: medium none;
     display: inline-block;
     vertical-align: bottom;
     font-family: "MisoBold"; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_typography\.scss}line{font-family:\0000335}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_typography\.scss}line{font-family:\0000336}}
   h2 a:hover, h2 a:focus {
     color: #0a4168; }
 
@@ -415,17 +430,17 @@ h3 {
   font-weight: 700;
   margin-top: 0.325em;
   margin-bottom: 0.625em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_typography\.scss}line{font-family:\0000316}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_typography\.scss}line{font-family:\0000317}}
   h3 a:link, h3 a:visited {
     color: #0f75bc;
     text-decoration: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_typography\.scss}line{font-family:\0000322}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_typography\.scss}line{font-family:\0000328}}
   h3 a:link, h3 a:visited, h3 a:hover, h3 a:focus, h3 a:active, h3 a.active, h3 a.active-trail {
     border-bottom: medium none;
     display: inline-block;
     vertical-align: bottom;
     font-family: "MisoBold"; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_typography\.scss}line{font-family:\0000335}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_typography\.scss}line{font-family:\0000336}}
   h3 a:hover, h3 a:focus {
     color: #0a4168; }
 
@@ -440,17 +455,17 @@ h4, th {
   font-weight: 700;
   margin-top: 0.325em;
   margin-bottom: 0.625em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_typography\.scss}line{font-family:\0000316}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_typography\.scss}line{font-family:\0000317}}
   h4 a:link, th a:link, h4 a:visited, th a:visited {
     color: #0f75bc;
     text-decoration: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_typography\.scss}line{font-family:\0000322}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_typography\.scss}line{font-family:\0000328}}
   h4 a:link, th a:link, h4 a:visited, th a:visited, h4 a:hover, th a:hover, h4 a:focus, th a:focus, h4 a:active, th a:active, h4 a.active, th a.active, h4 a.active-trail, th a.active-trail {
     border-bottom: medium none;
     display: inline-block;
     vertical-align: bottom;
     font-family: "MisoBold"; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_typography\.scss}line{font-family:\0000335}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_typography\.scss}line{font-family:\0000336}}
   h4 a:hover, th a:hover, h4 a:focus, th a:focus {
     color: #0a4168; }
 
@@ -465,17 +480,17 @@ h5 {
   font-weight: 700;
   margin-top: 0.325em;
   margin-bottom: 0.625em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_typography\.scss}line{font-family:\0000316}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_typography\.scss}line{font-family:\0000317}}
   h5 a:link, h5 a:visited {
     color: #0f75bc;
     text-decoration: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_typography\.scss}line{font-family:\0000322}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_typography\.scss}line{font-family:\0000328}}
   h5 a:link, h5 a:visited, h5 a:hover, h5 a:focus, h5 a:active, h5 a.active, h5 a.active-trail {
     border-bottom: medium none;
     display: inline-block;
     vertical-align: bottom;
     font-family: "MisoBold"; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_typography\.scss}line{font-family:\0000335}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_typography\.scss}line{font-family:\0000336}}
   h5 a:hover, h5 a:focus {
     color: #0a4168; }
 
@@ -490,17 +505,17 @@ h6 {
   font-weight: 700;
   margin-top: 0.325em;
   margin-bottom: 0.625em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_typography\.scss}line{font-family:\0000316}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_typography\.scss}line{font-family:\0000317}}
   h6 a:link, h6 a:visited {
     color: #0f75bc;
     text-decoration: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_typography\.scss}line{font-family:\0000322}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_typography\.scss}line{font-family:\0000328}}
   h6 a:link, h6 a:visited, h6 a:hover, h6 a:focus, h6 a:active, h6 a.active, h6 a.active-trail {
     border-bottom: medium none;
     display: inline-block;
     vertical-align: bottom;
     font-family: "MisoBold"; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_typography\.scss}line{font-family:\0000335}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_typography\.scss}line{font-family:\0000336}}
   h6 a:hover, h6 a:focus {
     color: #0a4168; }
 
@@ -512,22 +527,22 @@ body {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_typography\.scss}line{font-family:\0000353}}
 a {
-  -moz-transition: all 300ms ease 0s;
-  -o-transition: all 300ms ease 0s;
   -webkit-transition: all 300ms ease;
   -webkit-transition-delay: 0s;
+  -moz-transition: all 300ms ease 0s;
+  -o-transition: all 300ms ease 0s;
   transition: all 300ms ease 0s;
   border-bottom: 1px dotted #e2e2e2;
   /* color: $green; */
   color: #0f75bc;
   display: inline-block;
   text-decoration: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_typography\.scss}line{font-family:\0000361}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_typography\.scss}line{font-family:\0000367}}
   a:link, a:visited, a:hover, a:focus, a:active, a.active, a.active-trail {
     display: inline-block;
     vertical-align: baseline;
     font-family: "Droid Sans", "Arial", "Helvetica", "Lucida Grande", "Verdana", "Gill Sans", sans-serif; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_typography\.scss}line{font-family:\0000373}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_typography\.scss}line{font-family:\0000374}}
   a:hover, a:active {
     border-bottom: 1px dotted #929292;
     outline: 0 none;
@@ -537,7 +552,7 @@ a {
     outline: thin dotted;
     color: #1a1a1a; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_typography\.scss}line{font-family:\0000386}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_typography\.scss}line{font-family:\0000387}}
 ::-moz-selection,
 ::selection {
   background-color: #c2d955;
@@ -580,7 +595,7 @@ a.site-logo {
   letter-spacing: -0.03em;
   margin: 0;
   vertical-align: top; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_branding\.scss}line{font-family:\0000340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_branding\.scss}line{font-family:\0000341}}
   .site-name a:link, .site-name a:visited {
     border-bottom: medium none; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_branding\.scss}line{font-family:\0000344}}
@@ -648,11 +663,13 @@ a.site-logo {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_flexslider\.scss}line{font-family:\000031}}
 .flexslider {
-  -moz-border-radius: 0;
   -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
   border-radius: 0;
-  -moz-box-shadow: none;
   -webkit-box-shadow: none;
+  -moz-box-shadow: none;
   box-shadow: none;
   background-color: transparent;
   border: medium none;
@@ -673,8 +690,10 @@ a.site-logo {
     vertical-align: middle; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_flexslider\.scss}line{font-family:\0000322}}
     .flex-control-paging li a {
-      -moz-border-radius: 0;
       -webkit-border-radius: 0;
+      -moz-border-radius: 0;
+      -ms-border-radius: 0;
+      -o-border-radius: 0;
       border-radius: 0;
       background-color: #929292;
       border: medium none;
@@ -692,20 +711,29 @@ a.site-logo {
 .w-footer-sub {
   background-color: #832380; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_header\.scss}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_header\.scss}line{font-family:\000032}}
 .l-header.slideshow {
-  min-height: 670px; }
+  -webkit-transition: all 300ms ease-in;
+  -moz-transition: all 300ms ease-in;
+  -o-transition: all 300ms ease-in;
+  transition: all 300ms ease-in;
+  height: auto;
+  min-height: 800px; }
   @media screen and (min-width: 31.25em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_header\.scss}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_header\.scss}line{font-family:\000032}}
     .l-header.slideshow {
       min-height: 600px; } }
+@media screen and (max-width: 56.249em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_header\.scss}line{font-family:\000031}}
+  .l-header {
+    padding-top: 44px; } }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_header\.scss}line{font-family:\000038}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_header\.scss}line{font-family:\0000317}}
 .l-branding {
   position: relative;
   z-index: 5; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_header\.scss}line{font-family:\0000313}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_header\.scss}line{font-family:\0000322}}
 .l-region--header {
   position: absolute;
   left: 0;
@@ -757,7 +785,7 @@ a.site-logo {
   display: block;
   font-weight: normal;
   font-family: "Droid Sans", "Arial", "Helvetica", "Lucida Grande", "Verdana", "Gill Sans", sans-serif; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\0000354}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\0000355}}
   #main-menu .menu--main-menu > .level-1 > a:link,
   #main-menu .menu--main-menu > .level-1 > .nolink:link, #main-menu .menu--main-menu > .level-1 > a:visited,
   #main-menu .menu--main-menu > .level-1 > .nolink:visited {
@@ -774,9 +802,9 @@ a.site-logo {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\0000343}}
     #main-menu .menu--main-menu > .level-1 > a,
     #main-menu .menu--main-menu > .level-1 > .nolink {
+      -webkit-transition: all 300ms ease;
       -moz-transition: all 300ms ease;
       -o-transition: all 300ms ease;
-      -webkit-transition: all 300ms ease;
       transition: all 300ms ease;
       background-color: transparent;
       display: inline-block;
@@ -791,11 +819,11 @@ a.site-logo {
   @media screen and (min-width: 56.25em) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\0000374}}
     #main-menu .menu--main-menu ul {
-      -moz-box-sizing: border-box;
       -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
       box-sizing: border-box;
-      -moz-box-shadow: 3px 4px 6px rgba(226, 226, 226, 0.7);
       -webkit-box-shadow: 3px 4px 6px rgba(226, 226, 226, 0.7);
+      -moz-box-shadow: 3px 4px 6px rgba(226, 226, 226, 0.7);
       box-shadow: 3px 4px 6px rgba(226, 226, 226, 0.7);
       border-color: #e9e9e9 #e2e2e2 #e2e2e2 #e9e9e9;
       border-style: solid;
@@ -818,30 +846,42 @@ a.site-logo {
   display: block;
   padding: 10px 20px;
   text-align: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\00003108}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\00003109}}
   #main-menu .menu--main-menu ul > .level-2 > a:hover, #main-menu .menu--main-menu ul > .level-2 > a:focus {
     background-color: rgba(74, 130, 148, 0.2); }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\00003115}}
 .w-navigation {
-  border-top: 5px solid #a7a7a7;
-  /* margin-top: 1.5em; */ }
+  border-top: 5px solid #a7a7a7; }
+  @media screen and (max-width: 56.249em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\00003115}}
+    .w-navigation {
+      -webkit-box-shadow: 0 0 12px #012233;
+      -moz-box-shadow: 0 0 12px #012233;
+      box-shadow: 0 0 12px #012233;
+      background-color: #fcfcfc;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: auto;
+      z-index: 50; } }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\00003120}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\00003130}}
 #main-menu {
   text-align: center;
   position: relative;
   outline: none !important;
   z-index: 5;
   /* Main menu and secondary menu links and menu block links. */ }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\00003127}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\00003137}}
   #main-menu *:focus {
     outline: none !important; }
   @media screen and (min-width: 56.25em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\00003120}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\00003130}}
     #main-menu {
       padding: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\00003135}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\00003146}}
       #main-menu #toggle-button,
       #main-menu [for="toggle-button"] {
         position: absolute !important;
@@ -850,122 +890,131 @@ a.site-logo {
         overflow: hidden;
         clip: rect(1px 1px 1px 1px);
         clip: rect(1px, 1px, 1px, 1px); } }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\00003140}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\00003150}}
   #main-menu .block {
     margin-bottom: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\00003144}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\00003155}}
   #main-menu ul,
   #main-menu li {
     list-style-type: none;
     list-style-image: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\00003161}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\00003171}}
   #main-menu .menu--main-menu > .level-1.clicked ul {
     display: block; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\00003177}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\00003187}}
 #main-menu {
   position: relative;
   outline: none !important; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\00003182}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\00003192}}
   #main-menu *:focus {
     outline: none !important; }
   @media screen and (max-width: 56.249em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\00003188}}
-    #main-menu > ul.menu--main-menu {
-      -moz-transform: scaleY(0);
-      -ms-transform: scaleY(0);
-      -webkit-transform: scaleY(0);
-      transform: scaleY(0);
-      -moz-transform-origin: 50% 0%;
-      -ms-transform-origin: 50% 0%;
-      -webkit-transform-origin: 50% 0%;
-      transform-origin: 50% 0%;
-      -moz-transition-property: -moz-transform, max-height;
-      -o-transition-property: -o-transform, max-height;
-      -webkit-transition-property: -webkit-transform, max-height;
-      transition-property: transform max-height;
-      -moz-transition-duration: 600ms;
-      -o-transition-duration: 600ms;
-      -webkit-transition-duration: 600ms;
-      transition-duration: 600ms;
-      -moz-transition-delay: 0ms;
-      -o-transition-delay: 0ms;
-      -webkit-transition-delay: 0ms;
-      transition-delay: 0ms;
-      max-height: 0;
-      height: 100%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\00003198}}
-    #main-menu label[for="toggle-button"] {
-      width: 40px;
-      height: 49px;
-      margin: 10px 20px;
-      display: block;
-      background: url(../images/hamburger.png) no-repeat center;
-      position: absolute;
-      right: 0;
-      bottom: 100%; } }
-  @media screen and (max-width: 56.249em) and (min-width: 56.25em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\00003198}}
-    #main-menu label[for="toggle-button"] {
-      display: none;
-      visibility: hidden; } }
-  @media screen and (max-width: 56.249em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\00003187}}
+    #main-menu {
+      min-height: 44px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\00003200}}
+      #main-menu > ul.menu--main-menu {
+        -webkit-transform: scaleY(0);
+        -moz-transform: scaleY(0);
+        -ms-transform: scaleY(0);
+        -o-transform: scaleY(0);
+        transform: scaleY(0);
+        -webkit-transform-origin: 50% 0%;
+        -moz-transform-origin: 50% 0%;
+        -ms-transform-origin: 50% 0%;
+        -o-transform-origin: 50% 0%;
+        transform-origin: 50% 0%;
+        -webkit-transition-property: -webkit-transform, max-height;
+        -moz-transition-property: -moz-transform, max-height;
+        -o-transition-property: -o-transform, max-height;
+        transition-property: transform max-height;
+        -webkit-transition-duration: 600ms;
+        -moz-transition-duration: 600ms;
+        -o-transition-duration: 600ms;
+        transition-duration: 600ms;
+        -webkit-transition-delay: 0ms;
+        -moz-transition-delay: 0ms;
+        -o-transition-delay: 0ms;
+        transition-delay: 0ms;
+        background-color: rgba(252, 252, 252, 0.8);
+        max-height: 0;
+        height: auto;
+        position: absolute;
+        top: 44px; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\00003213}}
-    #main-menu input#toggle-button[type=checkbox]:checked ~ label[for="toggle-button"] {
-      color: #ececec; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\00003216}}
-      #main-menu input#toggle-button[type=checkbox]:checked ~ label[for="toggle-button"]:after {
-        background-color: #929292;
-        color: #ececec; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\00003222}}
-    #main-menu input#toggle-button[type=checkbox]:checked ~ ul.menu--main-menu {
-      -moz-box-shadow: 0 2px 32px 3px rgba(146, 146, 146, 0.7);
-      -webkit-box-shadow: 0 2px 32px 3px rgba(146, 146, 146, 0.7);
-      box-shadow: 0 2px 32px 3px rgba(146, 146, 146, 0.7);
-      -moz-transform: scaleY(1);
-      -ms-transform: scaleY(1);
-      -webkit-transform: scaleY(1);
-      transform: scaleY(1);
-      -moz-transform-origin: 0% 0%;
-      -ms-transform-origin: 0% 0%;
-      -webkit-transform-origin: 0% 0%;
-      transform-origin: 0% 0%;
-      -moz-transition-property: -moz-transform, max-height;
-      -o-transition-property: -o-transform, max-height;
-      -webkit-transition-property: -webkit-transform, max-height;
-      transition-property: transform max-height;
-      -moz-transition-duration: 600ms;
-      -o-transition-duration: 600ms;
-      -webkit-transition-duration: 600ms;
-      transition-duration: 600ms;
-      -moz-transition-delay: 0ms;
-      -o-transition-delay: 0ms;
-      -webkit-transition-delay: 0ms;
-      transition-delay: 0ms;
-      max-height: 9999px; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\00003233}}
+      #main-menu label[for="toggle-button"] {
+        width: 49px;
+        height: 44px;
+        margin: 0;
+        display: block;
+        background: url(../images/hamburger.png) no-repeat center;
+        position: absolute;
+        right: 0;
+        top: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\00003228}}
+      #main-menu input#toggle-button[type=checkbox]:checked ~ label[for="toggle-button"] {
+        color: #ececec;
+        background-color: #e2e2e2; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\00003232}}
+        #main-menu input#toggle-button[type=checkbox]:checked ~ label[for="toggle-button"]:after {
+          background-color: #929292;
+          color: #ececec; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\00003238}}
+      #main-menu input#toggle-button[type=checkbox]:checked ~ ul.menu--main-menu {
+        /* @include box-shadow(0 2px 32px 3px rgba($grey, 0.7)); */
+        -webkit-transform: scaleY(1);
+        -moz-transform: scaleY(1);
+        -ms-transform: scaleY(1);
+        -o-transform: scaleY(1);
+        transform: scaleY(1);
+        -webkit-transform-origin: 0% 0%;
+        -moz-transform-origin: 0% 0%;
+        -ms-transform-origin: 0% 0%;
+        -o-transform-origin: 0% 0%;
+        transform-origin: 0% 0%;
+        -webkit-transition-property: -webkit-transform, max-height;
+        -moz-transition-property: -moz-transform, max-height;
+        -o-transition-property: -o-transform, max-height;
+        transition-property: transform max-height;
+        -webkit-transition-duration: 600ms;
+        -moz-transition-duration: 600ms;
+        -o-transition-duration: 600ms;
+        transition-duration: 600ms;
+        -webkit-transition-delay: 0ms;
+        -moz-transition-delay: 0ms;
+        -o-transition-delay: 0ms;
+        transition-delay: 0ms;
+        max-height: 9999px; } }
+      @media screen and (max-width: 56.249em) and (min-width: 56.25em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\00003213}}
+        #main-menu label[for="toggle-button"] {
+          display: none;
+          visibility: hidden; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\00003249}}
   #main-menu input#toggle-button[type=checkbox] {
     position: absolute;
     top: -9999px;
     left: -9999px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\00003240}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\00003256}}
 #main-menu .menu--main-menu .dropdown {
   position: relative; }
   @media screen and (max-width: 56.249em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\00003244}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\00003260}}
     #main-menu .menu--main-menu .dropdown [data-toggle="dropdown"] {
       display: block;
       padding: 10px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\00003248}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\00003264}}
       #main-menu .menu--main-menu .dropdown [data-toggle="dropdown"]:before {
+        -webkit-transition: -webkit-transform 300ms;
         -moz-transition: -moz-transform 300ms;
         -o-transition: -o-transform 300ms;
-        -webkit-transition: -webkit-transform 300ms;
         transition: transform 300ms;
+        -webkit-transform: rotate(0deg);
         -moz-transform: rotate(0deg);
         -ms-transform: rotate(0deg);
-        -webkit-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
         transform: rotate(0deg);
         position: absolute;
         display: block;
@@ -974,7 +1023,7 @@ a.site-logo {
         top: 1em;
         right: 1.5em;
         z-index: 1; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\00003260}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\00003276}}
       #main-menu .menu--main-menu .dropdown [data-toggle="dropdown"]:after {
         background-color: rgba(226, 226, 226, 0.3);
         content: "";
@@ -982,33 +1031,35 @@ a.site-logo {
         position: absolute;
         top: 0;
         right: 0;
-        width: 44px;
-        min-width: 44px;
+        width: 49px;
+        min-width: 49px;
         height: 100%;
-        max-height: 44px;
+        max-height: 49px;
         cursor: pointer;
         z-index: 2; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\00003276}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\00003292}}
     #main-menu .menu--main-menu .dropdown > .dropdown-menu {
+      -webkit-transform: scaleY(0);
       -moz-transform: scaleY(0);
       -ms-transform: scaleY(0);
-      -webkit-transform: scaleY(0);
+      -o-transform: scaleY(0);
       transform: scaleY(0);
+      -webkit-transform-origin: 50% 0%;
       -moz-transform-origin: 50% 0%;
       -ms-transform-origin: 50% 0%;
-      -webkit-transform-origin: 50% 0%;
+      -o-transform-origin: 50% 0%;
       transform-origin: 50% 0%;
+      -webkit-transition-property: max-height, -webkit-transform;
       -moz-transition-property: max-height, -moz-transform;
       -o-transition-property: max-height, -o-transform;
-      -webkit-transition-property: max-height, -webkit-transform;
       transition-property: max-height, transform;
+      -webkit-transition-duration: 600ms, 300ms;
       -moz-transition-duration: 600ms, 300ms;
       -o-transition-duration: 600ms, 300ms;
-      -webkit-transition-duration: 600ms, 300ms;
       transition-duration: 600ms, 300ms;
+      -webkit-transition-delay: 0s, 0s;
       -moz-transition-delay: 0s, 0s;
       -o-transition-delay: 0s, 0s;
-      -webkit-transition-delay: 0s, 0s;
       transition-delay: 0s, 0s;
       max-height: 0;
       overflow: hidden;
@@ -1016,70 +1067,72 @@ a.site-logo {
       display: block;
       margin: 0;
       padding: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\00003289}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\00003305}}
       #main-menu .menu--main-menu .dropdown > .dropdown-menu li {
         padding: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\00003292}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\00003308}}
         #main-menu .menu--main-menu .dropdown > .dropdown-menu li a {
           display: block;
           padding: 10px 10px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\00003299}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\00003315}}
     #main-menu .menu--main-menu .dropdown > input[type="checkbox"] {
       opacity: 0;
       display: block;
       position: absolute;
       top: 0;
       right: 0;
-      width: 44px;
-      min-width: 44px;
+      width: 49px;
+      min-width: 49px;
       height: 100%;
-      max-height: 44px;
+      max-height: 49px;
       cursor: pointer;
       z-index: 3; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\00003312}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\00003328}}
       #main-menu .menu--main-menu .dropdown > input[type="checkbox"]:checked ~ .dropdown-menu {
+        -webkit-transform: scaleY(1);
         -moz-transform: scaleY(1);
         -ms-transform: scaleY(1);
-        -webkit-transform: scaleY(1);
+        -o-transform: scaleY(1);
         transform: scaleY(1);
+        -webkit-transition-property: max-height, -webkit-transform;
         -moz-transition-property: max-height, -moz-transform;
         -o-transition-property: max-height, -o-transform;
-        -webkit-transition-property: max-height, -webkit-transform;
         transition-property: max-height, transform;
+        -webkit-transition-duration: 600ms, 300ms;
         -moz-transition-duration: 600ms, 300ms;
         -o-transition-duration: 600ms, 300ms;
-        -webkit-transition-duration: 600ms, 300ms;
         transition-duration: 600ms, 300ms;
+        -webkit-transition-delay: 0s, 0s;
         -moz-transition-delay: 0s, 0s;
         -o-transition-delay: 0s, 0s;
-        -webkit-transition-delay: 0s, 0s;
         transition-delay: 0s, 0s;
         max-height: 9999px;
         /* height: auto; */ }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\00003322}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\00003338}}
       #main-menu .menu--main-menu .dropdown > input[type="checkbox"]:checked + a[data-toggle="dropdown"]:before {
+        -webkit-transform: rotate(-180deg);
         -moz-transform: rotate(-180deg);
         -ms-transform: rotate(-180deg);
-        -webkit-transform: rotate(-180deg);
+        -o-transform: rotate(-180deg);
         transform: rotate(-180deg); } }
   @media screen and (min-width: 56.25em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\00003330}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\00003346}}
     #main-menu .menu--main-menu .dropdown > input[type="checkbox"] {
       display: none;
       visibility: hidden;
       opacity: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\00003336}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\00003352}}
     #main-menu .menu--main-menu .dropdown [data-toggle="dropdown"] {
       position: relative; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\00003339}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\00003356}}
       #main-menu .menu--main-menu .dropdown [data-toggle="dropdown"]:before, #main-menu .menu--main-menu .dropdown [data-toggle="dropdown"]:after {
         display: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\00003344}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\00003360}}
       #main-menu .menu--main-menu .dropdown [data-toggle="dropdown"] i {
-        -moz-transition: all 300ms ease 0s;
-        -o-transition: all 300ms ease 0s;
         -webkit-transition: all 300ms ease;
         -webkit-transition-delay: 0s;
+        -moz-transition: all 300ms ease 0s;
+        -o-transition: all 300ms ease 0s;
         transition: all 300ms ease 0s;
         background: url(../images/dropdown.png) no-repeat center center transparent;
         display: inline-block;
@@ -1091,58 +1144,62 @@ a.site-logo {
         bottom: 0;
         left: 50%;
         opacity: 0.2; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\00003360}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\00003376}}
       #main-menu .menu--main-menu .dropdown [data-toggle="dropdown"]:hover i, #main-menu .menu--main-menu .dropdown [data-toggle="dropdown"]:focus i {
+        -webkit-transform: rotate(180deg);
         -moz-transform: rotate(180deg);
         -ms-transform: rotate(180deg);
-        -webkit-transform: rotate(180deg);
+        -o-transform: rotate(180deg);
         transform: rotate(180deg);
         opacity: 0.4; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\00003367}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\00003383}}
     #main-menu .menu--main-menu .dropdown .dropdown-menu {
+      -webkit-transform: scaleY(0);
       -moz-transform: scaleY(0);
       -ms-transform: scaleY(0);
-      -webkit-transform: scaleY(0);
+      -o-transform: scaleY(0);
       transform: scaleY(0);
+      -webkit-transform-origin: 50% 0%;
       -moz-transform-origin: 50% 0%;
       -ms-transform-origin: 50% 0%;
-      -webkit-transform-origin: 50% 0%;
+      -o-transform-origin: 50% 0%;
       transform-origin: 50% 0%;
+      -webkit-transition-property: max-height, -webkit-transform;
       -moz-transition-property: max-height, -moz-transform;
       -o-transition-property: max-height, -o-transform;
-      -webkit-transition-property: max-height, -webkit-transform;
       transition-property: max-height, transform;
+      -webkit-transition-duration: 600ms, 300ms;
       -moz-transition-duration: 600ms, 300ms;
       -o-transition-duration: 600ms, 300ms;
-      -webkit-transition-duration: 600ms, 300ms;
       transition-duration: 600ms, 300ms;
+      -webkit-transition-delay: 0s, 0s;
       -moz-transition-delay: 0s, 0s;
       -o-transition-delay: 0s, 0s;
-      -webkit-transition-delay: 0s, 0s;
       transition-delay: 0s, 0s;
       display: block;
       max-height: 0;
       top: 100%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\00003378}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\00003395}}
     #main-menu .menu--main-menu .dropdown:hover, #main-menu .menu--main-menu .dropdown:focus {
       overflow: visible; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\00003382}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\00003398}}
       #main-menu .menu--main-menu .dropdown:hover > .dropdown-menu, #main-menu .menu--main-menu .dropdown:focus > .dropdown-menu {
+        -webkit-transform: scaleY(1);
         -moz-transform: scaleY(1);
         -ms-transform: scaleY(1);
-        -webkit-transform: scaleY(1);
+        -o-transform: scaleY(1);
         transform: scaleY(1);
+        -webkit-transition-property: max-height, -webkit-transform;
         -moz-transition-property: max-height, -moz-transform;
         -o-transition-property: max-height, -o-transform;
-        -webkit-transition-property: max-height, -webkit-transform;
         transition-property: max-height, transform;
+        -webkit-transition-duration: 600ms, 300ms;
         -moz-transition-duration: 600ms, 300ms;
         -o-transition-duration: 600ms, 300ms;
-        -webkit-transition-duration: 600ms, 300ms;
         transition-duration: 600ms, 300ms;
+        -webkit-transition-delay: 0s, 0s;
         -moz-transition-delay: 0s, 0s;
         -o-transition-delay: 0s, 0s;
-        -webkit-transition-delay: 0s, 0s;
         transition-delay: 0s, 0s;
         max-height: 9999px; } }
 
@@ -1157,11 +1214,11 @@ article h1 {
 */
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/node\/_slide--teaser\.scss}line{font-family:\000031}}
 .node--slide__teaser {
-  -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   box-sizing: border-box;
   background-repeat: no-repeat;
-  background-color: transparent;
+  background-color: rgba(0, 0, 0, 0);
   background-position: center top;
   background-size: cover;
   padding-top: 430px; }
@@ -1184,7 +1241,7 @@ article h1 {
     padding-right: 1.2em;
     margin-left: auto;
     margin-right: auto; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/\.rbenv\/versions\/1\.9\.3-p194\/lib\/ruby\/gems\/1\.9\.1\/gems\/compass-core-1\.0\.0\.alpha\.19\/stylesheets\/compass\/utilities\/general\/_clearfix\.scss}line{font-family:\0000338}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/\.rbenv\/versions\/1\.9\.3-p194\/lib\/ruby\/gems\/1\.9\.1\/gems\/compass-0\.12\.6\/frameworks\/compass\/stylesheets\/compass\/utilities\/general\/_clearfix\.scss}line{font-family:\0000338}}
     .node--slide__teaser .slide--content:after {
       content: "";
       display: table;
@@ -1231,23 +1288,25 @@ article h1 {
   overflow: hidden; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/node\/_slide--teaser\.scss}line{font-family:\0000338}}
   .flexslider .node--slide__teaser .slide--content {
-    -moz-transition-property: top, opacity;
-    -o-transition-property: top, opacity;
-    -webkit-transition-property: top, opacity;
-    transition-property: top opacity;
+    -webkit-transition-property: top, bottom, opacity;
+    -moz-transition-property: top, bottom, opacity;
+    -o-transition-property: top, bottom, opacity;
+    transition-property: top bottom opacity;
+    -webkit-transition-duration: 500ms;
     -moz-transition-duration: 500ms;
     -o-transition-duration: 500ms;
-    -webkit-transition-duration: 500ms;
     transition-duration: 500ms;
+    -webkit-transition-timing-function: ease-in;
     -moz-transition-timing-function: ease-in;
     -o-transition-timing-function: ease-in;
-    -webkit-transition-timing-function: ease-in;
     transition-timing-function: ease-in;
-    top: 250px;
+    top: 500px;
+    bottom: auto;
     opacity: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/node\/_slide--teaser\.scss}line{font-family:\0000348}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/node\/_slide--teaser\.scss}line{font-family:\0000349}}
 .flexslider .flex-active-slide .slide--content {
-  top: 0;
+  top: auto;
+  bottom: 0;
   opacity: 1; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/user\/_user-profile--simple\.scss}line{font-family:\000031}}
@@ -1264,7 +1323,7 @@ article h1 {
     margin: 0;
     opacity: 0.8;
     text-indent: -9999px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/user\/_user-profile--simple\.scss}line{font-family:\0000318}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/user\/_user-profile--simple\.scss}line{font-family:\0000320}}
     .user--profile__simple .field--name-field-profile-social-media a:hover, .user--profile__simple .field--name-field-profile-social-media a:focus, .user--profile__simple .field--name-field-profile-social-media a:active {
       opacity: 1; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/user\/_user-profile--simple\.scss}line{font-family:\0000324}}
@@ -1273,7 +1332,7 @@ article h1 {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/user\/_user-profile--simple\.scss}line{font-family:\0000327}}
     .user--profile__simple .field--name-field-profile-social-media a[href*="twitter.com"] {
       background-image: url('../images/icons/user--social/twitter.png?1379648156'); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/user\/_user-profile--simple\.scss}line{font-family:\0000330}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/user\/_user-profile--simple\.scss}line{font-family:\0000331}}
     .user--profile__simple .field--name-field-profile-social-media a[href*="facebook.com"], .user--profile__simple .field--name-field-profile-social-media a[href*="fb.me"] {
       background-image: url('../images/icons/user--social/facebook.png?1379648420'); }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/user\/_user-profile--simple\.scss}line{font-family:\0000334}}
@@ -1323,7 +1382,7 @@ article h1 {
       float: left;
       margin-right: 1.5625%;
       display: inline; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/\.rbenv\/versions\/1\.9\.3-p194\/lib\/ruby\/gems\/1\.9\.1\/gems\/susy-2\.1\.1\/sass\/susy\/language\/susyone\/_grid\.scss}line{font-family:\00003172}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/\.rbenv\/versions\/1\.9\.3-p194\/lib\/ruby\/gems\/1\.9\.1\/gems\/susy-1\.0\.9\/sass\/susy\/_grid\.scss}line{font-family:\00003184}}
       .view-cod-community-attendees .user--profile__simple:nth-child(2n) {
         float: right;
         margin-right: 0; } }
@@ -1334,11 +1393,11 @@ article h1 {
       float: left;
       margin-right: 1.5625%;
       display: inline; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/\.rbenv\/versions\/1\.9\.3-p194\/lib\/ruby\/gems\/1\.9\.1\/gems\/susy-2\.1\.1\/sass\/susy\/language\/susyone\/_grid\.scss}line{font-family:\00003249}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/\.rbenv\/versions\/1\.9\.3-p194\/lib\/ruby\/gems\/1\.9\.1\/gems\/susy-1\.0\.9\/sass\/susy\/_grid\.scss}line{font-family:\00003251}}
       .view-cod-community-attendees .user--profile__simple:nth-child(2n) {
         float: left;
         margin-right: 1.5625%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/\.rbenv\/versions\/1\.9\.3-p194\/lib\/ruby\/gems\/1\.9\.1\/gems\/susy-2\.1\.1\/sass\/susy\/language\/susyone\/_grid\.scss}line{font-family:\00003172}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/\.rbenv\/versions\/1\.9\.3-p194\/lib\/ruby\/gems\/1\.9\.1\/gems\/susy-1\.0\.9\/sass\/susy\/_grid\.scss}line{font-family:\00003184}}
       .view-cod-community-attendees .user--profile__simple:nth-child(3n) {
         float: right;
         margin-right: 0; } }
