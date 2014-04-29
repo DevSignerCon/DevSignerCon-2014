@@ -1,0 +1,6 @@
+name = OG Fix
+description = Assigns all sessions to the current event (node 1)
+package = Devsigner
+core = 7.x
+
+dependencies[] = cod_session
