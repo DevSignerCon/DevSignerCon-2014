@@ -21,4 +21,9 @@
   &:before {
     background-size: cover;
   }
+  
+  .user-picture > a {
+    display: inline-block;
+    max-width: 100%;
+  }
 }
