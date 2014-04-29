@@ -1,0 +1,14 @@
+<?php
+/**
+ * @file
+ * OG Fix module file.
+ */
+
+/**
+ * Implements hook_node_presave().
+ */
+function devsigner_og_fix_node_presave($node) {
+  if ($node->type == 'session' && empty($node->og_group_ref[LANGUAGE_NONE][0]['target_id'])) {
+    $node->og_group_ref[LANGUAGE_NONE][0]['target_id'] = 1;
+  }
+}

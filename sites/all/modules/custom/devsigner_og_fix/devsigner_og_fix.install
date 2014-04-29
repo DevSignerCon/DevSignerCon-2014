@@ -1,0 +1,33 @@
+<?php
+/**
+ * @file
+ * OG Fix install file.
+ */
+
+/**
+ * Implements hook_install().
+ */
+function devsigner_og_fix_install() {
+  // Get all sessiosn.
+  $query = new EntityFieldQuery();
+  $result = $query->entityCondition('entity_type', 'node')
+    ->entityCondition('bundle', 'session')
+    ->execute();
+
+  if ($sessions = $result['node']) {
+    // Load the og_group_ref field.
+    $fields = field_info_instances('node', 'session');
+    $field_id = $fields['og_group_ref']['field_id'];
+    field_attach_load('node', $sessions, FIELD_LOAD_CURRENT, array('field_id' => $field_id));
+
+    // Resave any sessions without an event.
+    foreach ($sessions as $session) {
+      if (empty($session->og_group_ref[LANGUAGE_NONE][0]['target_id'])) {
+        $node = node_load($session->nid);
+        $node->og_group_ref[LANGUAGE_NONE][0]['target_id'] = 1;
+        node_save($node);
+      }
+    }
+  }
+
+}
