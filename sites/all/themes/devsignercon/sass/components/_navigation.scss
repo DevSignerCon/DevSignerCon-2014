@@ -114,7 +114,17 @@
 // Menu Region Styles
 .w-navigation {
   border-top: 5px solid tint($grey, 20%);
-  /* margin-top: 1.5em; */
+  
+  @include respond-to($medium, max-width) {
+    @include box-shadow(0 0 12px $blacknblue);
+    background-color: $white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: auto;
+    z-index: 50;
+  }
 }
 
 #main-menu {
@@ -185,25 +195,30 @@
   }
   
   @include respond-to($medium, max-width) {
+    min-height: 44px;
+    
     > ul.menu--main-menu {
       @include transform(scaleY(0));
       @include transform-origin(50%, 0%);
       @include transition-property(transform max-height);
       @include transition-duration(600ms);
       @include transition-delay(0ms);
+      background-color: rgba($white, 0.8);
       max-height: 0;
-      height:100%;
+      height: auto;
+      position: absolute;
+      top: 44px;
     }
   
     label[for="toggle-button"] {
-      width: 40px;
-      height: 49px;
-      margin: 10px 20px;
+      width: 49px;
+      height: 44px;
+      margin: 0;
       display: block;
       background: url(../images/hamburger.png) no-repeat center;
       position: absolute;
       right: 0;
-      bottom: 100%;
+      top: 0;
       @include respond-to($medium) {
         display: none;
         visibility: hidden;
@@ -212,6 +227,7 @@
     
     input#toggle-button[type=checkbox]:checked ~ label[for="toggle-button"] {
       color: $off-white;
+      background-color: $light-grey;
       
       &:after {
         background-color: $grey;
@@ -220,7 +236,7 @@
     }
     
     input#toggle-button[type=checkbox]:checked ~ ul.menu--main-menu {
-      @include box-shadow(0 2px 32px 3px rgba($grey, 0.7));
+      /* @include box-shadow(0 2px 32px 3px rgba($grey, 0.7)); */
       @include transform(scaleY(1));
       @include transform-origin(0%, 0%);
       @include transition-property(transform max-height);
@@ -264,10 +280,10 @@
         position: absolute;
         top: 0;
         right: 0;
-        width: 44px;
-        min-width: 44px;
+        width: 49px;
+        min-width: 49px;
         height: 100%;
-        max-height: 44px;
+        max-height: 49px;
         cursor: pointer;
         z-index: 2;
       }
@@ -302,10 +318,10 @@
       position: absolute;
       top: 0;
       right: 0;
-      width: 44px;
-      min-width: 44px;
+      width: 49px;
+      min-width: 49px;
       height: 100%;
-      max-height: 44px;
+      max-height: 49px;
       cursor: pointer;
       z-index: 3;
       
