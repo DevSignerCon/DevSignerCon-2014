@@ -1,0 +1,24 @@
+.node__submitted {
+  .submitted {
+    display: inline-block;
+    margin: 0;
+    font-size: 0.625em;
+    line-height: 1.5em;
+    
+    span {
+      display: block;
+    }
+  }
+}
+
+.node--submitted__user-picture {
+  @extend .user--profile__picture;
+  display: inline-block;
+  max-width: 60px;
+  height: auto;
+  padding: 6px !important;
+  
+  &:before {
+    background-size: cover;
+  }
+}

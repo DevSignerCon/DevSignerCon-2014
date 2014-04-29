@@ -4,4 +4,62 @@
 
 .w-footer-sub {
   background-color: shade($purple, 10%);
+  
+  .block {
+    font-size: 0.875em;
+  }
+}
+
+.l-region--footer-sub {
+  .block:first-child {
+    @include span-columns(9);
+    
+    .block__content {
+      font-size: 0.75em;
+    }
+  }
+}
+
+.block--menu-menu-social-media {
+  @include span-columns(3);
+  @include omega;
+  
+  ul {
+    display: block;
+    padding-left: 0;
+    text-align: right;
+  }
+  
+  li {
+    display: inline-block;
+    list-style: none outside none;
+    padding-right: 0.5em;
+    
+    &:last-child {
+      padding-right: 0;
+    }
+  }
+  
+  a {
+    background-image: image-url("icons/social-media.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    font-size: 0;
+    width: 24px;
+    height: 23px;
+    vertical-align: middle;
+    text-decoration: none;
+    border-bottom: medium none;
+    outline: 0;
+    
+    &[href*="twitter"] {
+      background-position: right center;
+    }
+    &[href*="google"] {
+      background-position: center center;
+    }
+    &[href*="facebook"] {
+      background-position: left center;
+    }
+  }
 }

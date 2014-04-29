@@ -51,20 +51,27 @@
   display: block;
   font-weight: normal;
   font-family: $sans-serif;
+  
   &:link,
   &:visited {
     outline: 0;
     color: $grey;
     text-decoration: none;
   }
+  &:hover,
+  &:focus {
+    background-color: $green;
+    color: $black;
+    cursor: pointer;
+  }
   &:active {
     background-color: $black;
     outline: 0;
     color: $white;
   }
+  
   @include respond-to($medium) {
     @include transition(all 300ms ease);
-    background-color: transparent;
     display: inline-block;
     padding: 1em 1.5em;
   }
@@ -126,58 +133,59 @@
     z-index: 50;
   }
 }
-
-#main-menu {
-  text-align: center;
-  position: relative;
-  outline: none !important;
-  z-index: 5;
-  
-  * {
-    &:focus {
-      outline: none !important;
-    }
-  }
-  
-  @include respond-to($medium) {
-    padding: 0;
+.l-navigation {
+  #main-menu {
+    text-align: center;
+    position: relative;
+    outline: none !important;
+    z-index: 5;
     
-    #toggle-button,
-    [for="toggle-button"] {
-      @include element-invisible;
-    }
-  }
-  .block {
-    margin-bottom: 0;
-  }
-
-  ul,
-  li {
-    list-style-type: none;
-    list-style-image: none;
-  }
-
-  /* Main menu and secondary menu links and menu block links. */
-  .menu--main-menu {
-    @extend %main-menu;
-    // Top level menu items
-    > .level-1 {
-      @extend %main-menu__top;
-      > a,
-      > .nolink {
-        @extend %main-menu__top-links;
-      }
-      // Hello subnav!
-      &.clicked ul {
-        display: block;
+    * {
+      &:focus {
+        outline: none !important;
       }
     }
-    // Submenu
-    ul {
-      @extend %main-menu__submenu;
-      > .level-2 {
-        > a {
-          @extend %main-menu__submenu-links;
+    
+    @include respond-to($medium) {
+      padding: 0;
+      
+      #toggle-button,
+      [for="toggle-button"] {
+        @include element-invisible;
+      }
+    }
+    .block {
+      margin-bottom: 0;
+    }
+  
+    ul,
+    li {
+      list-style-type: none;
+      list-style-image: none;
+    }
+  
+    /* Main menu and secondary menu links and menu block links. */
+    .menu--main-menu {
+      @extend %main-menu;
+      // Top level menu items
+      > .level-1 {
+        @extend %main-menu__top;
+        > a,
+        > .nolink {
+          @extend %main-menu__top-links;
+        }
+        // Hello subnav!
+        &.clicked ul {
+          display: block;
+        }
+      }
+      // Submenu
+      ul {
+        @extend %main-menu__submenu;
+        > .level-2 {
+          > a {
+            @extend %main-menu__submenu-links;
+          }
         }
       }
     }
@@ -405,5 +413,28 @@
       
       .theme-icon-arrow-down {}
     }
+  }
+}
+
+/**
+ * Menu Items
+ */
+
+[class*="menu--link"] {
+  background-color: transparent;
+}
+
+a.menu--link__highlight {
+  background-color: $light-blue;
+  color: $black;
+  
+  &:hover,
+  &:focus {
+    background-color: $purple;
+    color: $white;
+  }
+  
+  &:active {
+    background-color: $black;
   }
 }

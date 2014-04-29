@@ -40,6 +40,7 @@ function devsignercon_preprocess_views_view_fields(&$vars) {
  * Implements hook_preprocess_node().
  */
 function devsignercon_preprocess_node(&$vars) {
+  $node = $vars['node'];
   $view_mode = $vars['view_mode'];
   $type = $vars['type'];
   $nid = $vars['nid'];
@@ -49,6 +50,12 @@ function devsignercon_preprocess_node(&$vars) {
     $vars['theme_hook_suggestions'][] = 'node__' . $type . '__' . $view_mode;
     $vars['theme_hook_suggestions'][] = 'node__' . $nid . '__' . $view_mode;
     $vars['classes_array'][] = 'node--' . $type . '__' . $view_mode;
+  }
+  
+  // Display post information only on certain node types.
+  if (variable_get('node_submitted_' . $node->type, TRUE)) {
+    $vars['date'] = format_date($node->created, 'custom', 'l, F jS, Y');
+    $vars['submitted'] = '<span>' . t('Created by !username', array('!username' => $vars['name'], '!datetime' => $vars['date'])) . '</span><span>' . t('!datetime', array('!datetime' => $vars['date'])) . '</span>';
   }
 }
 
