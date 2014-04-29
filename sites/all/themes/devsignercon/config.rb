@@ -14,6 +14,8 @@ else
   environment = saved
 end
 
+environment = :production
+
 # Location of the theme's resources.
 css_dir = "css"
 sass_dir = "sass"

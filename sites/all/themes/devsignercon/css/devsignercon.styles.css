@@ -4,17 +4,17 @@
 @import url("http://fonts.googleapis.com/css?family=Abril+Fatface");
 @import url("http://fonts.googleapis.com/css?family=Droid+Sans:300,400,700");
 @import url("http://fonts.googleapis.com/css?family=Droid+Serif:300,400,700,400italic,700italic");
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/\.rbenv\/versions\/1\.9\.3-p194\/lib\/ruby\/gems\/1\.9\.1\/gems\/toolkit-1\.3\.8\/stylesheets\/toolkit\/_box-sizing\.scss}line{font-family:\0000336}}
 *, *:after, *:before {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  *behavior: url('../behaviors/box-sizing/boxsizing.php'); }
+  *behavior: url('../behaviors/box-sizing/boxsizing.php');
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/\.rbenv\/versions\/1\.9\.3-p194\/lib\/ruby\/gems\/1\.9\.1\/gems\/toolkit-1\.3\.8\/stylesheets\/toolkit\/_fluid-media\.scss}line{font-family:\000034}}
 img, video {
   max-width: 100%;
-  height: auto; }
+  height: auto;
+}
 
 /**
  * functions
@@ -30,148 +30,150 @@ img, video {
   src: url("../fonts/Miso/Miso Regular/miso-regular-webfont.eot");
   src: url("../fonts/Miso/Miso Regular/miso-regular-webfont?#iefix") format("embedded-opentype"), url("../fonts/Miso/Miso Regular/miso-regular-webfont.woff") format("woff"), url("../fonts/Miso/Miso Regular/miso-regular-webfont.ttf") format("truetype"), url("../fonts/Miso/Miso Regular/miso-regular-webfont.svg#misoregular") format("svg");
   font-weight: normal;
-  font-style: normal; }
+  font-style: normal;
+}
 
 @font-face {
   font-family: 'MisoLight';
   src: url("../fonts/Miso/Miso Light/miso-light-webfont.eot");
   src: url("../fonts/Miso/Miso Light/miso-light-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Miso/Miso Light/miso-light-webfont.woff") format("woff"), url("../fonts/Miso/Miso Light/miso-light-webfont.ttf") format("truetype"), url("../fonts/Miso/Miso Light/miso-light-webfont.svg#misolight") format("svg");
   font-weight: 300;
-  font-style: normal; }
+  font-style: normal;
+}
 
 @font-face {
   font-family: 'MisoBold';
   src: url("../fonts/Miso/Miso Bold/miso-bold-webfont.eot");
   src: url("../fonts/Miso/Miso Bold/miso-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Miso/Miso Bold/miso-bold-webfont.woff") format("woff"), url("../fonts/Miso/Miso Bold/miso-bold-webfont.ttf") format("truetype"), url("../fonts/Miso/Miso Bold/miso-bold-webfont.svg#misobold") format("svg");
   font-weight: 700;
-  font-style: normal; }
+  font-style: normal;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_forms\.scss}line{font-family:\000031}}
 input[type=text], input[type=email], input[type=url], input[type=number], input[type=tel], textarea {
   border-width: 2px;
   border-style: solid;
   border-color: #e2e2e2;
   border-radius: 4px;
-  padding: 6px 11px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_forms\.scss}line{font-family:\000039}}
-  input[type=text]:hover, input[type=email]:hover, input[type=url]:hover, input[type=number]:hover, input[type=tel]:hover, textarea:hover {
-    border-color: #929292; }
+  padding: 6px 11px;
+}
+input[type=text]:hover, input[type=email]:hover, input[type=url]:hover, input[type=number]:hover, input[type=tel]:hover, textarea:hover {
+  border-color: #929292;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_forms\.scss}line{font-family:\0000313}}
 fieldset {
   border-width: 1px;
   border-color: #e2e2e2;
-  border-radius: 4px; }
+  border-radius: 4px;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_forms\.scss}line{font-family:\0000321}}
 .form-item label {
   font-family: "MisoBold";
-  font-size: 1.25em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_forms\.scss}line{font-family:\0000325}}
+  font-size: 1.25em;
+}
 label.option, label .field-edit-link {
   font-family: "Droid Sans", "Arial", "Helvetica", "Lucida Grande", "Verdana", "Gill Sans", sans-serif;
-  font-size: 18px; }
+  font-size: 18px;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_forms\.scss}line{font-family:\0000339}}
 input[type=submit], input[type=button] {
   background-color: #e2e2e2;
   border-width: 0;
   border-radius: 4px;
   color: #1a1a1a;
   font-family: "MisoBold";
-  padding: 6px 11px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/abstractions\/_mixins\.scss}line{font-family:\00003201}}
-  input[type=submit]:hover, input[type=button]:hover {
-    background-color: #929292;
-    color: #fcfcfc; }
+  padding: 6px 11px;
+}
+input[type=submit]:hover, input[type=button]:hover {
+  background-color: #929292;
+  color: #fcfcfc;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_html\.scss}line{font-family:\000032}}
 p.lead {
-  font-size: 20px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_html\.scss}line{font-family:\000036}}
+  font-size: 20px;
+}
 p.secondary {
-  font-size: 16px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_html\.scss}line{font-family:\0000310}}
+  font-size: 16px;
+}
 p.tertiary {
-  font-size: 14.2px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_html\.scss}line{font-family:\0000314}}
+  font-size: 14.2px;
+}
 p .amp {
-  font-family: local("Georgia"), local("Garamond"), local("Palatino"), local("Book Antiqua"); }
+  font-family: local("Georgia"), local("Garamond"), local("Palatino"), local("Book Antiqua");
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_html\.scss}line{font-family:\0000319}}
 blockquote {
   margin: 0 0 1.5em 0;
   padding: 12px;
   background-color: #e2e2e2;
-  font-style: normal; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_html\.scss}line{font-family:\0000326}}
-  blockquote:before, blockquote:after {
-    content: '';
-    content: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_html\.scss}line{font-family:\0000331}}
-  blockquote.pull-right {
-    float: right;
-    background-color: transparent; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_html\.scss}line{font-family:\0000336}}
-    blockquote.pull-right p,
-    blockquote.pull-right small {
-      text-align: right; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_html\.scss}line{font-family:\0000341}}
-    blockquote.pull-right small:before {
-      content: ''; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_html\.scss}line{font-family:\0000344}}
-    blockquote.pull-right small:after {
-      content: '\00A0 \2014';
-      color: #c2d955; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_html\.scss}line{font-family:\0000352}}
-  blockquote small:before {
-    content: '\00A0 \2014';
-    color: #c2d955; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_html\.scss}line{font-family:\0000357}}
-  blockquote small:after {
-    content: ''; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_html\.scss}line{font-family:\0000362}}
-  blockquote cite {
-    font-style: normal;
-    color: #c2d955; }
+  font-style: normal;
+}
+blockquote:before, blockquote:after {
+  content: '';
+  content: none;
+}
+blockquote.pull-right {
+  float: right;
+  background-color: transparent;
+}
+blockquote.pull-right p,
+blockquote.pull-right small {
+  text-align: right;
+}
+blockquote.pull-right small:before {
+  content: '';
+}
+blockquote.pull-right small:after {
+  content: '\00A0 \2014';
+  color: #c2d955;
+}
+blockquote small:before {
+  content: '\00A0 \2014';
+  color: #c2d955;
+}
+blockquote small:after {
+  content: '';
+}
+blockquote cite {
+  font-style: normal;
+  color: #c2d955;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_html\.scss}line{font-family:\0000368}}
 q {
-  quotes: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_html\.scss}line{font-family:\0000372}}
-  q:before, q:after {
-    content: '';
-    content: none; }
+  quotes: none;
+}
+q:before, q:after {
+  content: '';
+  content: none;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_html\.scss}line{font-family:\0000378}}
 abbr[title] {
   border-bottom: 1px dotted #e2e2e2;
-  cursor: help; }
+  cursor: help;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_html\.scss}line{font-family:\0000384}}
 b,
 strong {
   font-weight: bold;
-  color: #2a282b; }
+  color: #2a282b;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_html\.scss}line{font-family:\0000389}}
 dfn {
-  font-style: italic; }
+  font-style: italic;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_html\.scss}line{font-family:\0000393}}
 ins {
   background-color: #e2e2e2;
   color: #929292;
-  text-decoration: none; }
+  text-decoration: none;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_html\.scss}line{font-family:\0000399}}
 mark {
   background-color: #e2e2e2;
   color: #929292;
   font-style: italic;
-  font-weight: bold; }
+  font-weight: bold;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_html\.scss}line{font-family:\00003109}}
 pre,
 code,
 kbd,
@@ -179,128 +181,130 @@ samp {
   font-family: Monaco, Courier New, monospace;
   font-size: 12.8px;
   line-height: 1.325em;
-  color: #484040; }
+  color: #484040;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_html\.scss}line{font-family:\00003116}}
 pre {
   white-space: pre;
   white-space: pre-wrap;
-  word-wrap: break-word; }
+  word-wrap: break-word;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_html\.scss}line{font-family:\00003123}}
 sub,
 sup {
   position: relative;
   font-size: 12.8px;
   line-height: 0;
-  vertical-align: baselineheight; }
+  vertical-align: baselineheight;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_html\.scss}line{font-family:\00003130}}
 sup {
-  top: -.5em; }
+  top: -.5em;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_html\.scss}line{font-family:\00003134}}
 sub {
-  bottom: -.25em; }
+  bottom: -.25em;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_lists\.scss}line{font-family:\000031}}
 dl {
-  margin-bottom: 29.25px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_lists\.scss}line{font-family:\000034}}
-  dl.dl-horizontal {
-    *zoom: 1; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_lists\.scss}line{font-family:\000038}}
-    dl.dl-horizontal:before, dl.dl-horizontal:after {
-      content: " ";
-      display: table; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_lists\.scss}line{font-family:\0000312}}
-    dl.dl-horizontal:after {
-      clear: both; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_lists\.scss}line{font-family:\0000314}}
-    dl.dl-horizontal dt {
-      float: left;
-      clear: left;
-      width: 30.38869258%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_lists\.scss}line{font-family:\0000319}}
-    dl.dl-horizontal dd {
-      margin-left: 32.99289258%; }
+  margin-bottom: 29.25px;
+}
+dl.dl-horizontal {
+  *zoom: 1;
+}
+dl.dl-horizontal:before, dl.dl-horizontal:after {
+  content: " ";
+  display: table;
+}
+dl.dl-horizontal:after {
+  clear: both;
+}
+dl.dl-horizontal dt {
+  float: left;
+  clear: left;
+  width: 30.38869258%;
+}
+dl.dl-horizontal dd {
+  margin-left: 32.99289258%;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_lists\.scss}line{font-family:\0000325}}
 dd {
-  margin-bottom: 29.25px; }
+  margin-bottom: 29.25px;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_lists\.scss}line{font-family:\0000329}}
 dt {
   font-weight: bold;
-  color: #2a282b; }
+  color: #2a282b;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_lists\.scss}line{font-family:\0000334}}
 .links__inline {
   list-style: none outside none;
   margin: 0;
-  padding: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_lists\.scss}line{font-family:\0000339}}
+  padding: 0;
+}
+.links__inline li {
+  border-bottom: 1px solid rgba(146, 146, 146, 0.3);
+  padding: 0.5em 0;
+}
+.links__inline li:last-child {
+  border-bottom: medium none;
+}
+@media screen and (min-width: 56.25em) {
+  .links__inline {
+    margin-top: 1em;
+    padding-left: 0;
+  }
+  .links__inline > li {
+    display: inline-block !important;
+    list-style: none outside none !important;
+    text-align: center;
+  }
+  .links__inline > li a {
+    border-right: 1px solid #929292;
+    display: inline-block;
+    line-height: 1;
+    padding-right: 0.625em;
+    margin-right: 0.625em;
+  }
+  .links__inline > li:first-child a {
+    padding-left: 0;
+  }
+  .links__inline > li:last-child a {
+    border-right: medium none;
+    margin-right: 0;
+    padding-right: 0;
+  }
+  .links__inline > li > ul {
+    display: none;
+  }
   .links__inline li {
-    border-bottom: 1px solid rgba(146, 146, 146, 0.3);
-    padding: 0.5em 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_lists\.scss}line{font-family:\0000343}}
-    .links__inline li:last-child {
-      border-bottom: medium none; }
-  @media screen and (min-width: 56.25em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_lists\.scss}line{font-family:\0000334}}
-    .links__inline {
-      margin-top: 1em;
-      padding-left: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/abstractions\/_mixins\.scss}line{font-family:\00003164}}
-      .links__inline > li {
-        display: inline-block !important;
-        list-style: none outside none !important;
-        text-align: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/abstractions\/_mixins\.scss}line{font-family:\00003169}}
-        .links__inline > li a {
-          border-right: 1px solid #929292;
-          display: inline-block;
-          line-height: 1;
-          padding-right: 0.625em;
-          margin-right: 0.625em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/abstractions\/_mixins\.scss}line{font-family:\00003177}}
-        .links__inline > li:first-child a {
-          padding-left: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/abstractions\/_mixins\.scss}line{font-family:\00003181}}
-        .links__inline > li:last-child a {
-          border-right: medium none;
-          margin-right: 0;
-          padding-right: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/abstractions\/_mixins\.scss}line{font-family:\00003187}}
-        .links__inline > li > ul {
-          display: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_lists\.scss}line{font-family:\0000351}}
-      .links__inline li {
-        border-bottom: medium none;
-        padding: 0 0.5em; } }
+    border-bottom: medium none;
+    padding: 0 0.5em;
+  }
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_lists\.scss}line{font-family:\0000358}}
 .breadcrumb {
   list-style-type: none;
   margin: 0 0 1.5em;
   padding: 0.75em 12px;
   border-radius: 4px;
   font-size: 14px;
-  color: #9f9393; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_lists\.scss}line{font-family:\0000366}}
-  .breadcrumb > .active {
-    color: #929292; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_lists\.scss}line{font-family:\0000370}}
-  .breadcrumb > li {
-    display: inline-block;
-    *display: inline;
-    *zoom: 1; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_lists\.scss}line{font-family:\0000375}}
-    .breadcrumb > li a {
-      color: #012233; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_lists\.scss}line{font-family:\0000379}}
-    .breadcrumb > li > .divider {
-      color: #030303; }
+  color: #9f9393;
+}
+.breadcrumb > .active {
+  color: #929292;
+}
+.breadcrumb > li {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+.breadcrumb > li a {
+  color: #012233;
+}
+.breadcrumb > li > .divider {
+  color: #030303;
+}
 
 /*
 ul {
@@ -312,64 +316,63 @@ ul {
   }
 }
 */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_media\.scss}line{font-family:\000031}}
 img, media {
-  max-width: 100%; }
+  max-width: 100%;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_media\.scss}line{font-family:\000035}}
 img {
   max-width: 100%;
   border-width: 0;
   outline: none;
   vertical-align: bottom;
-  -ms-interpolation-mode: bicubic; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_media\.scss}line{font-family:\0000312}}
-  img.img-rounded {
-    border-radius: 4px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_media\.scss}line{font-family:\0000316}}
-  img.img-polaroid {
-    padding: 8px;
-    background-color: #fcfcfc;
-    border: 1px solid #e2e2e2;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_media\.scss}line{font-family:\0000323}}
-  img.img-circle {
-    border-radius: 500px;
-    border: 8px solid #e2e2e2; }
+  -ms-interpolation-mode: bicubic;
+}
+img.img-rounded {
+  border-radius: 4px;
+}
+img.img-polaroid {
+  padding: 8px;
+  background-color: #fcfcfc;
+  border: 1px solid #e2e2e2;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+img.img-circle {
+  border-radius: 500px;
+  border: 8px solid #e2e2e2;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_media\.scss}line{font-family:\0000329}}
 figure {
-  margin-bottom: 1.5em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_media\.scss}line{font-family:\0000332}}
-  figure img {
-    margin-bottom: 0.375em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_media\.scss}line{font-family:\0000336}}
-  figure figcaption {
-    display: block;
-    font-weight: normal;
-    font-size: 14px;
-    font-size: 1.4rem;
-    font-style: italic;
-    color: #030303; }
+  margin-bottom: 1.5em;
+}
+figure img {
+  margin-bottom: 0.375em;
+}
+figure figcaption {
+  display: block;
+  font-weight: normal;
+  font-size: 14px;
+  font-size: 1.4rem;
+  font-style: italic;
+  color: #030303;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_tables\.scss}line{font-family:\000032}}
 td, th {
   background-color: transparent;
-  border-bottom: 1px solid #e2e2e2; }
+  border-bottom: 1px solid #e2e2e2;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_tables\.scss}line{font-family:\000036}}
 th {
   background-color: transparent;
-  border-bottom: 1px solid #e2e2e2; }
+  border-bottom: 1px solid #e2e2e2;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_tables\.scss}line{font-family:\0000314}}
 tr.odd {
-  background-color: #f3f9fd; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_tables\.scss}line{font-family:\0000317}}
+  background-color: #f3f9fd;
+}
 tr.even {
-  background-color: #fcfcfc; }
+  background-color: #fcfcfc;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_typography\.scss}line{font-family:\000034}}
 h1 {
   font-size: 2.5em;
   font-family: "MisoBold";
@@ -379,22 +382,22 @@ h1 {
   letter-spacing: 0;
   font-weight: 700;
   margin-top: 0.325em;
-  margin-bottom: 0.625em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_typography\.scss}line{font-family:\0000317}}
-  h1 a:link, h1 a:visited {
-    color: #0f75bc;
-    text-decoration: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_typography\.scss}line{font-family:\0000328}}
-  h1 a:link, h1 a:visited, h1 a:hover, h1 a:focus, h1 a:active, h1 a.active, h1 a.active-trail {
-    border-bottom: medium none;
-    display: inline-block;
-    vertical-align: bottom;
-    font-family: "MisoBold"; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_typography\.scss}line{font-family:\0000336}}
-  h1 a:hover, h1 a:focus {
-    color: #0a4168; }
+  margin-bottom: 0.625em;
+}
+h1 a:link, h1 a:visited {
+  color: #0f75bc;
+  text-decoration: none;
+}
+h1 a:link, h1 a:visited, h1 a:hover, h1 a:focus, h1 a:active, h1 a.active, h1 a.active-trail {
+  border-bottom: medium none;
+  display: inline-block;
+  vertical-align: bottom;
+  font-family: "MisoBold";
+}
+h1 a:hover, h1 a:focus {
+  color: #0a4168;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_typography\.scss}line{font-family:\000034}}
 h2 {
   font-size: 2em;
   font-family: "MisoBold";
@@ -404,22 +407,22 @@ h2 {
   letter-spacing: 0;
   font-weight: 700;
   margin-top: 0.325em;
-  margin-bottom: 0.625em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_typography\.scss}line{font-family:\0000317}}
-  h2 a:link, h2 a:visited {
-    color: #0f75bc;
-    text-decoration: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_typography\.scss}line{font-family:\0000328}}
-  h2 a:link, h2 a:visited, h2 a:hover, h2 a:focus, h2 a:active, h2 a.active, h2 a.active-trail {
-    border-bottom: medium none;
-    display: inline-block;
-    vertical-align: bottom;
-    font-family: "MisoBold"; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_typography\.scss}line{font-family:\0000336}}
-  h2 a:hover, h2 a:focus {
-    color: #0a4168; }
+  margin-bottom: 0.625em;
+}
+h2 a:link, h2 a:visited {
+  color: #0f75bc;
+  text-decoration: none;
+}
+h2 a:link, h2 a:visited, h2 a:hover, h2 a:focus, h2 a:active, h2 a.active, h2 a.active-trail {
+  border-bottom: medium none;
+  display: inline-block;
+  vertical-align: bottom;
+  font-family: "MisoBold";
+}
+h2 a:hover, h2 a:focus {
+  color: #0a4168;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_typography\.scss}line{font-family:\000034}}
 h3 {
   font-size: 1.5em;
   font-family: "MisoBold";
@@ -429,22 +432,22 @@ h3 {
   letter-spacing: 0;
   font-weight: 700;
   margin-top: 0.325em;
-  margin-bottom: 0.625em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_typography\.scss}line{font-family:\0000317}}
-  h3 a:link, h3 a:visited {
-    color: #0f75bc;
-    text-decoration: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_typography\.scss}line{font-family:\0000328}}
-  h3 a:link, h3 a:visited, h3 a:hover, h3 a:focus, h3 a:active, h3 a.active, h3 a.active-trail {
-    border-bottom: medium none;
-    display: inline-block;
-    vertical-align: bottom;
-    font-family: "MisoBold"; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_typography\.scss}line{font-family:\0000336}}
-  h3 a:hover, h3 a:focus {
-    color: #0a4168; }
+  margin-bottom: 0.625em;
+}
+h3 a:link, h3 a:visited {
+  color: #0f75bc;
+  text-decoration: none;
+}
+h3 a:link, h3 a:visited, h3 a:hover, h3 a:focus, h3 a:active, h3 a.active, h3 a.active-trail {
+  border-bottom: medium none;
+  display: inline-block;
+  vertical-align: bottom;
+  font-family: "MisoBold";
+}
+h3 a:hover, h3 a:focus {
+  color: #0a4168;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_typography\.scss}line{font-family:\000034}}
 h4, th {
   font-size: 1.25em;
   font-family: "MisoBold";
@@ -454,22 +457,22 @@ h4, th {
   letter-spacing: 0;
   font-weight: 700;
   margin-top: 0.325em;
-  margin-bottom: 0.625em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_typography\.scss}line{font-family:\0000317}}
-  h4 a:link, th a:link, h4 a:visited, th a:visited {
-    color: #0f75bc;
-    text-decoration: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_typography\.scss}line{font-family:\0000328}}
-  h4 a:link, th a:link, h4 a:visited, th a:visited, h4 a:hover, th a:hover, h4 a:focus, th a:focus, h4 a:active, th a:active, h4 a.active, th a.active, h4 a.active-trail, th a.active-trail {
-    border-bottom: medium none;
-    display: inline-block;
-    vertical-align: bottom;
-    font-family: "MisoBold"; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_typography\.scss}line{font-family:\0000336}}
-  h4 a:hover, th a:hover, h4 a:focus, th a:focus {
-    color: #0a4168; }
+  margin-bottom: 0.625em;
+}
+h4 a:link, th a:link, h4 a:visited, th a:visited {
+  color: #0f75bc;
+  text-decoration: none;
+}
+h4 a:link, th a:link, h4 a:visited, th a:visited, h4 a:hover, th a:hover, h4 a:focus, th a:focus, h4 a:active, th a:active, h4 a.active, th a.active, h4 a.active-trail, th a.active-trail {
+  border-bottom: medium none;
+  display: inline-block;
+  vertical-align: bottom;
+  font-family: "MisoBold";
+}
+h4 a:hover, th a:hover, h4 a:focus, th a:focus {
+  color: #0a4168;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_typography\.scss}line{font-family:\000034}}
 h5 {
   font-size: 1em;
   font-family: "MisoBold";
@@ -479,22 +482,22 @@ h5 {
   letter-spacing: 0;
   font-weight: 700;
   margin-top: 0.325em;
-  margin-bottom: 0.625em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_typography\.scss}line{font-family:\0000317}}
-  h5 a:link, h5 a:visited {
-    color: #0f75bc;
-    text-decoration: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_typography\.scss}line{font-family:\0000328}}
-  h5 a:link, h5 a:visited, h5 a:hover, h5 a:focus, h5 a:active, h5 a.active, h5 a.active-trail {
-    border-bottom: medium none;
-    display: inline-block;
-    vertical-align: bottom;
-    font-family: "MisoBold"; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_typography\.scss}line{font-family:\0000336}}
-  h5 a:hover, h5 a:focus {
-    color: #0a4168; }
+  margin-bottom: 0.625em;
+}
+h5 a:link, h5 a:visited {
+  color: #0f75bc;
+  text-decoration: none;
+}
+h5 a:link, h5 a:visited, h5 a:hover, h5 a:focus, h5 a:active, h5 a.active, h5 a.active-trail {
+  border-bottom: medium none;
+  display: inline-block;
+  vertical-align: bottom;
+  font-family: "MisoBold";
+}
+h5 a:hover, h5 a:focus {
+  color: #0a4168;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_typography\.scss}line{font-family:\000034}}
 h6 {
   font-size: 1em;
   font-family: "MisoBold";
@@ -504,28 +507,28 @@ h6 {
   letter-spacing: 0;
   font-weight: 700;
   margin-top: 0.325em;
-  margin-bottom: 0.625em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_typography\.scss}line{font-family:\0000317}}
-  h6 a:link, h6 a:visited {
-    color: #0f75bc;
-    text-decoration: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_typography\.scss}line{font-family:\0000328}}
-  h6 a:link, h6 a:visited, h6 a:hover, h6 a:focus, h6 a:active, h6 a.active, h6 a.active-trail {
-    border-bottom: medium none;
-    display: inline-block;
-    vertical-align: bottom;
-    font-family: "MisoBold"; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_typography\.scss}line{font-family:\0000336}}
-  h6 a:hover, h6 a:focus {
-    color: #0a4168; }
+  margin-bottom: 0.625em;
+}
+h6 a:link, h6 a:visited {
+  color: #0f75bc;
+  text-decoration: none;
+}
+h6 a:link, h6 a:visited, h6 a:hover, h6 a:focus, h6 a:active, h6 a.active, h6 a.active-trail {
+  border-bottom: medium none;
+  display: inline-block;
+  vertical-align: bottom;
+  font-family: "MisoBold";
+}
+h6 a:hover, h6 a:focus {
+  color: #0a4168;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_typography\.scss}line{font-family:\0000347}}
 body {
   font-family: "Droid Sans", "Arial", "Helvetica", "Lucida Grande", "Verdana", "Gill Sans", sans-serif;
   font-size: 18px;
-  line-height: 29.25px; }
+  line-height: 29.25px;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_typography\.scss}line{font-family:\0000353}}
 a {
   -webkit-transition: all 300ms ease;
   -webkit-transition-delay: 0s;
@@ -536,156 +539,158 @@ a {
   /* color: $green; */
   color: #0f75bc;
   display: inline-block;
-  text-decoration: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_typography\.scss}line{font-family:\0000367}}
-  a:link, a:visited, a:hover, a:focus, a:active, a.active, a.active-trail {
-    display: inline-block;
-    vertical-align: baseline;
-    font-family: "Droid Sans", "Arial", "Helvetica", "Lucida Grande", "Verdana", "Gill Sans", sans-serif; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_typography\.scss}line{font-family:\0000374}}
-  a:hover, a:active {
-    border-bottom: 1px dotted #929292;
-    outline: 0 none;
-    color: #929292; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_typography\.scss}line{font-family:\0000380}}
-  a:focus {
-    outline: thin dotted;
-    color: #1a1a1a; }
+  text-decoration: none;
+}
+a:link, a:visited, a:hover, a:focus, a:active, a.active, a.active-trail {
+  display: inline-block;
+  vertical-align: baseline;
+  font-family: "Droid Sans", "Arial", "Helvetica", "Lucida Grande", "Verdana", "Gill Sans", sans-serif;
+}
+a:hover, a:active {
+  border-bottom: 1px dotted #929292;
+  outline: 0 none;
+  color: #929292;
+}
+a:focus {
+  outline: thin dotted;
+  color: #1a1a1a;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/_typography\.scss}line{font-family:\0000387}}
 ::-moz-selection,
 ::selection {
   background-color: #c2d955;
   color: #012233;
-  text-shadow: none; }
+  text-shadow: none;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/ui\/_pager\.scss}line{font-family:\000031}}
 .pager {
   margin-top: 1em;
   padding-left: 0;
-  text-align: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/ui\/_pager\.scss}line{font-family:\000036}}
-  .pager > li {
-    display: inline-block !important;
-    list-style: none outside none !important;
-    text-align: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/ui\/_pager\.scss}line{font-family:\0000311}}
-    .pager > li a {
-      display: inline-block;
-      line-height: 1;
-      padding-right: 0.625em;
-      margin-right: 0.625em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/ui\/_pager\.scss}line{font-family:\0000318}}
-    .pager > li:first-child a {
-      padding-left: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/base\/ui\/_pager\.scss}line{font-family:\0000322}}
-    .pager > li:last-child a {
-      margin-right: 0;
-      padding-right: 0; }
+  text-align: center;
+}
+.pager > li {
+  display: inline-block !important;
+  list-style: none outside none !important;
+  text-align: center;
+}
+.pager > li a {
+  display: inline-block;
+  line-height: 1;
+  padding-right: 0.625em;
+  margin-right: 0.625em;
+}
+.pager > li:first-child a {
+  padding-left: 0;
+}
+.pager > li:last-child a {
+  margin-right: 0;
+  padding-right: 0;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_branding\.scss}line{font-family:\000031}}
 a.site-logo {
   border-bottom: medium none;
   display: block;
   padding: 1.5em 0 0;
-  vertical-align: top; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_branding\.scss}line{font-family:\000037}}
-  a.site-logo img {
-    -webkit-filter: drop-shadow(3px 4px 6px rgba(209, 211, 212, 0.8));
-    filter: url("../js/helpers.svg#drop-shadow-light");
-    padding: 0.2em;
-    max-width: 192px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_branding\.scss}line{font-family:\0000313}}
-    .dark a.site-logo img {
-      -webkit-filter: drop-shadow(3px 4px 6px rgba(0, 0, 0, 0.5));
-      filter: url("../js/helpers.svg#drop-shadow-dark"); }
-  @media screen and (min-width: 31.25em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_branding\.scss}line{font-family:\000031}}
-    a.site-logo {
-      display: inline-block;
-      max-width: 92px;
-      padding: 1.5em 0 0; } }
+  vertical-align: top;
+}
+a.site-logo img {
+  -webkit-filter: drop-shadow(3px 4px 6px rgba(209, 211, 212, 0.8));
+  filter: url("../js/helpers.svg#drop-shadow-light");
+  padding: 0.2em;
+  max-width: 192px;
+}
+.dark a.site-logo img {
+  -webkit-filter: drop-shadow(3px 4px 6px rgba(0, 0, 0, 0.5));
+  filter: url("../js/helpers.svg#drop-shadow-dark");
+}
+@media screen and (min-width: 31.25em) {
+  a.site-logo {
+    display: inline-block;
+    max-width: 92px;
+    padding: 1.5em 0 0;
+  }
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_branding\.scss}line{font-family:\0000326}}
 .logo-mark {
   display: inline-block;
   width: auto;
-  position: relative; }
+  position: relative;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_branding\.scss}line{font-family:\0000332}}
 .site-name {
   display: inline-block;
   font-size: 124px;
   letter-spacing: -0.03em;
   margin: 0;
-  vertical-align: top; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_branding\.scss}line{font-family:\0000341}}
-  .site-name a:link, .site-name a:visited {
-    border-bottom: medium none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_branding\.scss}line{font-family:\0000344}}
-    .light .site-name a:link, .light .site-name a:visited {
-      color: #012233;
-      text-shadow: 3px 4px 6px rgba(209, 211, 212, 0.8); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_branding\.scss}line{font-family:\0000349}}
-    .dark .site-name a:link, .dark .site-name a:visited {
-      color: #fcfcfc;
-      text-shadow: 3px 4px 6px rgba(0, 0, 0, 0.5); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_branding\.scss}line{font-family:\0000358}}
-  .light .site-name a:hover, .light .site-name a:focus, .light .site-name a:active {
-    color: #138ab5; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_branding\.scss}line{font-family:\0000362}}
-  .dark .site-name a:hover, .dark .site-name a:focus, .dark .site-name a:active {
-    color: #add6f2; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_branding\.scss}line{font-family:\0000369}}
-  .site-name .char1 {
-    font-family: "MisoRegular";
-    font-weight: 400;
-    letter-spacing: -0.05em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_branding\.scss}line{font-family:\0000369}}
-  .site-name .char2 {
-    font-family: "MisoRegular";
-    font-weight: 400;
-    letter-spacing: -0.05em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_branding\.scss}line{font-family:\0000369}}
-  .site-name .char3 {
-    font-family: "MisoRegular";
-    font-weight: 400;
-    letter-spacing: -0.05em; }
-  @media screen and (min-width: 31.25em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_branding\.scss}line{font-family:\0000332}}
-    .site-name {
-      padding-top: 0.5em; } }
+  vertical-align: top;
+}
+.site-name a:link, .site-name a:visited {
+  border-bottom: medium none;
+}
+.light .site-name a:link, .light .site-name a:visited {
+  color: #012233;
+  text-shadow: 3px 4px 6px rgba(209, 211, 212, 0.8);
+}
+.dark .site-name a:link, .dark .site-name a:visited {
+  color: #fcfcfc;
+  text-shadow: 3px 4px 6px rgba(0, 0, 0, 0.5);
+}
+.light .site-name a:hover, .light .site-name a:focus, .light .site-name a:active {
+  color: #138ab5;
+}
+.dark .site-name a:hover, .dark .site-name a:focus, .dark .site-name a:active {
+  color: #add6f2;
+}
+.site-name .char1 {
+  font-family: "MisoRegular";
+  font-weight: 400;
+  letter-spacing: -0.05em;
+}
+.site-name .char2 {
+  font-family: "MisoRegular";
+  font-weight: 400;
+  letter-spacing: -0.05em;
+}
+.site-name .char3 {
+  font-family: "MisoRegular";
+  font-weight: 400;
+  letter-spacing: -0.05em;
+}
+@media screen and (min-width: 31.25em) {
+  .site-name {
+    padding-top: 0.5em;
+  }
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_branding\.scss}line{font-family:\0000381}}
 .branding--tagline {
   font-family: "Arial";
   font-size: 1.3rem;
   font-weight: bold;
   text-align: center;
-  text-transform: lowercase; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_branding\.scss}line{font-family:\0000388}}
-  .light .branding--tagline {
-    color: #929292;
-    text-shadow: 3px 4px 6px rgba(209, 211, 212, 0.8); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_branding\.scss}line{font-family:\0000393}}
-  .dark .branding--tagline {
-    color: #138ab5;
-    text-shadow: 3px 4px 6px rgba(0, 0, 0, 0.5); }
+  text-transform: lowercase;
+}
+.light .branding--tagline {
+  color: #929292;
+  text-shadow: 3px 4px 6px rgba(209, 211, 212, 0.8);
+}
+.dark .branding--tagline {
+  color: #138ab5;
+  text-shadow: 3px 4px 6px rgba(0, 0, 0, 0.5);
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_branding\.scss}line{font-family:\0000399}}
 .branding--tagline__location {
   position: absolute;
   left: 0.5em;
-  bottom: 0.15em; }
+  bottom: 0.15em;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_branding\.scss}line{font-family:\00003105}}
 .branding--tagline__date {
   font-size: 1rem;
   position: absolute;
   right: 0.5em;
-  bottom: 0.25em; }
+  bottom: 0.25em;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_flexslider\.scss}line{font-family:\000031}}
 .flexslider {
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
@@ -698,57 +703,58 @@ a.site-logo {
   background-color: transparent;
   border: medium none;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_flexslider\.scss}line{font-family:\0000310}}
 .flex-control-paging {
   display: none;
   bottom: 0;
-  z-index: 50; }
-  @media screen and (min-width: 31.25em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_flexslider\.scss}line{font-family:\0000310}}
-    .flex-control-paging {
-      display: block; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_flexslider\.scss}line{font-family:\0000319}}
-  .flex-control-paging li {
-    vertical-align: middle; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_flexslider\.scss}line{font-family:\0000322}}
-    .flex-control-paging li a {
-      -webkit-border-radius: 0;
-      -moz-border-radius: 0;
-      -ms-border-radius: 0;
-      -o-border-radius: 0;
-      border-radius: 0;
-      background-color: #929292;
-      border: medium none;
-      width: 62px;
-      height: 6px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_flexslider\.scss}line{font-family:\0000329}}
-      .flex-control-paging li a.flex-active {
-        background-color: #da1c5c; }
+  z-index: 50;
+}
+@media screen and (min-width: 31.25em) {
+  .flex-control-paging {
+    display: block;
+  }
+}
+.flex-control-paging li {
+  vertical-align: middle;
+}
+.flex-control-paging li a {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+  background-color: #929292;
+  border: medium none;
+  width: 62px;
+  height: 6px;
+}
+.flex-control-paging li a.flex-active {
+  background-color: #da1c5c;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_footer\.scss}line{font-family:\000031}}
 .z-footer {
-  background-color: #92278f; }
+  background-color: #92278f;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_footer\.scss}line{font-family:\000035}}
 .w-footer-sub {
-  background-color: #832380; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_footer\.scss}line{font-family:\000038}}
-  .w-footer-sub .block {
-    font-size: 0.875em; }
+  background-color: #832380;
+}
+.w-footer-sub .block {
+  font-size: 0.875em;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_footer\.scss}line{font-family:\0000314}}
 .l-region--footer-sub .block:first-child {
   width: 74.60938%;
   float: left;
   margin-right: 1.5625%;
-  display: inline; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_footer\.scss}line{font-family:\0000317}}
-  .l-region--footer-sub .block:first-child .block__content {
-    font-size: 0.75em; }
+  display: inline;
+}
+.l-region--footer-sub .block:first-child .block__content {
+  font-size: 0.75em;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_footer\.scss}line{font-family:\0000323}}
 .block--menu-menu-social-media {
   width: 23.82812%;
   float: left;
@@ -757,103 +763,107 @@ a.site-logo {
   float: right;
   margin-right: 0;
   *margin-left: -1.2em;
-  display: inline; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_footer\.scss}line{font-family:\0000327}}
-  .block--menu-menu-social-media ul {
-    display: block;
-    padding-left: 0;
-    text-align: right; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_footer\.scss}line{font-family:\0000333}}
-  .block--menu-menu-social-media li {
-    display: inline-block;
-    list-style: none outside none;
-    padding-right: 0.5em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_footer\.scss}line{font-family:\0000338}}
-    .block--menu-menu-social-media li:last-child {
-      padding-right: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_footer\.scss}line{font-family:\0000343}}
-  .block--menu-menu-social-media a {
-    background-image: url('../images/icons/social-media.png?1398755907');
-    background-repeat: no-repeat;
-    display: inline-block;
-    font-size: 0;
-    width: 24px;
-    height: 23px;
-    vertical-align: middle;
-    text-decoration: none;
-    border-bottom: medium none;
-    outline: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_footer\.scss}line{font-family:\0000355}}
-    .block--menu-menu-social-media a[href*="twitter"] {
-      background-position: right center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_footer\.scss}line{font-family:\0000358}}
-    .block--menu-menu-social-media a[href*="google"] {
-      background-position: center center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_footer\.scss}line{font-family:\0000361}}
-    .block--menu-menu-social-media a[href*="facebook"] {
-      background-position: left center; }
+  display: inline;
+}
+.block--menu-menu-social-media ul {
+  display: block;
+  padding-left: 0;
+  text-align: right;
+}
+.block--menu-menu-social-media li {
+  display: inline-block;
+  list-style: none outside none;
+  padding-right: 0.5em;
+}
+.block--menu-menu-social-media li:last-child {
+  padding-right: 0;
+}
+.block--menu-menu-social-media a {
+  background-image: url('../images/icons/social-media.png?1398755907');
+  background-repeat: no-repeat;
+  display: inline-block;
+  font-size: 0;
+  width: 24px;
+  height: 23px;
+  vertical-align: middle;
+  text-decoration: none;
+  border-bottom: medium none;
+  outline: 0;
+}
+.block--menu-menu-social-media a[href*="twitter"] {
+  background-position: right center;
+}
+.block--menu-menu-social-media a[href*="google"] {
+  background-position: center center;
+}
+.block--menu-menu-social-media a[href*="facebook"] {
+  background-position: left center;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_header\.scss}line{font-family:\000032}}
 .l-header.slideshow {
   -webkit-transition: all 300ms ease-in;
   -moz-transition: all 300ms ease-in;
   -o-transition: all 300ms ease-in;
   transition: all 300ms ease-in;
   height: auto;
-  min-height: 800px; }
-  @media screen and (min-width: 31.25em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_header\.scss}line{font-family:\000032}}
-    .l-header.slideshow {
-      min-height: 600px; } }
+  min-height: 800px;
+}
+@media screen and (min-width: 31.25em) {
+  .l-header.slideshow {
+    min-height: 600px;
+  }
+}
 @media screen and (max-width: 56.249em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_header\.scss}line{font-family:\000031}}
   .l-header {
-    padding-top: 44px; } }
+    padding-top: 44px;
+  }
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_header\.scss}line{font-family:\0000317}}
 .l-branding {
   position: relative;
-  z-index: 5; }
+  z-index: 5;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_header\.scss}line{font-family:\0000322}}
 .l-region--header {
   position: absolute;
   left: 0;
   right: 0;
   top: 0;
-  z-index: 1; }
+  z-index: 1;
+}
 
 /**
  * Navigation bar.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\000034}}
 .l-navigation #main-menu .menu--main-menu {
   background-color: transparent;
   padding: 1.625em 0;
   width: 100%;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+}
 
 @media screen and (min-width: 56.25em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\0000314}}
   .l-navigation #main-menu .menu--main-menu > .level-1 {
     display: inline-block;
     position: relative;
     margin: 0;
-    padding: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\0000324}}
-    .l-navigation #main-menu .menu--main-menu > .level-1 input {
-      display: none;
-      visibility: hidden; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\0000333}}
+    padding: 0;
+  }
+  .l-navigation #main-menu .menu--main-menu > .level-1 input {
+    display: none;
+    visibility: hidden;
+  }
+}
 .l-navigation #main-menu .menu--main-menu > .level-1:hover > a, .l-navigation #main-menu .menu--main-menu > .level-1:focus > a {
-  outline: 0; }
-  @media screen and (min-width: 56.25em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\0000333}}
-    .l-navigation #main-menu .menu--main-menu > .level-1:hover > a, .l-navigation #main-menu .menu--main-menu > .level-1:focus > a {
-      margin: 0; } }
+  outline: 0;
+}
+@media screen and (min-width: 56.25em) {
+  .l-navigation #main-menu .menu--main-menu > .level-1:hover > a, .l-navigation #main-menu .menu--main-menu > .level-1:focus > a {
+    margin: 0;
+  }
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\0000343}}
 .l-navigation #main-menu .menu--main-menu > .level-1 > a,
 .l-navigation #main-menu .menu--main-menu > .level-1 > .nolink {
   font-size: 1em;
@@ -866,449 +876,458 @@ a.site-logo {
   padding: 10px;
   display: block;
   font-weight: normal;
-  font-family: "Droid Sans", "Arial", "Helvetica", "Lucida Grande", "Verdana", "Gill Sans", sans-serif; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\0000356}}
-  .l-navigation #main-menu .menu--main-menu > .level-1 > a:link,
-  .l-navigation #main-menu .menu--main-menu > .level-1 > .nolink:link, .l-navigation #main-menu .menu--main-menu > .level-1 > a:visited,
-  .l-navigation #main-menu .menu--main-menu > .level-1 > .nolink:visited {
-    outline: 0;
-    color: #929292;
-    text-decoration: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\0000362}}
-  .l-navigation #main-menu .menu--main-menu > .level-1 > a:hover,
-  .l-navigation #main-menu .menu--main-menu > .level-1 > .nolink:hover, .l-navigation #main-menu .menu--main-menu > .level-1 > a:focus,
-  .l-navigation #main-menu .menu--main-menu > .level-1 > .nolink:focus {
-    background-color: #c2d955;
-    color: #1a1a1a;
-    cursor: pointer; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\0000367}}
-  .l-navigation #main-menu .menu--main-menu > .level-1 > a:active,
-  .l-navigation #main-menu .menu--main-menu > .level-1 > .nolink:active {
-    background-color: #1a1a1a;
-    outline: 0;
-    color: #fcfcfc; }
-  @media screen and (min-width: 56.25em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\0000343}}
-    .l-navigation #main-menu .menu--main-menu > .level-1 > a,
-    .l-navigation #main-menu .menu--main-menu > .level-1 > .nolink {
-      -webkit-transition: all 300ms ease;
-      -moz-transition: all 300ms ease;
-      -o-transition: all 300ms ease;
-      transition: all 300ms ease;
-      display: inline-block;
-      padding: 1em 1.5em; } }
+  font-family: "Droid Sans", "Arial", "Helvetica", "Lucida Grande", "Verdana", "Gill Sans", sans-serif;
+}
+.l-navigation #main-menu .menu--main-menu > .level-1 > a:link,
+.l-navigation #main-menu .menu--main-menu > .level-1 > .nolink:link, .l-navigation #main-menu .menu--main-menu > .level-1 > a:visited,
+.l-navigation #main-menu .menu--main-menu > .level-1 > .nolink:visited {
+  outline: 0;
+  color: #929292;
+  text-decoration: none;
+}
+.l-navigation #main-menu .menu--main-menu > .level-1 > a:hover,
+.l-navigation #main-menu .menu--main-menu > .level-1 > .nolink:hover, .l-navigation #main-menu .menu--main-menu > .level-1 > a:focus,
+.l-navigation #main-menu .menu--main-menu > .level-1 > .nolink:focus {
+  background-color: #c2d955;
+  color: #1a1a1a;
+  cursor: pointer;
+}
+.l-navigation #main-menu .menu--main-menu > .level-1 > a:active,
+.l-navigation #main-menu .menu--main-menu > .level-1 > .nolink:active {
+  background-color: #1a1a1a;
+  outline: 0;
+  color: #fcfcfc;
+}
+@media screen and (min-width: 56.25em) {
+  .l-navigation #main-menu .menu--main-menu > .level-1 > a,
+  .l-navigation #main-menu .menu--main-menu > .level-1 > .nolink {
+    -webkit-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    transition: all 300ms ease;
+    display: inline-block;
+    padding: 1em 1.5em;
+  }
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\0000381}}
 .l-navigation #main-menu .menu--main-menu ul {
   display: none;
   background-color: white;
   margin: 0;
-  padding: 0; }
-  @media screen and (min-width: 56.25em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\0000381}}
-    .l-navigation #main-menu .menu--main-menu ul {
-      -webkit-box-sizing: border-box;
-      -moz-box-sizing: border-box;
-      box-sizing: border-box;
-      -webkit-box-shadow: 3px 4px 6px rgba(226, 226, 226, 0.7);
-      -moz-box-shadow: 3px 4px 6px rgba(226, 226, 226, 0.7);
-      box-shadow: 3px 4px 6px rgba(226, 226, 226, 0.7);
-      border-color: #e9e9e9 #e2e2e2 #e2e2e2 #e9e9e9;
-      border-style: solid;
-      border-width: 1px;
-      position: absolute;
-      width: 100%;
-      left: 0;
-      z-index: 9;
-      min-width: 220px;
-      /*
-          li:last-child & {
-            left: auto;
-            right: 0;
-          }
-      */ } }
+  padding: 0;
+}
+@media screen and (min-width: 56.25em) {
+  .l-navigation #main-menu .menu--main-menu ul {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-box-shadow: 3px 4px 6px rgba(226, 226, 226, 0.7);
+    -moz-box-shadow: 3px 4px 6px rgba(226, 226, 226, 0.7);
+    box-shadow: 3px 4px 6px rgba(226, 226, 226, 0.7);
+    border-color: #e9e9e9 #e2e2e2 #e2e2e2 #e9e9e9;
+    border-style: solid;
+    border-width: 1px;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    z-index: 9;
+    min-width: 220px;
+    /*
+        li:last-child & {
+          left: auto;
+          right: 0;
+        }
+    */
+  }
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\00003109}}
 .l-navigation #main-menu .menu--main-menu ul > .level-2 > a {
   color: #138ab5;
   display: block;
   padding: 10px 20px;
-  text-align: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\00003116}}
-  .l-navigation #main-menu .menu--main-menu ul > .level-2 > a:hover, .l-navigation #main-menu .menu--main-menu ul > .level-2 > a:focus {
-    background-color: rgba(74, 130, 148, 0.2); }
+  text-align: left;
+}
+.l-navigation #main-menu .menu--main-menu ul > .level-2 > a:hover, .l-navigation #main-menu .menu--main-menu ul > .level-2 > a:focus {
+  background-color: rgba(74, 130, 148, 0.2);
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\00003122}}
 .w-navigation {
-  border-top: 5px solid #a7a7a7; }
-  @media screen and (max-width: 56.249em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\00003122}}
-    .w-navigation {
-      -webkit-box-shadow: 0 0 12px #012233;
-      -moz-box-shadow: 0 0 12px #012233;
-      box-shadow: 0 0 12px #012233;
-      background-color: #fcfcfc;
-      position: fixed;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: auto;
-      z-index: 50; } }
+  border-top: 5px solid #a7a7a7;
+}
+@media screen and (max-width: 56.249em) {
+  .w-navigation {
+    -webkit-box-shadow: 0 0 12px #012233;
+    -moz-box-shadow: 0 0 12px #012233;
+    box-shadow: 0 0 12px #012233;
+    background-color: #fcfcfc;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: auto;
+    z-index: 50;
+  }
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\00003137}}
 .l-navigation #main-menu {
   text-align: center;
   position: relative;
   outline: none !important;
   z-index: 5;
-  /* Main menu and secondary menu links and menu block links. */ }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\00003144}}
-  .l-navigation #main-menu *:focus {
-    outline: none !important; }
-  @media screen and (min-width: 56.25em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\00003137}}
-    .l-navigation #main-menu {
-      padding: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\00003153}}
-      .l-navigation #main-menu #toggle-button,
-      .l-navigation #main-menu [for="toggle-button"] {
-        position: absolute !important;
-        height: 1px;
-        width: 1px;
-        overflow: hidden;
-        clip: rect(1px 1px 1px 1px);
-        clip: rect(1px, 1px, 1px, 1px); } }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\00003157}}
-  .l-navigation #main-menu .block {
-    margin-bottom: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\00003162}}
-  .l-navigation #main-menu ul,
-  .l-navigation #main-menu li {
-    list-style-type: none;
-    list-style-image: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\00003178}}
-  .l-navigation #main-menu .menu--main-menu > .level-1.clicked ul {
-    display: block; }
+  /* Main menu and secondary menu links and menu block links. */
+}
+.l-navigation #main-menu *:focus {
+  outline: none !important;
+}
+@media screen and (min-width: 56.25em) {
+  .l-navigation #main-menu {
+    padding: 0;
+  }
+  .l-navigation #main-menu #toggle-button,
+  .l-navigation #main-menu [for="toggle-button"] {
+    position: absolute !important;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+  }
+}
+.l-navigation #main-menu .block {
+  margin-bottom: 0;
+}
+.l-navigation #main-menu ul,
+.l-navigation #main-menu li {
+  list-style-type: none;
+  list-style-image: none;
+}
+.l-navigation #main-menu .menu--main-menu > .level-1.clicked ul {
+  display: block;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\00003195}}
 #main-menu {
   position: relative;
-  outline: none !important; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\00003200}}
-  #main-menu *:focus {
-    outline: none !important; }
-  @media screen and (max-width: 56.249em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\00003195}}
-    #main-menu {
-      min-height: 44px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\00003208}}
-      #main-menu > ul.menu--main-menu {
-        -webkit-transform: scaleY(0);
-        -moz-transform: scaleY(0);
-        -ms-transform: scaleY(0);
-        -o-transform: scaleY(0);
-        transform: scaleY(0);
-        -webkit-transform-origin: 50% 0%;
-        -moz-transform-origin: 50% 0%;
-        -ms-transform-origin: 50% 0%;
-        -o-transform-origin: 50% 0%;
-        transform-origin: 50% 0%;
-        -webkit-transition-property: -webkit-transform, max-height;
-        -moz-transition-property: -moz-transform, max-height;
-        -o-transition-property: -o-transform, max-height;
-        transition-property: transform max-height;
-        -webkit-transition-duration: 600ms;
-        -moz-transition-duration: 600ms;
-        -o-transition-duration: 600ms;
-        transition-duration: 600ms;
-        -webkit-transition-delay: 0ms;
-        -moz-transition-delay: 0ms;
-        -o-transition-delay: 0ms;
-        transition-delay: 0ms;
-        background-color: rgba(252, 252, 252, 0.8);
-        max-height: 0;
-        height: auto;
-        position: absolute;
-        top: 44px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\00003221}}
-      #main-menu label[for="toggle-button"] {
-        width: 49px;
-        height: 44px;
-        margin: 0;
-        display: block;
-        background: url(../images/hamburger.png) no-repeat center;
-        position: absolute;
-        right: 0;
-        top: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\00003236}}
-      #main-menu input#toggle-button[type=checkbox]:checked ~ label[for="toggle-button"] {
-        color: #ececec;
-        background-color: #e2e2e2; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\00003240}}
-        #main-menu input#toggle-button[type=checkbox]:checked ~ label[for="toggle-button"]:after {
-          background-color: #929292;
-          color: #ececec; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\00003246}}
-      #main-menu input#toggle-button[type=checkbox]:checked ~ ul.menu--main-menu {
-        /* @include box-shadow(0 2px 32px 3px rgba($grey, 0.7)); */
-        -webkit-transform: scaleY(1);
-        -moz-transform: scaleY(1);
-        -ms-transform: scaleY(1);
-        -o-transform: scaleY(1);
-        transform: scaleY(1);
-        -webkit-transform-origin: 0% 0%;
-        -moz-transform-origin: 0% 0%;
-        -ms-transform-origin: 0% 0%;
-        -o-transform-origin: 0% 0%;
-        transform-origin: 0% 0%;
-        -webkit-transition-property: -webkit-transform, max-height;
-        -moz-transition-property: -moz-transform, max-height;
-        -o-transition-property: -o-transform, max-height;
-        transition-property: transform max-height;
-        -webkit-transition-duration: 600ms;
-        -moz-transition-duration: 600ms;
-        -o-transition-duration: 600ms;
-        transition-duration: 600ms;
-        -webkit-transition-delay: 0ms;
-        -moz-transition-delay: 0ms;
-        -o-transition-delay: 0ms;
-        transition-delay: 0ms;
-        max-height: 9999px; } }
-      @media screen and (max-width: 56.249em) and (min-width: 56.25em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\00003221}}
-        #main-menu label[for="toggle-button"] {
-          display: none;
-          visibility: hidden; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\00003257}}
-  #main-menu input#toggle-button[type=checkbox] {
+  outline: none !important;
+}
+#main-menu *:focus {
+  outline: none !important;
+}
+@media screen and (max-width: 56.249em) {
+  #main-menu {
+    min-height: 44px;
+  }
+  #main-menu > ul.menu--main-menu {
+    -webkit-transform: scaleY(0);
+    -moz-transform: scaleY(0);
+    -ms-transform: scaleY(0);
+    -o-transform: scaleY(0);
+    transform: scaleY(0);
+    -webkit-transform-origin: 50% 0%;
+    -moz-transform-origin: 50% 0%;
+    -ms-transform-origin: 50% 0%;
+    -o-transform-origin: 50% 0%;
+    transform-origin: 50% 0%;
+    -webkit-transition-property: -webkit-transform, max-height;
+    -moz-transition-property: -moz-transform, max-height;
+    -o-transition-property: -o-transform, max-height;
+    transition-property: transform max-height;
+    -webkit-transition-duration: 600ms;
+    -moz-transition-duration: 600ms;
+    -o-transition-duration: 600ms;
+    transition-duration: 600ms;
+    -webkit-transition-delay: 0ms;
+    -moz-transition-delay: 0ms;
+    -o-transition-delay: 0ms;
+    transition-delay: 0ms;
+    background-color: rgba(252, 252, 252, 0.8);
+    max-height: 0;
+    height: auto;
     position: absolute;
-    top: -9999px;
-    left: -9999px; }
+    top: 44px;
+  }
+  #main-menu label[for="toggle-button"] {
+    width: 49px;
+    height: 44px;
+    margin: 0;
+    display: block;
+    background: url(../images/hamburger.png) no-repeat center;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  #main-menu input#toggle-button[type=checkbox]:checked ~ label[for="toggle-button"] {
+    color: #ececec;
+    background-color: #e2e2e2;
+  }
+  #main-menu input#toggle-button[type=checkbox]:checked ~ label[for="toggle-button"]:after {
+    background-color: #929292;
+    color: #ececec;
+  }
+  #main-menu input#toggle-button[type=checkbox]:checked ~ ul.menu--main-menu {
+    /* @include box-shadow(0 2px 32px 3px rgba($grey, 0.7)); */
+    -webkit-transform: scaleY(1);
+    -moz-transform: scaleY(1);
+    -ms-transform: scaleY(1);
+    -o-transform: scaleY(1);
+    transform: scaleY(1);
+    -webkit-transform-origin: 0% 0%;
+    -moz-transform-origin: 0% 0%;
+    -ms-transform-origin: 0% 0%;
+    -o-transform-origin: 0% 0%;
+    transform-origin: 0% 0%;
+    -webkit-transition-property: -webkit-transform, max-height;
+    -moz-transition-property: -moz-transform, max-height;
+    -o-transition-property: -o-transform, max-height;
+    transition-property: transform max-height;
+    -webkit-transition-duration: 600ms;
+    -moz-transition-duration: 600ms;
+    -o-transition-duration: 600ms;
+    transition-duration: 600ms;
+    -webkit-transition-delay: 0ms;
+    -moz-transition-delay: 0ms;
+    -o-transition-delay: 0ms;
+    transition-delay: 0ms;
+    max-height: 9999px;
+  }
+}
+@media screen and (max-width: 56.249em) and (min-width: 56.25em) {
+  #main-menu label[for="toggle-button"] {
+    display: none;
+    visibility: hidden;
+  }
+}
+#main-menu input#toggle-button[type=checkbox] {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\00003264}}
 #main-menu .menu--main-menu .dropdown {
-  position: relative; }
-  @media screen and (max-width: 56.249em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\00003268}}
-    #main-menu .menu--main-menu .dropdown [data-toggle="dropdown"] {
-      display: block;
-      padding: 10px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\00003272}}
-      #main-menu .menu--main-menu .dropdown [data-toggle="dropdown"]:before {
-        -webkit-transition: -webkit-transform 300ms;
-        -moz-transition: -moz-transform 300ms;
-        -o-transition: -o-transform 300ms;
-        transition: transform 300ms;
-        -webkit-transform: rotate(0deg);
-        -moz-transform: rotate(0deg);
-        -ms-transform: rotate(0deg);
-        -o-transform: rotate(0deg);
-        transform: rotate(0deg);
-        position: absolute;
-        display: block;
-        content: '\25BC';
-        font-size: 0.7em;
-        top: 1em;
-        right: 1.5em;
-        z-index: 1; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\00003284}}
-      #main-menu .menu--main-menu .dropdown [data-toggle="dropdown"]:after {
-        background-color: rgba(226, 226, 226, 0.3);
-        content: "";
-        display: block;
-        position: absolute;
-        top: 0;
-        right: 0;
-        width: 49px;
-        min-width: 49px;
-        height: 100%;
-        max-height: 49px;
-        cursor: pointer;
-        z-index: 2; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\00003300}}
-    #main-menu .menu--main-menu .dropdown > .dropdown-menu {
-      -webkit-transform: scaleY(0);
-      -moz-transform: scaleY(0);
-      -ms-transform: scaleY(0);
-      -o-transform: scaleY(0);
-      transform: scaleY(0);
-      -webkit-transform-origin: 50% 0%;
-      -moz-transform-origin: 50% 0%;
-      -ms-transform-origin: 50% 0%;
-      -o-transform-origin: 50% 0%;
-      transform-origin: 50% 0%;
-      -webkit-transition-property: max-height, -webkit-transform;
-      -moz-transition-property: max-height, -moz-transform;
-      -o-transition-property: max-height, -o-transform;
-      transition-property: max-height, transform;
-      -webkit-transition-duration: 600ms, 300ms;
-      -moz-transition-duration: 600ms, 300ms;
-      -o-transition-duration: 600ms, 300ms;
-      transition-duration: 600ms, 300ms;
-      -webkit-transition-delay: 0s, 0s;
-      -moz-transition-delay: 0s, 0s;
-      -o-transition-delay: 0s, 0s;
-      transition-delay: 0s, 0s;
-      max-height: 0;
-      overflow: hidden;
-      background-color: rgba(226, 226, 226, 0.3);
-      display: block;
-      margin: 0;
-      padding: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\00003313}}
-      #main-menu .menu--main-menu .dropdown > .dropdown-menu li {
-        padding: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\00003316}}
-        #main-menu .menu--main-menu .dropdown > .dropdown-menu li a {
-          display: block;
-          padding: 10px 10px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\00003323}}
-    #main-menu .menu--main-menu .dropdown > input[type="checkbox"] {
-      opacity: 0;
-      display: block;
-      position: absolute;
-      top: 0;
-      right: 0;
-      width: 49px;
-      min-width: 49px;
-      height: 100%;
-      max-height: 49px;
-      cursor: pointer;
-      z-index: 3; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\00003336}}
-      #main-menu .menu--main-menu .dropdown > input[type="checkbox"]:checked ~ .dropdown-menu {
-        -webkit-transform: scaleY(1);
-        -moz-transform: scaleY(1);
-        -ms-transform: scaleY(1);
-        -o-transform: scaleY(1);
-        transform: scaleY(1);
-        -webkit-transition-property: max-height, -webkit-transform;
-        -moz-transition-property: max-height, -moz-transform;
-        -o-transition-property: max-height, -o-transform;
-        transition-property: max-height, transform;
-        -webkit-transition-duration: 600ms, 300ms;
-        -moz-transition-duration: 600ms, 300ms;
-        -o-transition-duration: 600ms, 300ms;
-        transition-duration: 600ms, 300ms;
-        -webkit-transition-delay: 0s, 0s;
-        -moz-transition-delay: 0s, 0s;
-        -o-transition-delay: 0s, 0s;
-        transition-delay: 0s, 0s;
-        max-height: 9999px;
-        /* height: auto; */ }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\00003346}}
-      #main-menu .menu--main-menu .dropdown > input[type="checkbox"]:checked + a[data-toggle="dropdown"]:before {
-        -webkit-transform: rotate(-180deg);
-        -moz-transform: rotate(-180deg);
-        -ms-transform: rotate(-180deg);
-        -o-transform: rotate(-180deg);
-        transform: rotate(-180deg); } }
-  @media screen and (min-width: 56.25em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\00003354}}
-    #main-menu .menu--main-menu .dropdown > input[type="checkbox"] {
-      display: none;
-      visibility: hidden;
-      opacity: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\00003360}}
-    #main-menu .menu--main-menu .dropdown [data-toggle="dropdown"] {
-      position: relative; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\00003364}}
-      #main-menu .menu--main-menu .dropdown [data-toggle="dropdown"]:before, #main-menu .menu--main-menu .dropdown [data-toggle="dropdown"]:after {
-        display: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\00003368}}
-      #main-menu .menu--main-menu .dropdown [data-toggle="dropdown"] i {
-        -webkit-transition: all 300ms ease;
-        -webkit-transition-delay: 0s;
-        -moz-transition: all 300ms ease 0s;
-        -o-transition: all 300ms ease 0s;
-        transition: all 300ms ease 0s;
-        background: url(../images/dropdown.png) no-repeat center center transparent;
-        display: inline-block;
-        position: absolute;
-        width: 18px;
-        height: 10px;
-        margin-left: -9px;
-        vertical-align: top;
-        bottom: 0;
-        left: 50%;
-        opacity: 0.2; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\00003384}}
-      #main-menu .menu--main-menu .dropdown [data-toggle="dropdown"]:hover i, #main-menu .menu--main-menu .dropdown [data-toggle="dropdown"]:focus i {
-        -webkit-transform: rotate(180deg);
-        -moz-transform: rotate(180deg);
-        -ms-transform: rotate(180deg);
-        -o-transform: rotate(180deg);
-        transform: rotate(180deg);
-        opacity: 0.4; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\00003391}}
-    #main-menu .menu--main-menu .dropdown .dropdown-menu {
-      -webkit-transform: scaleY(0);
-      -moz-transform: scaleY(0);
-      -ms-transform: scaleY(0);
-      -o-transform: scaleY(0);
-      transform: scaleY(0);
-      -webkit-transform-origin: 50% 0%;
-      -moz-transform-origin: 50% 0%;
-      -ms-transform-origin: 50% 0%;
-      -o-transform-origin: 50% 0%;
-      transform-origin: 50% 0%;
-      -webkit-transition-property: max-height, -webkit-transform;
-      -moz-transition-property: max-height, -moz-transform;
-      -o-transition-property: max-height, -o-transform;
-      transition-property: max-height, transform;
-      -webkit-transition-duration: 600ms, 300ms;
-      -moz-transition-duration: 600ms, 300ms;
-      -o-transition-duration: 600ms, 300ms;
-      transition-duration: 600ms, 300ms;
-      -webkit-transition-delay: 0s, 0s;
-      -moz-transition-delay: 0s, 0s;
-      -o-transition-delay: 0s, 0s;
-      transition-delay: 0s, 0s;
-      display: block;
-      max-height: 0;
-      top: 100%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\00003403}}
-    #main-menu .menu--main-menu .dropdown:hover, #main-menu .menu--main-menu .dropdown:focus {
-      overflow: visible; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\00003406}}
-      #main-menu .menu--main-menu .dropdown:hover > .dropdown-menu, #main-menu .menu--main-menu .dropdown:focus > .dropdown-menu {
-        -webkit-transform: scaleY(1);
-        -moz-transform: scaleY(1);
-        -ms-transform: scaleY(1);
-        -o-transform: scaleY(1);
-        transform: scaleY(1);
-        -webkit-transition-property: max-height, -webkit-transform;
-        -moz-transition-property: max-height, -moz-transform;
-        -o-transition-property: max-height, -o-transform;
-        transition-property: max-height, transform;
-        -webkit-transition-duration: 600ms, 300ms;
-        -moz-transition-duration: 600ms, 300ms;
-        -o-transition-duration: 600ms, 300ms;
-        transition-duration: 600ms, 300ms;
-        -webkit-transition-delay: 0s, 0s;
-        -moz-transition-delay: 0s, 0s;
-        -o-transition-delay: 0s, 0s;
-        transition-delay: 0s, 0s;
-        max-height: 9999px; } }
+  position: relative;
+}
+@media screen and (max-width: 56.249em) {
+  #main-menu .menu--main-menu .dropdown [data-toggle="dropdown"] {
+    display: block;
+    padding: 10px;
+  }
+  #main-menu .menu--main-menu .dropdown [data-toggle="dropdown"]:before {
+    -webkit-transition: -webkit-transform 300ms;
+    -moz-transition: -moz-transform 300ms;
+    -o-transition: -o-transform 300ms;
+    transition: transform 300ms;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    position: absolute;
+    display: block;
+    content: '\25BC';
+    font-size: 0.7em;
+    top: 1em;
+    right: 1.5em;
+    z-index: 1;
+  }
+  #main-menu .menu--main-menu .dropdown [data-toggle="dropdown"]:after {
+    background-color: rgba(226, 226, 226, 0.3);
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 49px;
+    min-width: 49px;
+    height: 100%;
+    max-height: 49px;
+    cursor: pointer;
+    z-index: 2;
+  }
+  #main-menu .menu--main-menu .dropdown > .dropdown-menu {
+    -webkit-transform: scaleY(0);
+    -moz-transform: scaleY(0);
+    -ms-transform: scaleY(0);
+    -o-transform: scaleY(0);
+    transform: scaleY(0);
+    -webkit-transform-origin: 50% 0%;
+    -moz-transform-origin: 50% 0%;
+    -ms-transform-origin: 50% 0%;
+    -o-transform-origin: 50% 0%;
+    transform-origin: 50% 0%;
+    -webkit-transition-property: max-height, -webkit-transform;
+    -moz-transition-property: max-height, -moz-transform;
+    -o-transition-property: max-height, -o-transform;
+    transition-property: max-height, transform;
+    -webkit-transition-duration: 600ms, 300ms;
+    -moz-transition-duration: 600ms, 300ms;
+    -o-transition-duration: 600ms, 300ms;
+    transition-duration: 600ms, 300ms;
+    -webkit-transition-delay: 0s, 0s;
+    -moz-transition-delay: 0s, 0s;
+    -o-transition-delay: 0s, 0s;
+    transition-delay: 0s, 0s;
+    max-height: 0;
+    overflow: hidden;
+    background-color: rgba(226, 226, 226, 0.3);
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+  #main-menu .menu--main-menu .dropdown > .dropdown-menu li {
+    padding: 0;
+  }
+  #main-menu .menu--main-menu .dropdown > .dropdown-menu li a {
+    display: block;
+    padding: 10px 10px;
+  }
+  #main-menu .menu--main-menu .dropdown > input[type="checkbox"] {
+    opacity: 0;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 49px;
+    min-width: 49px;
+    height: 100%;
+    max-height: 49px;
+    cursor: pointer;
+    z-index: 3;
+  }
+  #main-menu .menu--main-menu .dropdown > input[type="checkbox"]:checked ~ .dropdown-menu {
+    -webkit-transform: scaleY(1);
+    -moz-transform: scaleY(1);
+    -ms-transform: scaleY(1);
+    -o-transform: scaleY(1);
+    transform: scaleY(1);
+    -webkit-transition-property: max-height, -webkit-transform;
+    -moz-transition-property: max-height, -moz-transform;
+    -o-transition-property: max-height, -o-transform;
+    transition-property: max-height, transform;
+    -webkit-transition-duration: 600ms, 300ms;
+    -moz-transition-duration: 600ms, 300ms;
+    -o-transition-duration: 600ms, 300ms;
+    transition-duration: 600ms, 300ms;
+    -webkit-transition-delay: 0s, 0s;
+    -moz-transition-delay: 0s, 0s;
+    -o-transition-delay: 0s, 0s;
+    transition-delay: 0s, 0s;
+    max-height: 9999px;
+    /* height: auto; */
+  }
+  #main-menu .menu--main-menu .dropdown > input[type="checkbox"]:checked + a[data-toggle="dropdown"]:before {
+    -webkit-transform: rotate(-180deg);
+    -moz-transform: rotate(-180deg);
+    -ms-transform: rotate(-180deg);
+    -o-transform: rotate(-180deg);
+    transform: rotate(-180deg);
+  }
+}
+@media screen and (min-width: 56.25em) {
+  #main-menu .menu--main-menu .dropdown > input[type="checkbox"] {
+    display: none;
+    visibility: hidden;
+    opacity: 0;
+  }
+  #main-menu .menu--main-menu .dropdown [data-toggle="dropdown"] {
+    position: relative;
+  }
+  #main-menu .menu--main-menu .dropdown [data-toggle="dropdown"]:before, #main-menu .menu--main-menu .dropdown [data-toggle="dropdown"]:after {
+    display: none;
+  }
+  #main-menu .menu--main-menu .dropdown [data-toggle="dropdown"] i {
+    -webkit-transition: all 300ms ease;
+    -webkit-transition-delay: 0s;
+    -moz-transition: all 300ms ease 0s;
+    -o-transition: all 300ms ease 0s;
+    transition: all 300ms ease 0s;
+    background: url(../images/dropdown.png) no-repeat center center transparent;
+    display: inline-block;
+    position: absolute;
+    width: 18px;
+    height: 10px;
+    margin-left: -9px;
+    vertical-align: top;
+    bottom: 0;
+    left: 50%;
+    opacity: 0.2;
+  }
+  #main-menu .menu--main-menu .dropdown [data-toggle="dropdown"]:hover i, #main-menu .menu--main-menu .dropdown [data-toggle="dropdown"]:focus i {
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+    opacity: 0.4;
+  }
+  #main-menu .menu--main-menu .dropdown .dropdown-menu {
+    -webkit-transform: scaleY(0);
+    -moz-transform: scaleY(0);
+    -ms-transform: scaleY(0);
+    -o-transform: scaleY(0);
+    transform: scaleY(0);
+    -webkit-transform-origin: 50% 0%;
+    -moz-transform-origin: 50% 0%;
+    -ms-transform-origin: 50% 0%;
+    -o-transform-origin: 50% 0%;
+    transform-origin: 50% 0%;
+    -webkit-transition-property: max-height, -webkit-transform;
+    -moz-transition-property: max-height, -moz-transform;
+    -o-transition-property: max-height, -o-transform;
+    transition-property: max-height, transform;
+    -webkit-transition-duration: 600ms, 300ms;
+    -moz-transition-duration: 600ms, 300ms;
+    -o-transition-duration: 600ms, 300ms;
+    transition-duration: 600ms, 300ms;
+    -webkit-transition-delay: 0s, 0s;
+    -moz-transition-delay: 0s, 0s;
+    -o-transition-delay: 0s, 0s;
+    transition-delay: 0s, 0s;
+    display: block;
+    max-height: 0;
+    top: 100%;
+  }
+  #main-menu .menu--main-menu .dropdown:hover, #main-menu .menu--main-menu .dropdown:focus {
+    overflow: visible;
+  }
+  #main-menu .menu--main-menu .dropdown:hover > .dropdown-menu, #main-menu .menu--main-menu .dropdown:focus > .dropdown-menu {
+    -webkit-transform: scaleY(1);
+    -moz-transform: scaleY(1);
+    -ms-transform: scaleY(1);
+    -o-transform: scaleY(1);
+    transform: scaleY(1);
+    -webkit-transition-property: max-height, -webkit-transform;
+    -moz-transition-property: max-height, -moz-transform;
+    -o-transition-property: max-height, -o-transform;
+    transition-property: max-height, transform;
+    -webkit-transition-duration: 600ms, 300ms;
+    -moz-transition-duration: 600ms, 300ms;
+    -o-transition-duration: 600ms, 300ms;
+    transition-duration: 600ms, 300ms;
+    -webkit-transition-delay: 0s, 0s;
+    -moz-transition-delay: 0s, 0s;
+    -o-transition-delay: 0s, 0s;
+    transition-delay: 0s, 0s;
+    max-height: 9999px;
+  }
+}
 
 /**
  * Menu Items
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\00003423}}
 [class*="menu--link"] {
-  background-color: transparent; }
+  background-color: transparent;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\00003427}}
 a.menu--link__highlight {
   background-color: #add6f2;
-  color: #1a1a1a; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\00003432}}
-  a.menu--link__highlight:hover, a.menu--link__highlight:focus {
-    background-color: #92278f;
-    color: #fcfcfc; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/_navigation\.scss}line{font-family:\00003437}}
-  a.menu--link__highlight:active {
-    background-color: #1a1a1a; }
+  color: #1a1a1a;
+}
+a.menu--link__highlight:hover, a.menu--link__highlight:focus {
+  background-color: #92278f;
+  color: #fcfcfc;
+}
+a.menu--link__highlight:active {
+  background-color: #1a1a1a;
+}
 
 /*
 article h1 {
@@ -1319,7 +1338,6 @@ article h1 {
   border-top: 2px solid $green; 
 }
 */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/node\/_slide--teaser\.scss}line{font-family:\000031}}
 .node--slide__teaser {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -1328,216 +1346,220 @@ article h1 {
   background-color: rgba(0, 0, 0, 0);
   background-position: center top;
   background-size: cover;
-  padding-top: 524px; }
-  @media screen and (min-width: 31.25em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/node\/_slide--teaser\.scss}line{font-family:\000031}}
-    .node--slide__teaser {
-      padding-top: 350px; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/node\/_slide--teaser\.scss}line{font-family:\0000313}}
-  .node--slide__teaser .slide--content {
-    background-color: rgba(1, 34, 51, 0.8);
-    color: #fcfcfc;
-    font-weight: 300;
-    position: relative;
-    min-height: 250px;
-    padding-top: 1em;
-    *zoom: 1;
-    max-width: 61.6em;
-    _width: 61.6em;
-    padding-left: 1.2em;
-    padding-right: 1.2em;
-    margin-left: auto;
-    margin-right: auto; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/\.rbenv\/versions\/1\.9\.3-p194\/lib\/ruby\/gems\/1\.9\.1\/gems\/compass-0\.12\.6\/frameworks\/compass\/stylesheets\/compass\/utilities\/general\/_clearfix\.scss}line{font-family:\0000338}}
-    .node--slide__teaser .slide--content:after {
-      content: "";
-      display: table;
-      clear: both; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/node\/_slide--teaser\.scss}line{font-family:\0000322}}
-    .node--slide__teaser .slide--content a {
-      color: #da1c5c; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/node\/_slide--teaser\.scss}line{font-family:\0000326}}
-      .node--slide__teaser .slide--content a:hover, .node--slide__teaser .slide--content a:focus, .node--slide__teaser .slide--content a:active {
-        color: #e56490; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/node\/_slide--teaser\.scss}line{font-family:\0000333}}
-  .node--slide__teaser h1 {
-    color: #fcfcfc;
-    font-family: "MisoRegular";
-    font-weight: 400;
-    margin-top: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/node\/_slide--teaser\.scss}line{font-family:\0000333}}
-  .node--slide__teaser h2 {
-    color: #fcfcfc;
-    font-family: "MisoRegular";
-    font-weight: 400;
-    margin-top: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/node\/_slide--teaser\.scss}line{font-family:\0000333}}
-  .node--slide__teaser h3 {
-    color: #fcfcfc;
-    font-family: "MisoRegular";
-    font-weight: 400;
-    margin-top: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/node\/_slide--teaser\.scss}line{font-family:\0000333}}
-  .node--slide__teaser h4, .node--slide__teaser th {
-    color: #fcfcfc;
-    font-family: "MisoRegular";
-    font-weight: 400;
-    margin-top: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/node\/_slide--teaser\.scss}line{font-family:\0000333}}
-  .node--slide__teaser h5 {
-    color: #fcfcfc;
-    font-family: "MisoRegular";
-    font-weight: 400;
-    margin-top: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/node\/_slide--teaser\.scss}line{font-family:\0000333}}
-  .node--slide__teaser h6 {
-    color: #fcfcfc;
-    font-family: "MisoRegular";
-    font-weight: 400;
-    margin-top: 0; }
+  padding-top: 524px;
+}
+@media screen and (min-width: 31.25em) {
+  .node--slide__teaser {
+    padding-top: 350px;
+  }
+}
+.node--slide__teaser .slide--content {
+  background-color: rgba(1, 34, 51, 0.8);
+  color: #fcfcfc;
+  font-weight: 300;
+  position: relative;
+  min-height: 250px;
+  padding-top: 1em;
+  *zoom: 1;
+  max-width: 61.6em;
+  _width: 61.6em;
+  padding-left: 1.2em;
+  padding-right: 1.2em;
+  margin-left: auto;
+  margin-right: auto;
+}
+.node--slide__teaser .slide--content:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.node--slide__teaser .slide--content a {
+  color: #da1c5c;
+}
+.node--slide__teaser .slide--content a:hover, .node--slide__teaser .slide--content a:focus, .node--slide__teaser .slide--content a:active {
+  color: #e56490;
+}
+.node--slide__teaser h1 {
+  color: #fcfcfc;
+  font-family: "MisoRegular";
+  font-weight: 400;
+  margin-top: 0;
+}
+.node--slide__teaser h2 {
+  color: #fcfcfc;
+  font-family: "MisoRegular";
+  font-weight: 400;
+  margin-top: 0;
+}
+.node--slide__teaser h3 {
+  color: #fcfcfc;
+  font-family: "MisoRegular";
+  font-weight: 400;
+  margin-top: 0;
+}
+.node--slide__teaser h4, .node--slide__teaser th {
+  color: #fcfcfc;
+  font-family: "MisoRegular";
+  font-weight: 400;
+  margin-top: 0;
+}
+.node--slide__teaser h5 {
+  color: #fcfcfc;
+  font-family: "MisoRegular";
+  font-weight: 400;
+  margin-top: 0;
+}
+.node--slide__teaser h6 {
+  color: #fcfcfc;
+  font-family: "MisoRegular";
+  font-weight: 400;
+  margin-top: 0;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/node\/_slide--teaser\.scss}line{font-family:\0000344}}
 .flexslider .node--slide__teaser {
-  overflow: hidden; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/node\/_slide--teaser\.scss}line{font-family:\0000347}}
-  .flexslider .node--slide__teaser .slide--content {
-    -webkit-transition-property: top, bottom, opacity;
-    -moz-transition-property: top, bottom, opacity;
-    -o-transition-property: top, bottom, opacity;
-    transition-property: top bottom opacity;
-    -webkit-transition-duration: 500ms;
-    -moz-transition-duration: 500ms;
-    -o-transition-duration: 500ms;
-    transition-duration: 500ms;
-    -webkit-transition-timing-function: ease-in;
-    -moz-transition-timing-function: ease-in;
-    -o-transition-timing-function: ease-in;
-    transition-timing-function: ease-in;
-    top: 500px;
-    bottom: auto;
-    opacity: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/node\/_slide--teaser\.scss}line{font-family:\0000358}}
+  overflow: hidden;
+}
+.flexslider .node--slide__teaser .slide--content {
+  -webkit-transition-property: top, bottom, opacity;
+  -moz-transition-property: top, bottom, opacity;
+  -o-transition-property: top, bottom, opacity;
+  transition-property: top bottom opacity;
+  -webkit-transition-duration: 500ms;
+  -moz-transition-duration: 500ms;
+  -o-transition-duration: 500ms;
+  transition-duration: 500ms;
+  -webkit-transition-timing-function: ease-in;
+  -moz-transition-timing-function: ease-in;
+  -o-transition-timing-function: ease-in;
+  transition-timing-function: ease-in;
+  top: 500px;
+  bottom: auto;
+  opacity: 0;
+}
 .flexslider .flex-active-slide .slide--content {
   top: auto;
   bottom: 0;
-  opacity: 1; }
+  opacity: 1;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/node\/_submission\.scss}line{font-family:\000032}}
 .node__submitted .submitted {
   display: inline-block;
   margin: 0;
   font-size: 0.625em;
-  line-height: 1.5em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/node\/_submission\.scss}line{font-family:\000038}}
-  .node__submitted .submitted span {
-    display: block; }
+  line-height: 1.5em;
+}
+.node__submitted .submitted span {
+  display: block;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/node\/_submission\.scss}line{font-family:\0000314}}
 .node--submitted__user-picture {
   display: inline-block;
   max-width: 60px;
   height: auto;
-  padding: 6px !important; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/node\/_submission\.scss}line{font-family:\0000321}}
-  .node--submitted__user-picture:before {
-    background-size: cover; }
+  padding: 6px !important;
+}
+.node--submitted__user-picture:before {
+  background-size: cover;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/user\/_user-profile--simple\.scss}line{font-family:\000031}}
 .user--profile__simple {
-  text-align: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/user\/_user-profile--simple\.scss}line{font-family:\000037}}
-  .user--profile__simple .field--name-field-profile-social-media a {
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    border-bottom: medium none !important;
-    display: inline-block;
-    width: 50px;
-    height: 50px;
-    margin: 0;
-    opacity: 0.8;
-    text-indent: -9999px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/user\/_user-profile--simple\.scss}line{font-family:\0000320}}
-    .user--profile__simple .field--name-field-profile-social-media a:hover, .user--profile__simple .field--name-field-profile-social-media a:focus, .user--profile__simple .field--name-field-profile-social-media a:active {
-      opacity: 1; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/user\/_user-profile--simple\.scss}line{font-family:\0000324}}
-    .user--profile__simple .field--name-field-profile-social-media a[href*="drupal.org"] {
-      background-image: url('../images/icons/user--social/drupal.png?1398137172'); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/user\/_user-profile--simple\.scss}line{font-family:\0000327}}
-    .user--profile__simple .field--name-field-profile-social-media a[href*="twitter.com"] {
-      background-image: url('../images/icons/user--social/twitter.png?1379648156'); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/user\/_user-profile--simple\.scss}line{font-family:\0000331}}
-    .user--profile__simple .field--name-field-profile-social-media a[href*="facebook.com"], .user--profile__simple .field--name-field-profile-social-media a[href*="fb.me"] {
-      background-image: url('../images/icons/user--social/facebook.png?1379648420'); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/user\/_user-profile--simple\.scss}line{font-family:\0000334}}
-    .user--profile__simple .field--name-field-profile-social-media a[href*="plus.google.com"] {
-      background-image: url('../images/icons/user--social/google-plus.png?1379648324'); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/user\/_user-profile--simple\.scss}line{font-family:\0000337}}
-    .user--profile__simple .field--name-field-profile-social-media a[href*="linkedin.com"] {
-      background-image: url('../images/icons/user--social/linked-in-alt.png?1388221368'); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/user\/_user-profile--simple\.scss}line{font-family:\0000342}}
-  .user--profile__simple .field--name-field-profile-social-media .field-items {
-    margin: 0.5em 0 0;
-    padding: 0;
-    display: block;
-    list-style: none outside none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/user\/_user-profile--simple\.scss}line{font-family:\0000348}}
-    .user--profile__simple .field--name-field-profile-social-media .field-items .field-item {
-      display: inline-block; }
+  text-align: center;
+}
+.user--profile__simple .field--name-field-profile-social-media a {
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border-bottom: medium none !important;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin: 0;
+  opacity: 0.8;
+  text-indent: -9999px;
+}
+.user--profile__simple .field--name-field-profile-social-media a:hover, .user--profile__simple .field--name-field-profile-social-media a:focus, .user--profile__simple .field--name-field-profile-social-media a:active {
+  opacity: 1;
+}
+.user--profile__simple .field--name-field-profile-social-media a[href*="drupal.org"] {
+  background-image: url('../images/icons/user--social/drupal.png?1398137172');
+}
+.user--profile__simple .field--name-field-profile-social-media a[href*="twitter.com"] {
+  background-image: url('../images/icons/user--social/twitter.png?1379648156');
+}
+.user--profile__simple .field--name-field-profile-social-media a[href*="facebook.com"], .user--profile__simple .field--name-field-profile-social-media a[href*="fb.me"] {
+  background-image: url('../images/icons/user--social/facebook.png?1379648420');
+}
+.user--profile__simple .field--name-field-profile-social-media a[href*="plus.google.com"] {
+  background-image: url('../images/icons/user--social/google-plus.png?1379648324');
+}
+.user--profile__simple .field--name-field-profile-social-media a[href*="linkedin.com"] {
+  background-image: url('../images/icons/user--social/linked-in-alt.png?1388221368');
+}
+.user--profile__simple .field--name-field-profile-social-media .field-items {
+  margin: 0.5em 0 0;
+  padding: 0;
+  display: block;
+  list-style: none outside none;
+}
+.user--profile__simple .field--name-field-profile-social-media .field-items .field-item {
+  display: inline-block;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/user\/_user-profile--simple\.scss}line{font-family:\0000357}}
 .user--profile__picture, .node--submitted__user-picture {
   position: relative;
-  padding: 12px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/user\/_user-profile--simple\.scss}line{font-family:\0000361}}
-  .user--profile__picture:before, .node--submitted__user-picture:before {
-    content: "";
-    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQoAAAEKCAYAAADqyxvJAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAMrhJREFUeNrsnWuMJEt2109kV/Wjqnt6uufe3Xtn7l2BwUggjAABNmZtwSJsicWWLbO2F2mXh0AWYj+gux/wB8tebGPxwfYH7lryrhBGQsCCLLFCC4JFYMmsbCEwrCVb17u+j5me6Z65z55+VldVTwYZWZWZESdOZEZkVXdnVp1zt7cendXTXZXxy/858Y8TQiYBHBwcHCUR8VvAwcHBoODg4GBQcHBwMCg4ODgaEB1+C5Y7fGrZQgh+oxgUHAyF8NcxPBgUHAwI75/JwGBQcDAgGBgcDAoGxPzSCwbGYodgZ+ZyAqLux+4LAgYGg4KjpZCoOgZ/V8wIA4YFg4KjRZCgvi+Lb/pKCSc4yoDAsGBQcDQcEiQg5vFxO6DhggLDgkHB0UBI4OclUg6Tu3U+dgHGmCeAweqCQcHRMkiUAUKa/xcMCTzo9ccMCwYFRwshYQACwUH61CmQcigGuxseDAsGBUfTIUECQs6QhuhA0O5rAMkHvxMqDAsGBUcjIEGpiOy5coVRBguRjX8HJIrnGBaLG+zMXEhIIFg4bilQSCD8EwJzRIFgAh811qV2R0xvpQYLmT3PwYqC43oh4a5H2CqiChjO7EPkeqK4nwJAmAojg8L01lWroGDBAGFFwXGFSsIFCSAgMXneBIQ6IhIRdDodGA5Hzh8uBVIYhOSYCI5MZYj8oFRcaIdTyoLVBoOC47qVhKUYMChMSKyvr6WD9Fkcw2g0MksVWblBTod/clwBDfVzkKeiKF2k/0Z+m2FjejDDglMPjuusSTjrEDQoJimJzC/x/V7PGJyDwQCGoxHgSkSeHojpYzF5LLS0I5rcmTwvCii4bjkNYUXBcR2QQPmBBYYUCAQo0is3wMb6hjUoNzY2UmUxHo2Lnyy0hCKTE1kuIQrhEU+VhP6LpQpkqhTwbdnfzbBoZnBz3TbCg0w3tNkMDQz6VwaElZUV8t9QKiOKIoiz18QyuR+nt+pxnIAE/8xYTv+9eKJYpg8dyqdgia/9nINTD446dYkSSGRKIhu8+q06ppdAotvtVv77R0fHcHl5mRcdspkMPQXJHqdfkbCfE9pr8rTC9lywx4IVBcdVQgLc6YYOh+x2wwMS2QDd2tos/p2piogzRRETagU/B2bKo9dSioSJlQUrCo6rh4Q0ISExJLTBu76+Dmtrq0G/z3h8CYdPn07qBtkVHimF7EvNoODnBHEsuPwXwMVNVhQcVwSJ7MpMKAkNEkpFhEJCRbfbgZ3b26miiPOfO1UU6CutY5B1EUDKQoJRjiX+RlYVDAqOGhK7kOjFHT3toNKNAhId6PU2av9uCjLb27emgIiNVCa2ipoOWOAC5/T3x8VOhkWzg6dHW6EkzHoEgCRnH3QloWY2er3ezL+jqm2of/Pp0ZHKU9N0IJ6mEvG0iBnFUVrkjKN48li//sTa5UhmHk5I14KANm2apSFsyGJQcIQoCWt6ERcw0ZVdg4Sa4uz3e3P7XZUqGY9HcHp2nsAiGdMTLiSAAA0QUf5YRuhv02EBNCxyOyfDgkHBUQ4JbKgqlm7gAqb7S0Fic7M/90G1vb2dznqcnw8UGaaA0ICR/J+c0kClIRHOao1FH9lSswkcKEMWw4JBwZCoggRKMcABCT3dUINTDb2N3saVDaadnZ3UvXlxMZymHJOZkDiaqAldWcQiTv0VOTCmakOpEenh4mRYNCu4mNkgeJjdp6SpKIxZBDAKmZPXi1RJdByuSyqUQnCuHHXEbgILteJ0MttBQaukqKkVYPX+F1SaNUvaxsGgWDg14WvNxms21GN9oG72e0GQSOLw7OzsH5+enb00Ho9f8z5hEvXwoeefg063owEips1XcXWqhGdB9EzFR4FxMCiWBhL4qmq5Lsm0oxicqtiorvIhkDg+OXn1rft7n9vfP9g/OT37h4m6eCcEFs/d2Z38lnEBi8xvoX63WPs98/UicRUsNEjm7wPDgkHBkLCVhFajyK3Z4LgixxNIrK4GGaoOExXxlfv3934qe+LRo/2vPn169KkQWCgwKWWRznLg6dlKJQFkGmV13/KABQeDYikgIZ2QIKZAdTWRDMbuajcYEoPB4Otvvnn/0/gbj/YPvnp0fPwP1DG+P0z92ykscmUR58oivY1tJRGT5izk3tTXhVTAQl9PwsGgWHhI5IPCcDRKYqAVkOiHGaoUJH7z919/82OuAx4+3P/Vo6Pjnw+Fxc7t2/nvFefL000o2ClI7Cx8AkhjqTorCwYFQ8IqYE6vpsRsQQYOVUgMhASMx+MnCSQ+XnXcg72HP3d0dPQLIbBQ5q47u7vaYI+NNCQm0pHYUk4oFQFU5PRQFhwMitZDgvq+ZagCap2EbaiqAYnXjo+Pv8f3+Ad7j/7J+fn5/w6Fxa1bW9a0qb5UvbJ2AeYSdWtGhNeFMCgWHRK061KaVX5HwTLL/xUkVK+IEMPR5bNnbypI7B88eRTyd7z+xlvfGwoLtYCslwCjSJFiYxGZUZ+gVp3GGRwkKnKGLSJjYDAoWg0Pep8NrCS0acLYNFSpq3YIJNQsxvHxyd8PhYQOi+Fw+HrIa+7s7qSL0ayVpnFspiLOhjcFLDKghhqyOBgUjYZBlVfCdF26pj1ja6ZDxWa/nyqKEEg8PTr+lJr6nOXvOjk5/Suj0egbIa9RfSy6nU6RdsQYFjG9PD2mZ3nK3JtV7zsHg6J1SsKsR4DDU2AbrPoJJDqdMNflyenpz8wKCRUHj58cJark20Ngkbo3P/R8CotY0qtd45JeFqD32QCqhwUYaVzdWhEHg6KRSqJ6FehkyrCYaozTRV6hkEgG9ucfPHj4+Xn9jQoWibL4u4lK2Q+FhVo8FusqSfdZaNOl+jGxy72Jdz1j9yaDok2KoT4kwJrZ0AeJmt1YCzRUJQP6V+4/2PvJef+t+wePv3Z4+PRHw2Hx3GRVqE9TXuf0aQGI4i3191gwLBgUzYYH9khUFCz1Ip8yMtVwXf7mW/cffPaq/jYFi6dPj9TPD3dvislq1aybt3MWxDCYzc+QxbBgUDRGTZS6LsGtIvBVdnW1G9rrMnNdfvyq/+5H+wf/7unR0S9CDfcmqSZiOtWwV80CuzdvMLhd/5zTDQwJZ2v9mF6/oVyXaoYjJJSh6rXf++Yfu8734SMfeeknbm9vv5Lc3fF9zdnZOXzwwWG+aZDas1SlJ8XjqLjVjhHkdgDmpkK++5uWPc/BiuLaQWJ0zZZQud3fdbku5xV7e49+9vT07L9CHfemo+dn7KxVuDcYwlbvKkMWKw4GxY2rCdJ1mX8H918w1cRKtBLsuswgUddQNWu8+db9T56dn/861HZvEjAoM2RZ7x/ktR+AMEMWw4JBcXOQqNHrMjdUBTbEVYYq1XDmpiCRxRtvvPUDg8Hgd0Jeo7s3XYYsvchZrTLCDVkcDIobg8T0WUevS7qlXQqJ/mYwJObhupxXJMD6/rruTZchy1par6UdYPTdpNIPMBSe6zNkgDAobgQS7g16YsNQlQ+CNG/v1zFU/aOmQELFkydvP03A9R313Zuo4Y3RRg8tIIvtlCX2MGRxCsKgaDgkika4sXFyx7CxsV7Ldbn38NG/bNp7pWCR/G4/Use9qeozlmsz745FrDZFhU9Ae5tasOB1IQyKG4VHZddsurV+XdelgsRVuC7nFQePn/x2Hffmc8/tTrYoLFkP4lyaXtKoV08+eAuA2YJ9FAEnTnWHKs0rETu6ZifPr62vwcb6ehAkrstQNY+4d/fFj965s/sfIcBjkaQt8M67701OSjH1T6iNhfRb5LeYHBdZ3orsC3sssv1Ns3/DGgzsr2BFEQKI0Ia4VJNYl+tS9bpcZEioSK3eNdybu7s72iIxYgEZ7vRt9d4EslFvSDs9vm4yKOaiLmRJa30A6bZnT63ZoYaq4Wj0oE2QyEIZskJh0dvYmMCCav0fYsiq6L3pW4PiYFDMJd0wfBMgnRv1qMKcysU3NoLWb6SGqtOTk+9r6/tZ1725fftWPuNR3GqbDOkKQ1atFcEzInZPEIYFg2ImSBjfB/OChAuYgCrw2Jod7rq8vFHX5byijnvz1tZWorz6flsTxiWNerF9PlBZcDAovCBhKAg8swHg7qOg7TCu4BAKidR1eXLyibZDIota7s07O0kq0qM3FspSkTgunw2hlB6ENerlYFD4QQLpismsBmhb4LlTjrQhbq9fz3W5f/C7i/Q+13FvKlhkmyG76hSuRWMwp3UhDAsGRdD6DYl7ODoMVZmaULFZw3XZJGv2PKOOe1PFh7Xem8XMR5w3v9Fb6pUassCeBdHTSAA2ZDEoakDCzGOr1m/Y8FCyuY7rchEhgWFR171Z2eimxJBV6t7kNIRBUVdJSC9rtt4QtzhRJzuMd4Mh0WTX5TxhUdu96WzUS3T1jt1QMbt6S+7q7RFL58ycrSEulNYk1Imp1m+sra0FQeLs/PzX3njjrR9aps9BuTd3dm5/KYHAPd/X5O7N5HPInZnTDlmR1RmreL5wa0aEexOM+1XuzbLnWVEsEzyqIFFhqAqFhHJdLhskVCj35vHJyS9DHffmTIYs7N6EoM2Ql1VZREsLBHDnpthQla/fALehqps2xA1zXV5cDL/RRtflvGIW96ZRwKSmTisNWeA0ZDEslhgUtQxVxfWGmG6bvdfl2dnpJ5ZdzSlYnJycfBkC3Zt3dnc9nJkl2xRKNmQxKDyVRJWhqqqNXWrNFhPXZRgkFsN1Oa946/7e3wl1bypYqKJxkXrYvSx0Qxbp4KTSSGBD1lKCwtdQg/tJANUXITZdl3Ws2ZMdxo8YEiiUe3MKC++4c2d30ntzWp+Ije5YaIOhfN1I7LB/g9EVi2GxRKCYpWs2Xr8RW65LSE/SOq5LhgQdZ2fnf6uOe3N1bZVQfXF1sxvQjFhgdsXCaeiywyJaakgQhirwMFQpa7ZqiBtiqGpaQ9wmRl335vPP3Undm2WLxGLH94AyZMlyQ1Yd5cqgaDkkaEMVWCeZ3utysx/uujw9PfsCQ8IfFnXcm85GvZ69N6Wne3MZZ0KWc9ajstel22ClZjc6yQkZAollcV3OExZ13Jtq2tSr92ZF/wpZTIUYu6ib6epywWLhnJmhbeyqXJex1l5/o7cR3BA3URL/6c237n+Kh394zMO9mfXctPtwmk7Oov8mWPucpgNF68G5jL03o+WEBFGPKGtjJ6euy0BIKNclQ6J+1HVvqppFYcjS0g59j5WYrlWQHdRzJeHnsVhEVREtMiTI+oTRR6JwXUKJmqjjumxbQ9ymRh33prLRK0MWhkVsbSAUV69INUCyvNOm0SJDwp4GtWsTlusSufpWVlZquC4vXzs/P/8xHubzg8W83JtWkbMMEGA36rUvOvUvXgyKBsHD3DwYLK+EawFRZqhSmweHQULtMM6GqnlHffdmr1hyHseGkzNz11a208M1LHBviryosIgWBQjO5wyvhHuHcZy3qkYp9VyXbM2+qtDcm96wSHtv9ntGjcJ3VkT3VthtEO3NkHl6tKWQwKmG3RAX6LpEcpxqrc+uy2bCYjQavRPymju7yr3ZNYxX5AZDsbkVgAUSsDdDzi88C16vWPzUQ1MUYFW1i8ex4brss+uywVHPvflc4d6s2L/Uy70JYC1NhwWGRdR2EDjrEmDvwZHPcAB1MkyOY9dl8yNzb15eXt73PtEN96YkVp2WQwJPm0KN4iaDog11CZCl06BKcqply+y6bA8sjhIVV9+9GSNrvrlK2JhaLdlYqKyj9yKpioWbHnVtG2dNfyJVMWmIG+66ZEjcXChDVqjVW33GH3r+uRQWdju9uKQblm7tLlabFpDwA0NbYRG1GQpldQnbng2OzkcxrHa7wZBg12VzYHF0fPw5CHRvKliY6iGmUxGirV5srSZ297AIPYcZFNcNDhcgsDW7y67LtsfDh/v/PNS9mTXq1Wc4itQjtpybdN3CtQXA4k2ZRgsBBaBcl9nHVUhFPOOhXJe9Gr0u2XXZvFDuzaOj4y/CDO5Nf2+Fdh4BWP4KQPd5erQh4JDWZ2NXqnFT3LQhbj8cEmyoam482Hv443Xcm5ubmwHTpfb2ksUttZBsMSJqGxRcaQYJCKCdl5k1m12Xixd13Js7t7dTZRnHsdUjNfYCB7UeBEqNWG1TGa33UehqwmwvorXWB6l5KCDdzYtdl4sNizruzX62LoSoS8TOBWNoBgTQLIhHusyguCY1kX8wDmOM0aEqkZqqNhEKCTZUtSvquDdVcbPT7VhrQkpdm9jWjZybbVYRrVcUdg4obTWhKYnMdakWeoVAAiZeiV9mSLQv6rg305pFr2ds2eAqbIK0Hb92YXNxHJtRW6BQXpsAcjrUKGAm/3W7wTuMv3r/wd5P8bBrLyxC3ZsqLS32AMHdsfDiQXM2BBc29VO07bWK1hquymoTxYIdM/Xodr3t2YenZ2dfYUi0P0Ldm8rCn6pOtF0Drk+AplQBTb2H1ioYFFdLjAIOxFQooCKmmulQXz6QGAwuvv7mm/c/zcNscWAR4t7MVEXVV6EqwNxMSFcXHoxog6qIms0CWfHYeARGgxGN+BM14Zd2XAyHv/f7r7/xMR5eixXKvXl0dPJFn2NVmwEfL4WhKvK6hWnCMjZAblm60XpFIdEOX9ZMB+qorT6hrt+q0MPhcPiveVgtZgxHw3/qoyqUvXulEwX1rDCmSrEZi76yMSiuGRtAz3QU+aTat8F3+fiDBw9/iYfUYoYqbg4Gg9/1Sj/WNyZjHSglIY3tHbJL0/QFgPDgtQak6SqjsaBwvZHm0vEC1HovESNvVGlHxzPtuBh+g4fTgquK4chrqrtv9NnUNzUGS0FIPe3QpK3prWi3qmifopAmq3WzVdGcBozKtO8S8tFo9N94KC12jMbjV33Sj/X19VSJ4lqEOR2Kngfb3zPLxZFBMeMbZhcxtee1QpO6VVvIeba2OxyPR1/kobT46UeiHF/3Oba3oaUfYC8nN5WGeYEyi5n0YjG2cF8ROLATU/dLGIvAdJOVZ/9LlXbwWo5lST+G/8MLFCr9AMqNKYm0A/Wq0FUu7oDFsx5XrCZwrifNIibkaUihKnynRUejIacdSxLj8fjf+qQfys4tRFSAALTOaWBenPTamF3UlN6MaKrKaKEz0/EcKmKmIbzrE4fjy8t/z0NoOeLg8ZPf9l1d2u9taOmEPfuhpyYULEB3amrQaJumaE8/Cj3tkGbaAcbUVPGhrnqqieQK82R///Hv8BBanhgMLr7sc5wqalq2bcDphvm8mW4U0/XU7Aev9Zh3KoJmO0DaTkwjXwxYBHZxMfwvPHQ4/SAVheqC5ljvUdTJiBWl+haEeDVSC5vvtqxnJmFkKXRGfpuR3TftGI1H/4KHzvKlH5eXl0eVAySK0qImPresproApvmK6JGCc442zX60Y9YDKQljoyZpfnjZp9Zd5bSDo1JJ/i+/OkWPTjGwwYoobFopSEtnPxoFCqet1W4VBPqSctAX3kw/sNWun8lqOBx9jYfMcsZwOPyloPQDzKl3w6kJdmHTLlnidnnAoLiKtIN8zqB3sax31U9RHI5Go1/lIbOcsX/w+H/6ph/r6dJzvC2EqXCx6pBaYdNoYNPCFaWNX+thmaxkyWzH9HUKEj7Ncy8vnz19tH/Abe44/fBKP6jWdnhGAysKcvbDI/1oGjiipoGhVEpItFLUNdvhuQhsOBr+Px4qS55+jEZf9kk/UpcmPteI2Q8gFybS7ok2pR8LsszcJLnntOjh8GL4BR4qS55+7B98KY7jQdVxqp/J2lrXKmaCsfQcTZVabmFjLRkBDl4UFqQmXEvK6bUd5gen+h2urFT/WcnJMea0g0PFYHDxWz7HbW1uWUVLCcX6jmKqlJj9MMniteVgk8DRbEVhmawATJTrtJ58aGtra36Sczj8vzxEOFSMRqOv+KYf2Jlp+SgkNfsBTs92W9KPFjgzzTTDWDWK1nbIkLRjNPrPPEQ4VDx8tP9F3/RjRXVKQ+ccYDWB7N4S7E7dVpduT7W9tKCoSjvAKAZpggLRWr2uE5B27O09epWHCEdo+tGfLj03QaBt+oMBYWz1QahhJDh49ejMaQeaasohUvQt9O2LmaQdv8VDg0OP8Xj0f/zqFJtIKSBFIUsUhXmCtyoHadmsh0Qb+5j+ibU175Z3nHZwmOfE+PKf+dQp1Dmm0g9pLTsHu0+FAQyw132A3yKxpQeFs9qrfd+1pFyiolKUtrzza8k/Hl/+Kx4aHHqEdOhOLd2EajDMV6ifZgYR0wMkkfdKlqbjrChK3xBztsPwyWsfkv+S8otvHjx+csRDg4NISb26nG2itR9UvUJPifPMQgJhvuJ+FHOqT6A3U2q1Ce1DCkg7uOUdx0zph2pmE0XCuliBNQMCqDu3ufeHmX4wKILSDv37Rr8JZLLSPyTV8s437RiNxj/PQ4LDlX4kivMNn2N72baDQNm2wVz/IdHeH5pJC6//aOoGQY1b60FtJ4oXgGV0zhvUcNrBMbf0Y/TfveoUvR45FSqBMmGBpiiok7xMTXPq4ZF26IvAtH1F0Xx113eDn/H4N3gocJRFSIs8lX5I5AwGtEkQZenWjYNm+tFc81V0Myyo3uDHlcNJpChE8t+ab6ft8Zhb3nGURkiHbsPSjdNlKQ0Tlqk6wNz9HK88b0i60ThFQbkxjTlnbYdywLuUc8s7jjlHUIdu1IbRmApFu4gZqQl2aja8RV6zUg9ytkNv+oGmRgNa8nOnbY55px+b/b65SEwvSBKt/CWa8XB2bWtg+hFdPwtkECv0xTP2VvP+i8C40zZHSPoR0qEbO4SlpFv5Wz0q9IViQC8S40VhhHYoqg9oEZjeRFcWb6BvyztOOzhCI7hFnkSDGvecsFr9G612nYvEOPXAxCTeZCnNTtvS6rTtua/oePwan/ocIVGnQ7fZIq9EUeS5s+NS2UAHVvP7UQCQeWDIBj/c8o4jNMI6dK9pWhicTW2o/UmpRWJN7FFxraCoXgRmT4tqPfmNLei50zZHc9KPvtXgGQiHprFJFdGh227Q3Zz9SZuhKExPtrETmFHk0d7IDnfa5rjq9MOzQ3df23LQmgYFes2HNGCh1SqAnZmeCgP1xqRKGKkbkzttc1xx+jHp0H1edZxaZ5SlwbSxSlMUxjIE+9xuajS0RuHaim2SdqSdtiPutM1x9TG4uPBqwqw6X+F1Ha6ipr3toD1NKiWUViuuOx1p0KIw+7FR8NFIvLbq3WmbW95xzBSjoV+Hbj39MBrSENOk5GpTa5qUV486/nBJvT1kkxr/fUXH3PKOY6aYduj2Sj86Kx3zXJXSNmlLQji3YDXpzfso8ANJOdQKHabSjsgz7Xiw9/DzfKpzXFf60UeLxKxCBN6ftDS54BpFCTFdy8qLN997X1FOOzjmFOORX4fuTVWn0CuVkq5V4NZ51pYUzRIT1wuK0BzL4u30jfXxTqh49ix+n09xjnlEci79ms9x+p4ypmoA2ySByxKmcPYyXi2XonCRk1JmMl234fUzO52Vb+VTnGMekQDgL3mlKIMLoDvSYBBIIj2RzrEgGRRVdQs7p/MFxfr6+h/hU5xjHtHtrv4Zv1rGoOhfZaztQBUJe9WjS1LMpMoXEBTSNJ9U7MnoC4uXX7731/k055g11tZWv83nuNPTM/K8NSGBV5RSqoEb19QjozRhOxyOfF610+10vpdPc45Z4t7dF7+r0+lsVx03HA7VTFtFjYLAgN+cKace1SmI3ali5KkoEsn4Z/lU55glEkj8NXXRqa5PDOixbTBA+uTb1JWVQaG/Ub5vx+XlpZcqSSTjR+6++MI2n+4cdWN1tfudXvUJVch0DXpJpdr2mo8mR7P7UZTAYzTySz+SK8Lf5NOdo359Yu1bfI47Ox/MPOCbDIyorR+gb/rR6Xa/g093jjpx9+4L3x1F0UbVcecJJPT6xCJGc0Ah0v9VP5crCj9QrHa7f4pPeY56acfqD3vXJ8B9rgYMAQbFnJkCl4miePbsmU+O+WGuU3DUAkW3++0+x51PQeEc8cQVUGhXwUpACLGcoPC1YQv0NqZvrvbYU1XsdLudz/BpzxEa6+vrf8gLFOcD94gX9oAXLXwvGqcoRM4CYb7ZmL7JgUO/gqba++O7+LTnCIl7d1/8pM9xE5MVJSKmqqFEFRSqQmjfFo1MRBoCCmGC1zOZG3uCIsk12c7NEVqf+AGf+sT5+Tm+gjlFhSCAIVpSrWh4jULQdJ7ev3z2zKtO0el0bt998YU/wac/h2+sra3+Ud/6hJ0ci1wFa89osHCBRVgK2gDNDdYqrg0UZX+kKMvt8PtYfAbp18XF0KtO0el2vo9Pfw6feOGFD99OFMVLVcc9i+PUum2kylQhU2AOCOJcF/lYaGINo7GKwuKEQMoifUcFjEZeoFAVbK5TcHhFZ6XzIz5px+D8nL7gCVeNQtj1CUGLi6aVPW8eFIKQDBpds3dSoHcxezQceS87/+M8BDh8otvtfMznuJOTs/x8tYqRSP1aNQphJiSUkhANkhbRzfGBYGb25qJZD2G9+cVrZSy9lp1HUdS7d/fFj/Iw4KiKjY31P+dz3GBwbulgYV3UJie0ds1Lz32h1d/aEA1KPbBLAkxSO1IP9dB33Ue32/04DwOOsnjxxQ//SZ9l5eriNBpf6vrXmSZnSkJgqzE5EyoaKSsaAwrhLAJpqUdR/jXe44FfQVNJyr/AQ4Gj9BzpdD8GXtOig6LsYCgGYc96GOermXoUKYdesCAumTcMjEYXM/GbK3Jo6O+p8FUU3isBOZa5PtH9iz7H5f4JENqkhbDNgUJPQYCsT+QXQ/3c9rV3LwMohGteVAiwSsL61FJO4yJd8XFpqjrFS/fu/jAPBw73xcSv7d3J6ZkFCSHQua2dn5mbIj1nMQUcGUn42Fl0RWEWIuw3TVAmFv21iaoY+vkpkisGt8fjIEMtK/epTyjvTr6s3BrzRG1CYKVhptNtWAESXS8P/A2rQpv9MFQEKmZmIPGdJl1d7X4bDwkOR33Cq+1dtlpUCJQ66BczYdcmzBWjOh6EcdHD40Us6+rRMmEhqigiwEg5skNUncKnecja2tof5iHB4biI/Hmf4wZZITObqRNAX8zMK56hJrANQK9PLL2iKFUZDuMV9UEYOaBGbt/VpFyn4HBcRDzb3p1TOYeVHusXNKGlIIaLwuRIfmyT6hONUxSYEwJ56AX6cKzZD882/tOVgRwcRn3Cr+3dea5czSWLCAICKQprnUdFdxvBy8wr6hSCWFwnwEwH7XlqAG/jlVpC/Kd5aHCgc8Kr7V3WpMa8SOHzEs92mD4gYV0I7byjaRnItYOiWlYR4kK4yC0MuTa+vPSqUyS56Ie4PR6HcU4EtL0TgiIFVrqCVhP6hY/wTzTNaNXM1EOUyDFXLojmq32Xna90Vj7Bw4Mji7C2d/pCsKzOgGpnQPsncFcrQV4Um1WfaAwoyAViSNeVVZeFpud8049up/uXeXhwqPBve3cKWrJgnbPGbBzhn9AvdKXjXXCHK08qCm2lnf98tRD+Mx/r62u83wdHVp/wbHs3QKZhoU3X0/4eeu0HmBUMIciqBB4nS9HhKjQDca3NL3PAqS/VGu/Srz3eNrfH41Dh3fZOSzusPimo/UFRsbSBYawyFWYdDoA7XNWsU2hvoKen3neatNPtfD8Pk+WOkLZ3F9oyAXJJuaDOR2oPj+Y3qmkMKLxkVW6qMlMP0D8U0JWcCFpNyu3xOELb3gmhiwU7rXDVKIRW/GxD/4nGK4pSP4VAi8QAyK5XFxcXvrkpt/Ff8ghpeyeokxEDAxxrPEC7wGk/QwgwahSigfWJxtYoKLCanYTMIpLZp0JALP3a43GdgiOs7Z09A0cVKklFIUxICNRzQjS8I17UfEoQZnigFYU+PeXbHi9RFZ/k4bKcEdr2zkhz8bkHUL5qVNfILdxTsFGNa2w/hTAakmZ9B/EUlTA2+5gcNxx6bzfI7fGWNe3wbXs3dWMaTWqQUzg/N3GNQr/2GUZNs+N8k+sTjU498sJRaf2C3pEpQFGoqTFuj7e09QnPtndn+ibEwrJBGEpD2FOglm0bXezw+d20+kTjQVGelQhiaqpQFFJKL1hwG//lDf+2d6fWABe4wQyaEgUhHIVOIHYObH4uErWACEBuDESt/0fSb+jfxv+v8rBZrvBuezectL1zFtORbVtXFFndDBc62+SfaAwofOoU+kI83cZiFItQjSLAeKWuLLzuY/nqEx+HOm35XX1bDWhoMx5Atb0jcOFoe8erR+sIC0CdxYjNgWooCtXZ6Ft56CxXrK52v9PnuMFgoCcUZtqLFQUAvaxcoO0x9TS5JclH1NYPWhgbqGh+eyNfFN7mq2/5g3/g33CPiuWIj7z80iu+be/ONUemc+UnWaMAuu0dTqhbMlXaacagnxQf8WPz+ckbrR2WPJbJY/XuT44Vyf3kmcmepGLyvCporq+vV9YpNjf7n+z1Nr47SUO+OrgYvvLkydtPeUgtVrx0796P3bq1+ePT2sSODyTS+oSwF4LlagL1xXS7Ndv93nXa8WtOBn3CAIPAChIKFikg1Pd1OTgFjW8b/1ReRdG9ra2tv93v979nY32NgbEgofpN9Pu9V6bNaXZ8X4eb1AjdYWm4goXp8wF7jYe5bSA2ETa7PtEaUKTv14QTNERSFTH5zwBGAovL8Ti9KiQQqAWM1W73C3sPH/0MD7flAURen0jSVmt/GX0AU3t4OKdFhdEZj9jVo9ljUOqa/wYD/xrZY/1W3Z3cZl9xehvHyVdyXwFBqvvJrVrvIZNbtTx45/a2T/rhisPLy8uj09PTX9l7uP/TPPwWHxBZfOObr6cQiNQgj9RAj5KLiHocpY/VxSf9EsV9Mf3+5HHxmonSjXJVom8tKFqgKBoDChcs5OROfl9OaJEDIr2VOiDiyfNTWKjnehsbcOvW1qy/HgNjSQCh4vT0DA4eP84HdA4HocNATOFAAEMIAxxGTUPo+3wI0pEpGlblbDwodDWhUgxTUchcOWRQwIoiSzuef/65ef2aDIwFBkQW77z7Hjx9eqSpiUIp5I8zQESE0siBIlKQ5MpE6DUP0Qo10R5Q6KrCSkHiQlnEcX5rqgwJ62trsLm5CZ3OCgODAeEMdb688+67cHx8qqkJYakJZ+pBKIki9RCtTDsaBwofVZEmILqa0BSFxLWKXGXEeR2jt7EO/X5fNa2ZMzDOXt17+OgXefhefajl4b2N3k8nkPjovAChalmHHxzCYaIi1MXHHNRFncFQC476hJ6aFLWJqTKh2vszKK6qqEmlH4W6yNWEXq/Q05OpwtjZua2a18wNGKPR6J2Tk7PP7R8cfImHc0sA8SyGDw4TQBw+LQABRbqh1ycKUIiiLqEVL4VLeegqIu8Yj+7jgcmgmBMo1P3Ynv0oTUGQ8lC3yUkHt29vzxUYFxcXb5ydDX6BgdEGQBym501xlRdopqMAhAUKoRcz9VSjKuWgVQWDYt51CqtmUaIqdGhkoEAwUbebSToyb4XBwGguID5I0gx1rgBoMxFQXPVxEZNUFKgeYQFCPYbJY2PRWMlsRxMh0QpQVKcfMFUUYKQcMlMOFaAwjlfA2NxMgdFlYCwsICa2bLAhEU2u9nmqUAYKZwFzWpNAKUeb1UQjQVFHVcRTbwX2VdhpiF74jLViqPa66XNbWwkwbu+oLs0MjEUCxGQkattT2t4GozZhTY8WaiFCKYlRo9B/VlQoibYVMVsFinJVUSgKXKtwgaI4xoSFDopsClYBY3eHgXGVoTbhWV9f+9lbW1t/Y16AUHF0dJz6IS4vL63BaSkK4uqvg0JPN3KXJgUKR23C7PfarrRjAUAx0Rl0rQKBQhZTpqaa0O7rr4Xp/enPv729Dbu7O0FrRnyAcXJ6+vceP37768sMiM1+/weT9/Xu1QFCg4KuKPLBW9Ql1AG2ktBMUxokBFHAxK8rM1e1Je1oLCjK0o/yWoU5C0LOhGTfj80CqOHLIL8gPUkUMNQsyTyBcXZ2/rXzwflPLgswrg4QRwkg3k8AMYaiCa6oBkVUACO/r0PCoSaMNMNRk3BNibZJTbQKFGWqQjdhGTULvf4Qx5ZJy3yMUhH0BRmIkv/UybGdwGKHgdEsQKhNn/RVnFaaAaSF2vVlFDExMAhQZIDJlURAbYJBcV2qAhU3rVRCn+koA0bFFwOjTQrCAxDgAAVWCBGqW7gKl9TCL4/aBIPiqlRFDga9TqGDwwaFMbMRSxoQcZyrFOO1UA4MlY5wSnLdNYixBQQvQICeFoC5psOAQ2R/LyKKnRUrQ9uuJloNCktVaIqC7l1BwAIrjkBFkRdUWWFY8fLLL312+9bWK/MExNn5Obz99rswHF4YCiJPMVD9AQBPgxLpBth1CSc4BFG7IHpMGCoC+SYYFE2AhTULAl7pRAgofIGxu3s7URi35/lWpMBIBsunm9yeTwFia7P/Gd++lL6AeDdJMbKNgr0VBNiqwQYEFIM9dVKCBoQCAu4Ug04zFiXlaDUoKlMQQ12EwaJs1qPwa5ipCAmN5L6ygysPxhya5uQRx/HB6dnZf7i4GP5Ek4BxHYCwipO6gkA73FNToE5oaAoChHv2wgWHKtdlWcrBoLghVUGnIggWyCMhcfET/AADBDR0ZZHd73RXEmDsLiQwrhQQqlW+Ndi0VMKVaqBaBK0okIII/sIqwlQPRV/N9quJ1oCiLiz0lEQf0JVqQy+EAtSAhV1knQBjcRTGtaQYeBaDmNUoFIQvIOxpS18ogPHzoXr9xoJAolWg8J0FqVIWzhoGlUqUfREAgbKfB8V91WVrd7edCuP6FYQGCCvVKIGFAwqgpRjOVAL8QeGa2VgkSLQOFPVgga7s+lRqbtQCWlGUQaNEaXinJC0Chmo7t7196+fmCYjxeAz7B09yQMxdQTjWcgAFCOzQNFIJBIyqLlUVkGBQNKi4aUKiAAQ9Q4JTE3CmI5AuZy+cn0YaAz7g0BQOFApDNf9VLfrmDYz79/c+Mysg5t2XUgHi3ffeh6OnR5qCALBs1nUUBKUAcG3CabUGQlGAWYMAuhYRAgkGRUNgQSkKOxWhZklAG8BlSgOsxjlG1y3wSUlshbG+sZ7WMHq9jXm9VbUbAF8pII6OPGsQxIyGCxJU7cBIM8DpwgStH4UAAg7kyk88PbuYSqLVoPCGhaNu4a5jZM97qAywi51ATal6QAOM4wA2bhAY16EgnEYppCDwVd6lICYrPgkFkc5slEyPAlGHAAIO2DRF9Lr02ZOjrZBoNSjqwWKqIlyFTy1VsVRFGTBcCqMkJSkzbGX3FTB2rgkY9+7e/dF+f+Oz1woIfRCCAwpVU5xkgRLIomRpXYMySmEVYakJU0UsKiRaDwpfWFSlJXY6UlH0hKxWETvTChMKCBoxrnnE1syIfv8qgfHsmfzmVQOibBZDl/5+NQigi5JVtQdnkZJOLUxgOExTSwKJhQBFGSzK1EV9YJhggJI6Bp2SNEphzDVU27m333nHqkFYgChTEKU1CNfsRYWCAAoaZakGBYZwFbEokFgYUFTBwicdIcFRWfAEv+nUsjoGKoCW1zAm3+s1DBiuvpROJUE5KeekIIAoWprP0bMY1qyF556gywCJhQLFvNVFacFTT0WoGRLwg4Y0plnBvZzdoTJuqX6eu7vz7Oc5EyAKPlALtgJmMDwVhRAVazp8lETJwq2yNGOZILGQoJhFXRhwcBU8LWAAnYZA9fSopPwYAJVpCVYY1w2MKgUxHX8EIPx9EOAFCZ+UA6sGFyC01KJmmrGokFhYUNQBhl3wLJ8hqVQaVSmJVnuIcUpiqQ4/H8bWFQOjEhClsxhUQ1vwN0t5gaKkSOkBCFYQSwqKWrC44pTE7fr0L36WKYyrAIavgjCAMA8F4emBoBVEed8KZ4oB9ZreMiiWFBi2wihfT6KDARu2wKd+AWY6ImdVGMnt1ubswFDTnJP9OWMoekK4ByDlg8ha4JcVK+euIDyWe8+iIJYFEEsHCh9YVCkMU1WYqYk9U2KrCgBfhVHiw6jo32kCY/K9Ogrj6PgY3nv3fRgbe2OUAGLWtRhlsxhe6y+qUgxXPYIVBIPiOoHhvKULn6VToSHgqJolgbA9SY6PT+C99xQgxjkYtNqkAxA1+kLMNMVpzmKU1iIcaqJuoXIZIbG0oGikwpgnKBwpifpftCJg+5YNDAWI9z/4IHVVaqdHfUj4rsXwAIWPDyJEQfBMBoPi+oBROUPiVhqUYcu7jhH7gcPVxzO7VQpDAUN13VJFyvH4UkchDQmjaFmnu5R/ekGu9Sib5rwiBbHsgGBQXCEwqNkSSnEYqsJ3EdoMqYgxO5LByYCDxQnIEUHMFNCQgKA+EDPXIEhAsIJgULQgJSFBgWZLcmBkx5aoi6opVS8PBiBo4L/BgoZunNJUROkqT3B3kYIAJVHTB1FmlGJAMCjapTBwDSNQYdApSbUHwwkJmf8W7pMEQ4IAxMxOSuf6C1YQDAquYThrGK77vl4MExwaeChI5A+lCYdKRQGlU5xQoiiqZzFcoPCvQTAkGBSLqzBcsyS+CoNyeQLY97XUx6UqdFgUoADb2OSExM0oCAYEg6IVsKgGhk8jYLfCcM1slHbfQrCwbkNSD6L5THB6Udks5uoUBEOCQdGqoudMPoyqWRIoc236gwL3ZgDUgk6Ueh4c3aUC12JUOSlZQTAoFgIY1TMkRA3DCYxqT0Y5MByQoP4GIWxYoC39fABBFj7LwMApBoOC1UUZMPz2JilfseoGBoYF9Ts4RppttgJPQHgs2KrcE4MBwaBgYHgqjIq1JG6buA0KE0oSqosUNCjK/BSkanD0pWRAMCgYGIHHuGdJfGsYlB/DNl0ZU6LV1Uy3l4JSDzMu1uIaBIOCgTEzMDxmSQhg4O9hSLhKmtYUKU4ZnIAoURBz6irFgGBQMDDqKozssUt5TH8EVhKyIEYOBgMUUDSswXAgYcEKgkHB0QKFgYFRFENASgccSlMPHQplQGAFwaDguDZYUMeFzJJk33dvqYi0hPSAhKUq/AExjwVbDAkGBYNjzimJW2Vo30fAcJICzFZ4NiTA0TCGFQSDguPGUxLXtKrvffPl0gkJDAqnCYoBwaDgaGcNwwIFgosNDDxYbXi43ZLspGRQcLQDGMSoL9sZzXotqSfsooUTDsCzGAwKjpYDw8aBT+bhAkaVemBAMCg4WgwMv/qETQxBk4ABwaDgaCMwyo7zWgRWPrpBzDjwGRAMCo6GAaPqWElLDEM+iDkOfIYEg4Kj5dC4qsHOcGBQcLQQFqGvqzvQGRAMCo4FhMZcTiiGw0JGh9+CBaS/NlivCxoMCAYFB0ODwcCg4FhGaITAg6HAwaBgePCbwFEZEb8FHBwcDAoODo6Z4/8LMAC/yFsxXXxPjgAAAABJRU5ErkJggg==');
-    background-repeat: no-repeat;
-    background-position: center center;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0; }
+  padding: 12px;
+}
+.user--profile__picture:before, .node--submitted__user-picture:before {
+  content: "";
+  background-image: url('data:image/png;base64,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');
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/user\/_user-profile--simple\.scss}line{font-family:\0000375}}
 .user--profile__full-name {
-  margin-bottom: 0.325em; }
+  margin-bottom: 0.325em;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/views\/_cod--news\.scss}line{font-family:\000033}}
 .view-cod-news .item-list ul {
-  padding-left: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/views\/_cod--news\.scss}line{font-family:\000037}}
+  padding-left: 0;
+}
 .view-cod-news .item-list li {
-  list-style: none outside none; }
+  list-style: none outside none;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/views\/_community--attendees\.scss}line{font-family:\000035}}
 .view-cod-community-attendees .user--profile__simple {
-  margin: 1.5em 0; }
-  @media screen and (min-width: 37.5em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/views\/_community--attendees\.scss}line{font-family:\000035}}
-    .view-cod-community-attendees .user--profile__simple {
-      width: 49.21875%;
-      float: left;
-      margin-right: 1.5625%;
-      display: inline; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/\.rbenv\/versions\/1\.9\.3-p194\/lib\/ruby\/gems\/1\.9\.1\/gems\/susy-1\.0\.9\/sass\/susy\/_grid\.scss}line{font-family:\00003184}}
-      .view-cod-community-attendees .user--profile__simple:nth-child(2n) {
-        float: right;
-        margin-right: 0; } }
-  @media screen and (min-width: 56.25em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/Sites\/DevSigner\/2014\/site\/sites\/all\/themes\/devsignercon\/sass\/components\/views\/_community--attendees\.scss}line{font-family:\000035}}
-    .view-cod-community-attendees .user--profile__simple {
-      width: 32.29167%;
-      float: left;
-      margin-right: 1.5625%;
-      display: inline; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/\.rbenv\/versions\/1\.9\.3-p194\/lib\/ruby\/gems\/1\.9\.1\/gems\/susy-1\.0\.9\/sass\/susy\/_grid\.scss}line{font-family:\00003251}}
-      .view-cod-community-attendees .user--profile__simple:nth-child(2n) {
-        float: left;
-        margin-right: 1.5625%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/\.rbenv\/versions\/1\.9\.3-p194\/lib\/ruby\/gems\/1\.9\.1\/gems\/susy-1\.0\.9\/sass\/susy\/_grid\.scss}line{font-family:\00003184}}
-      .view-cod-community-attendees .user--profile__simple:nth-child(3n) {
-        float: right;
-        margin-right: 0; } }
+  margin: 1.5em 0;
+}
+@media screen and (min-width: 37.5em) {
+  .view-cod-community-attendees .user--profile__simple {
+    width: 49.21875%;
+    float: left;
+    margin-right: 1.5625%;
+    display: inline;
+  }
+  .view-cod-community-attendees .user--profile__simple:nth-child(2n) {
+    float: right;
+    margin-right: 0;
+  }
+}
+@media screen and (min-width: 56.25em) {
+  .view-cod-community-attendees .user--profile__simple {
+    width: 32.29167%;
+    float: left;
+    margin-right: 1.5625%;
+    display: inline;
+  }
+  .view-cod-community-attendees .user--profile__simple:nth-child(2n) {
+    float: left;
+    margin-right: 1.5625%;
+  }
+  .view-cod-community-attendees .user--profile__simple:nth-child(3n) {
+    float: right;
+    margin-right: 0;
+  }
+}
