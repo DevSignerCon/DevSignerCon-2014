@@ -70,6 +70,10 @@ function devsignercon_preprocess_user_profile(&$vars) {
   foreach (element_children($vars['elements']) as $key) {
     $vars['user_profile'][$key] = $vars['elements'][$key];
   }
+  
+  // Create extra variables for use in the user-profile template
+  $vars['user_profile']['user_name'] = $account->name;
+  $vars['user_profile']['user_link'] = !empty($account->name) ? '/users/' . $account->name : '/user/' . $account->uid;
 
   // Preprocess fields.
   field_attach_preprocess('user', $account, $vars['elements'], $vars);

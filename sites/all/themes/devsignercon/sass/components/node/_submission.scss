@@ -18,12 +18,22 @@
   height: auto;
   padding: 6px !important;
   
-  &:before {
-    background-size: cover;
-  }
-  
-  .user-picture > a {
+  .user-picture a {
     display: inline-block;
     max-width: 100%;
+    
+    &:before {
+      content: "";
+      background-image: inline-image("user--avatar__drop.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+    background-size: cover;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+    }
   }
 }
