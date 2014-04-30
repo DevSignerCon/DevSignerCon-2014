@@ -228,7 +228,7 @@ function cod_session_form_alter(&$form, &$form_state, $form_id) {
 }
 
 function cod_session_session_node_form_validate($form, &$form_state) {
-  if(empty($form_state['values']['field_session_timeslot'])) {
+  if(empty($form_state['values']['field_session_timeslot']) && !empty($form['#node']->field_session_timeslot)) {
     $form_state['values']['field_session_timeslot'] = $form['#node']->field_session_timeslot;
   }
 }
