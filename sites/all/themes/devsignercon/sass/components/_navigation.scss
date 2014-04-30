@@ -64,7 +64,9 @@
     color: $black;
     cursor: pointer;
   }
-  &:active {
+  &:active,
+  &.active,
+  &.active-trail {
     background-color: $black;
     outline: 0;
     color: $white;
@@ -170,9 +172,14 @@
       // Top level menu items
       > .level-1 {
         @extend %main-menu__top;
-        > a,
+        > a {
+          @extend %main-menu__top-links;
+        }
         > .nolink {
           @extend %main-menu__top-links;
+          &:hover {
+            cursor: no-drop !important;
+          }
         }
         // Hello subnav!
         &.clicked ul {

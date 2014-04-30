@@ -40,20 +40,27 @@
     hide($user_profile['user_picture']);
     hide($user_profile['field_profile_first']);
     hide($user_profile['field_profile_last']);
+    hide($user_profile['field_profile_location']);
   ?>
   
   <header class="user--profile__info">
     <div class="user--profile__picture">
       <?php print render($user_profile['user_picture']) ?>
     </div>
-    <h2 class="user--profile__full-name">
-      <?php if( !empty($user_profile['field_profile_first']['#items'][0]['safe_value']) ) : ?>
-        <span class="user--full-name__first"><?php print $user_profile['field_profile_first']['#items'][0]['safe_value']; ?></span>&nbsp;
-      <?php endif; ?>
-      <?php if( !empty($user_profile['field_profile_last']['#items'][0]['safe_value']) ) : ?>
-        <span class="user--full-name__last"><?php print $user_profile['field_profile_last']['#items'][0]['safe_value']; ?></span>
-      <?php endif; ?>
-    </h2>
+    <?php if( !empty($user_profile['field_profile_first']['#items'][0]['safe_value']) || !empty($user_profile['field_profile_last']['#items'][0]['safe_value']) ) : ?>
+      <h2 class="user--profile__full-name">
+        <a href="<?php print $user_profile['user_link']; ?>" alt="View <?php print $user_profile['user_name']; ?>'s profile." title="View <?php print $user_profile['user_name']; ?>'s profile.">
+          <span class="user--full-name__first"><?php print $user_profile['field_profile_first']['#items'][0]['safe_value']; ?></span>&nbsp;
+          <span class="user--full-name__last"><?php print $user_profile['field_profile_last']['#items'][0]['safe_value']; ?></span>
+        </a>
+      </h2>
+    <?php endif; ?>
+    
+    <?php if( !empty($user_profile['field_profile_location']['#items'][0]['locality']) || !empty($user_profile['field_profile_location']['#items'][0]['administrative_area']) ) : ?>
+      <div class="locale">
+        <span class="city"><?php print $user_profile['field_profile_location']['#items'][0]['locality']; ?></span>,&nbsp;<span class="state"><?php print $user_profile['field_profile_location']['#items'][0]['administrative_area']; ?></span>
+      </div>
+    <?php endif; ?>
   </header>
   
   <?php print render($user_profile); ?>
