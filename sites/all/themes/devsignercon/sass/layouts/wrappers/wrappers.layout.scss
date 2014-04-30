@@ -101,6 +101,7 @@ $xLarge: 1280px;
   /* Content Area */
   .l-content {
     @include span-columns($total-columns);
+    margin-bottom: $vert-spacing-unit * 2;
   }
   /* Sidebars */
   .has-one-sidebar {
