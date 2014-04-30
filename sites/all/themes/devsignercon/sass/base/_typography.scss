@@ -57,6 +57,7 @@ a {
   color: $link-blue;
   display: inline-block;
   text-decoration: none;
+  max-width: 100%;
   
   &:link,
   &:visited,

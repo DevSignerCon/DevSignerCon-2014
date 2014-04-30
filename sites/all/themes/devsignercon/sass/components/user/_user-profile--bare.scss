@@ -1,38 +1,38 @@
-.user--profile__bare {}
-
-.user--profile__picture {
-  display: inline-block;
-  position: relative;
-  padding: 12px;
-  max-width: 40%;
-  width: 40%;
-  
-  a:before {
-    content: "";
-    background-image: inline-image("user--avatar__drop.png");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
+.user--profile__bare {
+  .user--profile__picture {
+    display: inline-block;
+    position: relative;
+    padding: 12px;
+    max-width: 40%;
+    width: 40%;
+    
+    a:before {
+      content: "";
+      background-image: inline-image("user--avatar__drop.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+    }
   }
+  
+  .user--profile__content {
+    display: inline-block;
+    max-width: 58%;
+    width: 60%;
+    vertical-align: top;
+  }
+  
+  .user--profile__full-name {
+    margin-bottom: 0.325em;
+  }
+  
+  .user--profile__first-name {}
+  
+  .user--profile__lasst-name {}
 }
-
-.user--profile__content {
-  display: inline-block;
-  max-width: 58%;
-  width: 60%;
-  vertical-align: top;
-}
-
-.user--profile__full-name {
-  margin-bottom: 0.325em;
-}
-
-.user--profile__first-name {}
-
-.user--profile__lasst-name {}
