@@ -64,6 +64,7 @@ fieldset {
   border-width: 1px;
   border-color: #e2e2e2;
   border-radius: 4px;
+  margin-bottom: 20px;
 }
 
 .form-item label {
@@ -75,6 +76,11 @@ label.option, label .field-edit-link {
   font-size: 18px;
 }
 
+input {
+  font-size: 1.25em;
+  margin: 0.375em;
+  margin-left: 0;
+}
 input[type=submit], input[type=button] {
   background-color: #e2e2e2;
   border-width: 0;
@@ -86,6 +92,30 @@ input[type=submit], input[type=button] {
 input[type=submit]:hover, input[type=button]:hover {
   background-color: #929292;
   color: #fcfcfc;
+}
+input[value="Save"], input[value="save"] {
+  background-color: #012233;
+  border-color: #012233;
+  color: #FFF;
+  text-shadow: none;
+}
+input[value="Save"]:hover, input[value="Save"]:focus, input[value="save"]:hover, input[value="save"]:focus {
+  background-color: #8AB513;
+  border-color: #8AB513;
+  color: #1a1a1a;
+}
+
+html.js .form-autocomplete {
+  background-position: 100% 18px;
+}
+
+td.field-multiple-drag a {
+  border-bottom: medium none;
+}
+td.field-multiple-drag .handle {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
 }
 
 p.lead {
@@ -124,18 +154,18 @@ blockquote.pull-right small:before {
 }
 blockquote.pull-right small:after {
   content: '\00A0 \2014';
-  color: #c2d955;
+  color: #8ab513;
 }
 blockquote small:before {
   content: '\00A0 \2014';
-  color: #c2d955;
+  color: #8ab513;
 }
 blockquote small:after {
   content: '';
 }
 blockquote cite {
   font-style: normal;
-  color: #c2d955;
+  color: #8ab513;
 }
 
 q {
@@ -559,7 +589,7 @@ a:focus {
 
 ::-moz-selection,
 ::selection {
-  background-color: #c2d955;
+  background-color: #8ab513;
   color: #012233;
   text-shadow: none;
 }
@@ -884,7 +914,7 @@ a.site-logo img {
   text-decoration: none;
 }
 .l-navigation #main-menu .menu--main-menu > .level-1 > a:hover, .l-navigation #main-menu .menu--main-menu > .level-1 > .nolink:hover, .l-navigation #main-menu .menu--main-menu > .level-1 > a:focus, .l-navigation #main-menu .menu--main-menu > .level-1 > .nolink:focus {
-  background-color: #c2d955;
+  background-color: #8ab513;
   color: #1a1a1a;
   cursor: pointer;
 }
@@ -1335,6 +1365,14 @@ article h1 {
   border-top: 2px solid $green; 
 }
 */
+.node--session__full .field__label {
+  color: #138ab5;
+}
+.node--session__full .field--name-body {
+  font-size: 1.25em;
+  line-height: 1.5em;
+}
+
 .node--slide__teaser {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;

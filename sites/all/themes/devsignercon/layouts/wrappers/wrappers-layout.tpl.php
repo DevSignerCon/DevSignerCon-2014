@@ -14,7 +14,7 @@
                   <h1 class="site-name">
                     <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home"><span><?php print drupal_strtolower($site_name); ?></span></a>
                   </h1>
-                  <div class="branding--tagline"><span class="branding--tagline__location">portland:oregon</span><span class="branding--tagline__date">5/23 - 25, 2014</span></div>
+                  <div class="branding--tagline"><span class="branding--tagline__location">portland:oregon</span><span class="branding--tagline__date">5/23 &ndash; 25, 2014</span></div>
                 </div>
               <?php endif; ?>
 

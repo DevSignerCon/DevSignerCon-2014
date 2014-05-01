@@ -11,14 +11,14 @@ module.exports = function (grunt) {
         files: ['sass/{,**/}*.{scss,sass}'],
         tasks: ['compass:dev'],
         options: {
-          livereload: false
+          livereload: true
         }
       },
       registry: {
         files: ['*.info', '{,**}/*.{php,inc}'],
         tasks: ['shell'],
         options: {
-          livereload: false
+          livereload: true
         }
       },
       images: {
@@ -30,6 +30,9 @@ module.exports = function (grunt) {
       js: {
         files: ['js/{,**/}*.js', '!js/{,**/}*.min.js'],
         tasks: ['jshint', 'uglify:dev']
+        options: {
+          livereload: true
+        }
       }
     },
 
