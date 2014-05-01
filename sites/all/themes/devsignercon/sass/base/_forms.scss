@@ -1,45 +1,81 @@
 %texty-element {
-	border: {
-		width: $large-border-width;
-		style: solid;
-		color: $light-grey;
-		radius: $small-border-radius;
-	}
-	padding: $form-element-padding;
-	&:hover {
-		border-color: $grey;
-	}
+  border: {
+    width: $large-border-width;
+    style: solid;
+    color: $light-grey;
+    radius: $small-border-radius;
+  }
+  padding: $form-element-padding;
+  &:hover {
+    border-color: $grey;
+  }
 }
 fieldset {
-	border: {
-		width: $small-border-width;
-		color: $light-grey;
-		radius: $small-border-radius;
-	}
+  border: {
+    width: $small-border-width;
+    color: $light-grey;
+    radius: $small-border-radius;
+  }
+  
+  margin-bottom: $vert-spacing-unit;
 }
 label {
-	.form-item & {
-		font-family: $header-font-family;
-		font-size: $h4-font-size;
-	}
-	&.option, & .field-edit-link {
-		font-family: $sans-serif;
-		font-size: $base-font-size;
-	}
+  .form-item & {
+    font-family: $header-font-family;
+    font-size: $h4-font-size;
+  }
+  &.option, & .field-edit-link {
+    font-family: $sans-serif;
+    font-size: $base-font-size;
+  }
 }
 input {
-	&[type=text],
-	&[type=email],
-	&[type=url],
-	&[type=number],
-	&[type=tel] {
-		@extend %texty-element;
-	}
-	&[type=submit],
-	&[type=button] {
-		@include make-button();
-	}
+  font-size: 1.25em;
+  margin: 0.375em;
+  margin-left: 0;
+  
+  &[type=text],
+  &[type=email],
+  &[type=url],
+  &[type=number],
+  &[type=tel] {
+    @extend %texty-element;
+  }
+  &[type=submit],
+  &[type=button] {
+    @include make-button();
+  }
+  
+  &[value="Save"],
+  &[value="save"] {
+    background-color: $blacknblue;
+    border-color: $blacknblue;
+    color: #FFF;
+    text-shadow: none;
+    
+    &:hover,
+    &:focus {
+      background-color: #8AB513;
+      border-color: #8AB513;
+      color: $black;
+    }
+  }
 }
 textarea {
-	@extend %texty-element;
+  @extend %texty-element;
+}
+
+html.js .form-autocomplete {
+  background-position: 100% 18px;
+  &.throbbing {}
+}
+
+td.field-multiple-drag {
+  a {
+    border-bottom: medium none;
+  }
+  
+  .handle {
+    @include box-sizing(content-box);
+  }
 }
