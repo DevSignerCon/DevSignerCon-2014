@@ -1365,6 +1365,14 @@ article h1 {
   border-top: 2px solid $green; 
 }
 */
+.node--session__full .field__label {
+  color: #138ab5;
+}
+.node--session__full .field--name-body {
+  font-size: 1.25em;
+  line-height: 1.5em;
+}
+
 .node--slide__teaser {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
