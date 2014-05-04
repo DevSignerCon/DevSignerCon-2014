@@ -1,0 +1,64 @@
+.view-cod-sponsors {}
+
+.sponsor-list {
+  h3 {
+    text-align: center;
+    
+    &[href*="platinum"] {}
+    &[href*="gold"] {}
+    &[href*="silver"] {}
+    &[href*="bronze"] {}
+    &[href*="community"] {}
+  }
+  
+  ul {
+    @include container;
+    width: 100%;
+    margin: inherit 0;
+  }
+  
+  li {
+    display: block;
+    list-style: none outside none;
+    text-align: center;
+    margin-bottom: $vert-spacing-unit;
+    
+    .node--sponsor__single {
+      @include vertical-align;
+    }
+  }
+  
+  &.platinum {}
+  &.gold {
+    li {
+      @include respond-to($small) {
+        @include span-columns($total-columns / 2);
+        @include nth-omega(2n);
+      }
+    }
+  }
+  &.silver {
+    li {
+      @include respond-to($small) {
+        @include span-columns($total-columns / 3);
+        @include nth-omega(3n);
+      }
+    }
+  }
+  &.bronze {
+    li {
+      @include respond-to($small) {
+        @include span-columns($total-columns / 4);
+        @include nth-omega(4n);
+      }
+    }
+  }
+  &.community {
+    li {
+      @include respond-to($small) {
+        @include span-columns($total-columns / 6);
+        @include nth-omega(2n);
+      }
+    }
+  }
+}
