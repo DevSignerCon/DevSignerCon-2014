@@ -73,7 +73,7 @@ function devsignercon_preprocess_user_profile(&$vars) {
   
   // Create extra variables for use in the user-profile template
   $vars['user_profile']['user_name'] = $account->name;
-  $vars['user_profile']['user_link'] = !empty($account->name) ? '/users/' . $account->name : '/user/' . $account->uid;
+  $vars['user_profile']['user_link'] = !empty($account->name) ? '/users/' . str_replace(" ", "-", $account->name) : '/user/' . $account->uid;
 
   // Preprocess fields.
   field_attach_preprocess('user', $account, $vars['elements'], $vars);
