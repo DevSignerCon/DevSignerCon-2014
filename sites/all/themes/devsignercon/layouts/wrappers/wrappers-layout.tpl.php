@@ -53,7 +53,7 @@
         <?php endif; ?>
       </div>
     </div>
-    <?php if (!$is_front): ?>
+    <?php /* if (!$is_front): ?>
       <div class="z-breadcrumb zone">
         <div class="w-breadcrumb">
             <div class="l-breadcrumb">
@@ -61,7 +61,7 @@
             </div>
         </div>
       </div>
-    <?php endif; ?>
+    <?php endif; */ ?>
     <div class="z-content zone">
       <div class="l-main">
         <?php if ($page['sidebar_first']) : ?>
