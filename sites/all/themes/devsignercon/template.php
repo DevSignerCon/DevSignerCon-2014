@@ -57,6 +57,25 @@ function devsignercon_preprocess_node(&$vars) {
     $vars['date'] = format_date($node->created, 'custom', 'l, F jS, Y');
     $vars['submitted'] = '<span>' . t('Created by !username', array('!username' => $vars['name'], '!datetime' => $vars['date'])) . '</span><span>' . t('!datetime', array('!datetime' => $vars['date'])) . '</span>';
   }
+  
+  switch($type) {
+    case 'sponsor':
+      $vars['sponsor_logo'] = array();
+      $original = $vars['field_sponsor_logo'][0]['uri'];
+      $level_tid = ( !empty($vars['field_sponsor_sponsorship_level'][LANGUAGE_NONE][0]['tid']) ) ? $vars['field_sponsor_sponsorship_level'][LANGUAGE_NONE][0]['tid'] : 0;
+      $term = taxonomy_term_load($level_tid);
+      $level = strtolower($term->name);
+      
+      if ( $view_mode == 'single' ) {
+        $image = image_style_url('sponsor__' . $level, $original);
+        $logo = theme('image', array('path' => $image));
+        $vars['sponsor_logo']['#markup'] = l($logo, 'node/' . $nid, $options = array('html' => TRUE));
+      }
+      
+      $vars['sponsor_logo']['#prefix'] = '<div class="sponsor__logo">';
+      $vars['sponsor_logo']['#suffix'] = '</div>';
+    break;
+  }
 }
 
 /**

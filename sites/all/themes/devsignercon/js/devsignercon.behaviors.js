@@ -105,7 +105,7 @@
   
   Drupal.behaviors.headerHeight = {
     attach: function (context, settings) {
-      $('.l-header.slideshow').once('header-height', function () {
+      $('.l-header.slideshow', context).once('header-height', function () {
         var $this = $(this),
             initTime = new Date();
         
@@ -127,6 +127,34 @@
       });
     }
   }
+  
+  Drupal.behaviors.sponsorLists = {
+    attach: function (context, settings) {
+      $('.sponsor-list', context).once('list-class', function () {
+        var $this = $(this),
+            level = $this.children('h3').find('a').html().toLowerCase();
+        
+        $this.addClass(level);
+      });
+    }
+  }
+  
+  Drupal.behaviors.equalHeightSponsors = {
+    attach: function (context, settings) {
+      $('.view-cod-sponsors .sponsor-list', context).once('equal-height', function () {
+        $(this).each( function () {
+          var sponsors = $(this).find('li');
+  
+          setTimeout( function() {
+            var height =  sponsors.equalHeights();
+            sponsors.each( function() {
+              $(this).css('height', height);
+            });
+          }, 600);
+        });
+      });
+    }
+  };
   
   // Constructors
   $.fn.equalHeights = function () {
