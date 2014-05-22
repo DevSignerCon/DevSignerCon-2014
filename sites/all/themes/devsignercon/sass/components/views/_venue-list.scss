@@ -33,14 +33,17 @@
     input, label {
       display: inline-block;
     }
-    
-    br {
-      display: none;
-      clear: none;
-    }
-    
-    input {
-      margin-right: 0.375em;
+
+    @include respond-to($medium) {
+      
+      br {
+        display: none;
+        clear: none;
+      }
+      
+      input {
+        margin-right: 0.375em;
+      }
     }
     
     input[name="Lodging & Hotels"] + label {

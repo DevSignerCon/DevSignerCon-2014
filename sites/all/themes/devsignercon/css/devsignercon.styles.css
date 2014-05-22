@@ -49,14 +49,15 @@ img, video {
   font-style: normal;
 }
 
-input[type=text], input[type=email], input[type=url], input[type=number], input[type=tel], textarea {
+input[type=text], input[type=email], input[type=password], input[type=url], input[type=number], input[type=tel], textarea {
   border-width: 2px;
   border-style: solid;
   border-color: #e2e2e2;
   border-radius: 4px;
   padding: 6px 11px;
+  max-width: 100%;
 }
-input[type=text]:hover, input[type=email]:hover, input[type=url]:hover, input[type=number]:hover, input[type=tel]:hover, textarea:hover {
+input[type=text]:hover, input[type=email]:hover, input[type=password]:hover, input[type=url]:hover, input[type=number]:hover, input[type=tel]:hover, textarea:hover {
   border-color: #929292;
 }
 
@@ -1831,12 +1832,14 @@ article h1 {
 #map-layer-toggle .dataLayersDiv input, #map-layer-toggle .dataLayersDiv label {
   display: inline-block;
 }
-#map-layer-toggle .dataLayersDiv br {
-  display: none;
-  clear: none;
-}
-#map-layer-toggle .dataLayersDiv input {
-  margin-right: 0.375em;
+@media screen and (min-width: 56.25em) {
+  #map-layer-toggle .dataLayersDiv br {
+    display: none;
+    clear: none;
+  }
+  #map-layer-toggle .dataLayersDiv input {
+    margin-right: 0.375em;
+  }
 }
 #map-layer-toggle .dataLayersDiv input[name="Lodging & Hotels"] + label {
   background-image: url('../images/pins/pin--hotel__gold.png?1398151672');

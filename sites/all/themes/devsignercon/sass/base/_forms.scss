@@ -9,6 +9,7 @@
   &:hover {
     border-color: $grey;
   }
+  max-width: 100%;
 }
 fieldset {
   border: {
@@ -36,6 +37,7 @@ input {
   
   &[type=text],
   &[type=email],
+  &[type=password],
   &[type=url],
   &[type=number],
   &[type=tel] {
