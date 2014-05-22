@@ -13,7 +13,7 @@
 // Top level li
 %main-menu__top {
   @include respond-to($medium, max-width) {
-    
+    background-color: $white;
   }
   @include respond-to($medium) {
     display: inline-block;
