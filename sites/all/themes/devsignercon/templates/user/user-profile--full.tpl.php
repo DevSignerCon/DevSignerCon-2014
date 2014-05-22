@@ -37,6 +37,7 @@
 <article class="user--profile user--profile__full"<?php print $attributes; ?>>
   <?php
     hide($user_profile['user_picture']);
+    if ( $team_member = 'FALSE' ) : hide($user_profile['field_team_responsibility']); endif;
     print render($user_profile);
   ?>
 </article>

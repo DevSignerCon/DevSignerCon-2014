@@ -84,6 +84,9 @@ function devsignercon_preprocess_node(&$vars) {
 function devsignercon_preprocess_user_profile(&$vars) {
   $account = $vars['elements']['#account'];
   $view_mode = $vars['elements']['#view_mode'];
+  $uid = $account->uid;
+  
+  $flags = flag_get_user_flags('user', $uid);
 
   // Helpful $user_profile variable for templates.
   foreach (element_children($vars['elements']) as $key) {
@@ -93,6 +96,7 @@ function devsignercon_preprocess_user_profile(&$vars) {
   // Create extra variables for use in the user-profile template
   $vars['user_profile']['user_name'] = $account->name;
   $vars['user_profile']['user_link'] = !empty($account->name) ? '/users/' . str_replace(" ", "-", $account->name) : '/user/' . $account->uid;
+  $vars['team_member'] = ( !empty($flags) ) ? TRUE : FALSE;
 
   // Preprocess fields.
   field_attach_preprocess('user', $account, $vars['elements'], $vars);
