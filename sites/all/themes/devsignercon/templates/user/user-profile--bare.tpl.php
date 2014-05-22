@@ -41,6 +41,7 @@
     hide($user_profile['field_profile_first']);
     hide($user_profile['field_profile_last']);
     hide($user_profile['field_profile_location']);
+    if ( $team_member = 'FALSE' ) : hide($user_profile['field_team_responsibility']); endif;
   ?>
   
   <header class="user--profile__info">
