@@ -386,6 +386,10 @@ figure figcaption {
   color: #030303;
 }
 
+table {
+  width: 100%;
+}
+
 td, th {
   background-color: transparent;
   border-bottom: 1px solid #e2e2e2;
