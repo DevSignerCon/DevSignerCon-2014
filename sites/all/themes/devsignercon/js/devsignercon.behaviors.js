@@ -156,6 +156,24 @@
     }
   };
   
+  Drupal.behaviors.equalHeightVenue = {
+    attach: function (context, settings) {
+      $('.view-venue-maps .venue--list', context).once('equal-height', function () {
+        var venues = $(this).find('.venue');
+
+        setTimeout( function() {
+          var height =  venues.equalHeights();
+          venues.each( function() {
+            var titleHeight = $(this).find('.node__title').outerHeight();
+            
+            $(this).find('.field--name-field-venue-image').css('margin-top', titleHeight * -1).css('z-index', '0');
+            $(this).css('height', height);
+          });
+        }, 600);
+      });
+    }
+  };
+  
   // Constructors
   $.fn.equalHeights = function () {
     var maxHeight = 0,

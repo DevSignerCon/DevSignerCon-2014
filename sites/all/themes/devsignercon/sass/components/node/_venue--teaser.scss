@@ -1,0 +1,42 @@
+.node--venue__teaser,
+.node--venue--teaser {
+  position: relative;
+  
+  > header {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .node__content {
+    position: relative;
+    z-index: 0;
+  }
+  
+  .field--type-taxonomy-term-reference {
+    a {
+      background-color: transparent;
+      background-position: left center;
+      background-repeat: no-repeat;
+      padding-left: 1.5em;
+      
+      &[href*="lodging"] {
+        background-image: image-url("pins/pin--hotel__gold.png");
+      }
+      &[href*="attraction"] {
+        background-image: image-url("pins/pin--attraction__green.png");
+      }
+      &[href*="main-event-hall"] {
+        background-image: image-url("pins/pin--main-event__blue.png");
+      }
+      &[href*="party"] {
+        background-image: image-url("pins/pin--party__red.png");
+      }
+    }
+  }
+  
+  .node__title {
+    @include background-image(linear-gradient(center top, $white 0%, rgba($white, 0.8) 15%, rgba($white, 0.2) 90%, transparent 100%));
+    margin: 0;
+    padding: 0.325em 0.5em 0.625em;
+  }
+}
